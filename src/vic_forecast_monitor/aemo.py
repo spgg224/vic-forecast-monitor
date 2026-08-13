@@ -14,6 +14,7 @@ import requests
 
 P5MIN_URL = "https://www.nemweb.com.au/Reports/ARCHIVE/P5_Reports/PUBLIC_P5MIN_{day}.zip"
 DISPATCH_URL = "https://www.nemweb.com.au/Reports/ARCHIVE/DispatchIS_Reports/PUBLIC_DISPATCHIS_{day}.zip"
+MMS_BASE = "https://www.nemweb.com.au/Data_Archive/Wholesale_Electricity/MMSDM/{year}/MMSDM_{year}_{month}/MMSDM_Historical_Data_SQLLoader/DATA"
 TIME_FORMAT = "%Y/%m/%d %H:%M:%S"
 
 
@@ -74,9 +75,46 @@ def _table_rows(archive: Path, package: str, table: str) -> Iterator[tuple[str, 
                                 yield inner_name, dict(zip(header, values, strict=False))
 
 
+def _flat_table_rows(archive: Path, package: str, table: str) -> Iterator[tuple[str, dict[str, str]]]:
+    """Stream a table from an MMSDM monthly archive containing one CSV."""
+    info_prefix = f"I,{package},{table},".encode()
+    data_prefix = f"D,{package},{table},".encode()
+    with zipfile.ZipFile(archive) as bundle:
+        csv_name = next(name for name in bundle.namelist() if name.lower().endswith(".csv"))
+        with bundle.open(csv_name) as raw:
+            header: list[str] | None = None
+            for line in raw:
+                if line.startswith(info_prefix):
+                    header = next(csv.reader([line.decode("utf-8-sig")]))[4:]
+                elif header is not None and line.startswith(data_prefix):
+                    values = next(csv.reader([line.decode("utf-8-sig")]))[4:]
+                    yield csv_name, dict(zip(header, values, strict=False))
+
+
+def monthly_urls(month: date) -> tuple[str, str]:
+    base = MMS_BASE.format(year=month.year, month=f"{month.month:02d}")
+    stamp = f"{month.year}{month.month:02d}010000"
+    return (
+        f"{base}/PUBLIC_ARCHIVE%23P5MIN_REGIONSOLUTION%23FILE01%23{stamp}.zip",
+        f"{base}/PUBLIC_ARCHIVE%23DISPATCHPRICE%23FILE01%23{stamp}.zip",
+    )
+
+
+def parse_p5min_monthly(archive: Path, region: str = "VIC1") -> pd.DataFrame:
+    return _parse_p5min_rows(_flat_table_rows(archive, "P5MIN", "REGIONSOLUTION"), region)
+
+
+def parse_dispatch_monthly(archive: Path, region: str = "VIC1") -> pd.DataFrame:
+    return _parse_dispatch_rows(_flat_table_rows(archive, "DISPATCH", "PRICE"), region)
+
+
 def parse_p5min(archive: Path, region: str = "VIC1") -> pd.DataFrame:
+    return _parse_p5min_rows(_table_rows(archive, "P5MIN", "REGIONSOLUTION"), region)
+
+
+def _parse_p5min_rows(rows: Iterator[tuple[str, dict[str, str]]], region: str) -> pd.DataFrame:
     records: list[dict[str, object]] = []
-    for source_file, row in _table_rows(archive, "P5MIN", "REGIONSOLUTION"):
+    for source_file, row in rows:
         if row.get("REGIONID") != region or row.get("INTERVENTION") != "0":
             continue
         run_time = pd.to_datetime(row["RUN_DATETIME"], format=TIME_FORMAT)
@@ -98,8 +136,12 @@ def parse_p5min(archive: Path, region: str = "VIC1") -> pd.DataFrame:
 
 
 def parse_dispatch(archive: Path, region: str = "VIC1") -> pd.DataFrame:
+    return _parse_dispatch_rows(_table_rows(archive, "DISPATCH", "PRICE"), region)
+
+
+def _parse_dispatch_rows(rows: Iterator[tuple[str, dict[str, str]]], region: str) -> pd.DataFrame:
     records: list[dict[str, object]] = []
-    for source_file, row in _table_rows(archive, "DISPATCH", "PRICE"):
+    for source_file, row in rows:
         if row.get("REGIONID") != region or row.get("INTERVENTION") != "0":
             continue
         records.append(

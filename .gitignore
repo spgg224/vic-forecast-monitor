@@ -22,12 +22,20 @@ out/
 # Raw and intermediate data
 data/raw/
 data/interim/
+data/processed/monthly/
 
 # Generated output (keep selected prototype figures)
 output/*
 !output/figures/
 output/figures/*
 !output/figures/forecast_vintage_replay.png
+!output/figures/mae_by_horizon.png
+!output/figures/error_heatmap.png
+!output/dashboard_data/
+output/dashboard_data/*
+!output/dashboard_data/scorecard.json
+!output/dashboard_data/events.json
+!output/dashboard_data/error_heatmap.json
 
 # Editors and operating systems
 .vscode/

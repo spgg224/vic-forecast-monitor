@@ -1,0 +1,225 @@
+{
+  "lead_minutes": 30,
+  "events": [
+    {
+      "issue_time": "2026-07-02T16:25:31",
+      "target_time": "2026-07-02T16:55:00",
+      "horizon_minutes": 29.483333333333334,
+      "forecast_price": 48.35623,
+      "actual_price": 179.74739,
+      "forecast_error": -131.39116,
+      "absolute_error": 131.39116,
+      "source_file": "PUBLIC_P5MIN_202607021630_20260702162533.zip",
+      "source_file_actual": "PUBLIC_DISPATCHIS_202607021655_0000000525485396.zip"
+    },
+    {
+      "issue_time": "2026-07-07T18:05:31",
+      "target_time": "2026-07-07T18:35:00",
+      "horizon_minutes": 29.483333333333334,
+      "forecast_price": 256.91,
+      "actual_price": 138.95126,
+      "forecast_error": 117.95874000000003,
+      "absolute_error": 117.95874000000003,
+      "source_file": "PUBLIC_P5MIN_202607071810_20260707180533.zip",
+      "source_file_actual": "PUBLIC_DISPATCHIS_202607071835_0000000526304753.zip"
+    },
+    {
+      "issue_time": "2026-07-01T18:50:31",
+      "target_time": "2026-07-01T19:20:00",
+      "horizon_minutes": 29.483333333333334,
+      "forecast_price": 37.69,
+      "actual_price": 153.23422,
+      "forecast_error": -115.54422,
+      "absolute_error": 115.54422,
+      "source_file": "PUBLIC_P5MIN_202607011855_20260701185033.zip",
+      "source_file_actual": "PUBLIC_DISPATCHIS_202607011920_0000000525304279.zip"
+    },
+    {
+      "issue_time": "2026-07-01T18:35:31",
+      "target_time": "2026-07-01T19:05:00",
+      "horizon_minutes": 29.483333333333334,
+      "forecast_price": 15.0,
+      "actual_price": 119.40491,
+      "forecast_error": -104.40491,
+      "absolute_error": 104.40491,
+      "source_file": "PUBLIC_P5MIN_202607011840_20260701183532.zip",
+      "source_file_actual": "PUBLIC_DISPATCHIS_202607011905_0000000525302544.zip"
+    },
+    {
+      "issue_time": "2026-07-02T15:30:39",
+      "target_time": "2026-07-02T16:00:00",
+      "horizon_minutes": 29.35,
+      "forecast_price": 9.37804,
+      "actual_price": 110.34459,
+      "forecast_error": -100.96655,
+      "absolute_error": 100.96655,
+      "source_file": "PUBLIC_P5MIN_202607021535_20260702153041.zip",
+      "source_file_actual": "PUBLIC_DISPATCHIS_202607021600_0000000525478576.zip"
+    },
+    {
+      "issue_time": "2026-07-01T18:55:30",
+      "target_time": "2026-07-01T19:25:00",
+      "horizon_minutes": 29.5,
+      "forecast_price": 15.0,
+      "actual_price": 113.44224,
+      "forecast_error": -98.44224,
+      "absolute_error": 98.44224,
+      "source_file": "PUBLIC_P5MIN_202607011900_20260701185533.zip",
+      "source_file_actual": "PUBLIC_DISPATCHIS_202607011925_0000000525304846.zip"
+    },
+    {
+      "issue_time": "2026-07-02T12:26:16",
+      "target_time": "2026-07-02T12:55:00",
+      "horizon_minutes": 28.733333333333334,
+      "forecast_price": -6.6,
+      "actual_price": 83.66,
+      "forecast_error": -90.25999999999999,
+      "absolute_error": 90.25999999999999,
+      "source_file": "PUBLIC_P5MIN_202607021230_20260702122618.zip",
+      "source_file_actual": "PUBLIC_DISPATCHIS_202607021255_0000000525445968.zip"
+    },
+    {
+      "issue_time": "2026-07-01T18:40:31",
+      "target_time": "2026-07-01T19:10:00",
+      "horizon_minutes": 29.483333333333334,
+      "forecast_price": 16.55217,
+      "actual_price": 101.81019,
+      "forecast_error": -85.25802,
+      "absolute_error": 85.25802,
+      "source_file": "PUBLIC_P5MIN_202607011845_20260701184033.zip",
+      "source_file_actual": "PUBLIC_DISPATCHIS_202607011910_0000000525303201.zip"
+    },
+    {
+      "issue_time": "2026-07-01T18:45:31",
+      "target_time": "2026-07-01T19:15:00",
+      "horizon_minutes": 29.483333333333334,
+      "forecast_price": 37.69,
+      "actual_price": 119.40511,
+      "forecast_error": -81.71511,
+      "absolute_error": 81.71511,
+      "source_file": "PUBLIC_P5MIN_202607011850_20260701184533.zip",
+      "source_file_actual": "PUBLIC_DISPATCHIS_202607011915_0000000525303679.zip"
+    },
+    {
+      "issue_time": "2026-07-02T12:01:11",
+      "target_time": "2026-07-02T12:30:00",
+      "horizon_minutes": 28.816666666666666,
+      "forecast_price": 0.01,
+      "actual_price": 79.72,
+      "forecast_error": -79.71,
+      "absolute_error": 79.71,
+      "source_file": "PUBLIC_P5MIN_202607021205_20260702120113.zip",
+      "source_file_actual": "PUBLIC_DISPATCHIS_202607021230_0000000525442740.zip"
+    },
+    {
+      "issue_time": "2026-07-02T11:46:14",
+      "target_time": "2026-07-02T12:15:00",
+      "horizon_minutes": 28.766666666666666,
+      "forecast_price": 0.28974,
+      "actual_price": 79.72,
+      "forecast_error": -79.43026,
+      "absolute_error": 79.43026,
+      "source_file": "PUBLIC_P5MIN_202607021150_20260702114615.zip",
+      "source_file_actual": "PUBLIC_DISPATCHIS_202607021215_0000000525440877.zip"
+    },
+    {
+      "issue_time": "2026-07-02T15:55:32",
+      "target_time": "2026-07-02T16:25:00",
+      "horizon_minutes": 29.466666666666665,
+      "forecast_price": 8.96,
+      "actual_price": 88.04,
+      "forecast_error": -79.08000000000001,
+      "absolute_error": 79.08000000000001,
+      "source_file": "PUBLIC_P5MIN_202607021600_20260702155533.zip",
+      "source_file_actual": "PUBLIC_DISPATCHIS_202607021625_0000000525481789.zip"
+    },
+    {
+      "issue_time": "2026-07-07T18:10:31",
+      "target_time": "2026-07-07T18:40:00",
+      "horizon_minutes": 29.483333333333334,
+      "forecast_price": 211.69,
+      "actual_price": 138.89431,
+      "forecast_error": 72.79569000000001,
+      "absolute_error": 72.79569000000001,
+      "source_file": "PUBLIC_P5MIN_202607071815_20260707181033.zip",
+      "source_file_actual": "PUBLIC_DISPATCHIS_202607071840_0000000526305310.zip"
+    },
+    {
+      "issue_time": "2026-07-07T08:10:32",
+      "target_time": "2026-07-07T08:40:00",
+      "horizon_minutes": 29.466666666666665,
+      "forecast_price": 186.69,
+      "actual_price": 119.05,
+      "forecast_error": 67.64,
+      "absolute_error": 67.64,
+      "source_file": "PUBLIC_P5MIN_202607070815_20260707081034.zip",
+      "source_file_actual": "PUBLIC_DISPATCHIS_202607070840_0000000526233644.zip"
+    },
+    {
+      "issue_time": "2026-07-07T07:00:32",
+      "target_time": "2026-07-07T07:30:00",
+      "horizon_minutes": 29.466666666666665,
+      "forecast_price": 187.55,
+      "actual_price": 125.68,
+      "forecast_error": 61.870000000000005,
+      "absolute_error": 61.870000000000005,
+      "source_file": "PUBLIC_P5MIN_202607070705_20260707070033.zip",
+      "source_file_actual": "PUBLIC_DISPATCHIS_202607070730_0000000526226438.zip"
+    },
+    {
+      "issue_time": "2026-07-01T19:00:31",
+      "target_time": "2026-07-01T19:30:00",
+      "horizon_minutes": 29.483333333333334,
+      "forecast_price": 10.65,
+      "actual_price": 72.43756,
+      "forecast_error": -61.787560000000006,
+      "absolute_error": 61.787560000000006,
+      "source_file": "PUBLIC_P5MIN_202607011905_20260701190033.zip",
+      "source_file_actual": "PUBLIC_DISPATCHIS_202607011930_0000000525305405.zip"
+    },
+    {
+      "issue_time": "2026-07-02T17:45:31",
+      "target_time": "2026-07-02T18:15:00",
+      "horizon_minutes": 29.483333333333334,
+      "forecast_price": 28.99417,
+      "actual_price": 90.70316,
+      "forecast_error": -61.70899,
+      "absolute_error": 61.70899,
+      "source_file": "PUBLIC_P5MIN_202607021750_20260702174533.zip",
+      "source_file_actual": "PUBLIC_DISPATCHIS_202607021815_0000000525495184.zip"
+    },
+    {
+      "issue_time": "2026-07-02T15:25:36",
+      "target_time": "2026-07-02T15:55:00",
+      "horizon_minutes": 29.4,
+      "forecast_price": 2.62478,
+      "actual_price": 62.68913,
+      "forecast_error": -60.06435,
+      "absolute_error": 60.06435,
+      "source_file": "PUBLIC_P5MIN_202607021530_20260702152538.zip",
+      "source_file_actual": "PUBLIC_DISPATCHIS_202607021555_0000000525478057.zip"
+    },
+    {
+      "issue_time": "2026-07-02T17:10:31",
+      "target_time": "2026-07-02T17:40:00",
+      "horizon_minutes": 29.483333333333334,
+      "forecast_price": 14.10208,
+      "actual_price": 74.12,
+      "forecast_error": -60.017920000000004,
+      "absolute_error": 60.017920000000004,
+      "source_file": "PUBLIC_P5MIN_202607021715_20260702171033.zip",
+      "source_file_actual": "PUBLIC_DISPATCHIS_202607021740_0000000525490789.zip"
+    },
+    {
+      "issue_time": "2026-07-07T10:50:32",
+      "target_time": "2026-07-07T11:20:00",
+      "horizon_minutes": 29.466666666666665,
+      "forecast_price": 99.99,
+      "actual_price": 159.97978,
+      "forecast_error": -59.98978000000001,
+      "absolute_error": 59.98978000000001,
+      "source_file": "PUBLIC_P5MIN_202607071055_20260707105033.zip",
+      "source_file_actual": "PUBLIC_DISPATCHIS_202607071120_0000000526253983.zip"
+    }
+  ]
+}

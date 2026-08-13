@@ -1,0 +1,79 @@
+{
+  "coverage": {
+    "start": "2026-07-01T00:05:00",
+    "end": "2026-07-08T00:00:00",
+    "forecast_vintages": 24126,
+    "target_intervals": 2016
+  },
+  "overall": {
+    "observations": 24126,
+    "mae": 8.876025305479565,
+    "rmse": 16.588333142012615,
+    "median_absolute_error": 4.049999999999997,
+    "bias": -1.5973341929868192,
+    "p90_absolute_error": 23.39,
+    "p95_absolute_error": 33.627245
+  },
+  "by_horizon": [
+    {
+      "horizon_minutes": "0-10",
+      "observations": 4031,
+      "mae": 5.255949625403126,
+      "rmse": 12.072780957202227,
+      "median_absolute_error": 1.3262900000000002,
+      "bias": -1.2061191366906474,
+      "p90_absolute_error": 14.490030000000004,
+      "p95_absolute_error": 22.849999999999998
+    },
+    {
+      "horizon_minutes": "10-20",
+      "observations": 4027,
+      "mae": 7.880602522969952,
+      "rmse": 14.815604714841966,
+      "median_absolute_error": 3.6755700000000004,
+      "bias": -2.3746789570399804,
+      "p90_absolute_error": 20.323824,
+      "p95_absolute_error": 29.0
+    },
+    {
+      "horizon_minutes": "20-30",
+      "observations": 4023,
+      "mae": 8.742178575689785,
+      "rmse": 15.70311906199589,
+      "median_absolute_error": 4.07932000000001,
+      "bias": -2.200384004474273,
+      "p90_absolute_error": 23.73033400000004,
+      "p95_absolute_error": 33.78948899999996
+    },
+    {
+      "horizon_minutes": "30-40",
+      "observations": 4019,
+      "mae": 8.921110398108981,
+      "rmse": 15.323327579092258,
+      "median_absolute_error": 4.821219999999997,
+      "bias": -2.0764757128638966,
+      "p90_absolute_error": 23.10000000000001,
+      "p95_absolute_error": 32.632157000000014
+    },
+    {
+      "horizon_minutes": "40-50",
+      "observations": 4015,
+      "mae": 9.905053394769615,
+      "rmse": 16.57620881469337,
+      "median_absolute_error": 5.529610000000005,
+      "bias": -1.613024707347447,
+      "p90_absolute_error": 26.005384,
+      "p95_absolute_error": 34.19071899999997
+    },
+    {
+      "horizon_minutes": "50-60",
+      "observations": 4011,
+      "mae": 12.57256313637497,
+      "rmse": 23.035915811588843,
+      "median_absolute_error": 6.727040000000002,
+      "bias": -0.10939700822737473,
+      "p90_absolute_error": 31.23959,
+      "p95_absolute_error": 43.969770000000004
+    }
+  ]
+}

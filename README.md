@@ -26,7 +26,13 @@ For 1-7 July 2026, the pipeline reconstructed:
 
 The sample is a pipeline feasibility test, not yet a representative assessment of forecast performance. In this week, forecast errors ranged from -$214.14/MWh to $314.31/MWh and averaged -$1.60/MWh across all vintages and horizons.
 
+The first scorecard found mean absolute price error increasing from $5.26/MWh at a 0-10 minute horizon to $12.57/MWh at 50-60 minutes. This is a one-week engineering result, not yet a general market conclusion.
+
 ![One-hour evolution of P5MIN forecasts for a realised VIC1 interval](output/figures/forecast_vintage_replay.png)
+
+![Mean absolute price error by forecast horizon](output/figures/mae_by_horizon.png)
+
+The pipeline also supports AEMO's compact monthly MMSDM archives. A July 2025 scale test reconstructed 8,928 actual intervals and 107,070 forecast vintages from roughly 55 MB of source downloads, making a year-scale dataset practical.
 
 ## Run the prototype
 
@@ -34,6 +40,8 @@ The sample is a pipeline feasibility test, not yet a representative assessment o
 py -3.12 -m venv .venv
 python -m pip install -e ".[dev]"
 python -m vic_forecast_monitor.prototype --start 2026-07-01 --end 2026-07-07
+python -m vic_forecast_monitor.analysis
+python -m vic_forecast_monitor.monthly --month 2025-07
 pytest
 ```
 
