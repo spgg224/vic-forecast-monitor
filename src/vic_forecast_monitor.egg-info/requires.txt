@@ -1,7 +1,0 @@
-matplotlib<4,>=3.9
-pandas<3,>=2.2
-pyarrow<22,>=17
-requests<3,>=2.32
-
-[dev]
-pytest<9,>=8.3
