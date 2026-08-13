@@ -1,79 +1,79 @@
 {
   "coverage": {
-    "start": "2026-07-01T00:05:00",
-    "end": "2026-07-08T00:00:00",
-    "forecast_vintages": 24126,
-    "target_intervals": 2016
+    "start": "2025-01-01T00:05:00",
+    "end": "2026-01-01T00:00:00",
+    "forecast_vintages": 1260636,
+    "target_intervals": 105120
   },
   "overall": {
-    "observations": 24126,
-    "mae": 8.876025305479565,
-    "rmse": 16.588333142012615,
-    "median_absolute_error": 4.049999999999997,
-    "bias": -1.5973341929868192,
-    "p90_absolute_error": 23.39,
-    "p95_absolute_error": 33.627245
+    "observations": 1260636,
+    "mae": 30.03111833578447,
+    "rmse": 311.5115077515855,
+    "median_absolute_error": 9.073880000000003,
+    "bias": 8.22426329417056,
+    "p90_absolute_error": 50.95842999999998,
+    "p95_absolute_error": 74.6574725
   },
   "by_horizon": [
     {
       "horizon_minutes": "0-10",
-      "observations": 4031,
-      "mae": 5.255949625403126,
-      "rmse": 12.072780957202227,
-      "median_absolute_error": 1.3262900000000002,
-      "bias": -1.2061191366906474,
-      "p90_absolute_error": 14.490030000000004,
-      "p95_absolute_error": 22.849999999999998
+      "observations": 210226,
+      "mae": 15.267101997564525,
+      "rmse": 156.16184116268388,
+      "median_absolute_error": 4.1200000000000045,
+      "bias": 0.8854087637114346,
+      "p90_absolute_error": 32.928779999999975,
+      "p95_absolute_error": 49.972474999999996
     },
     {
       "horizon_minutes": "10-20",
-      "observations": 4027,
-      "mae": 7.880602522969952,
-      "rmse": 14.815604714841966,
-      "median_absolute_error": 3.6755700000000004,
-      "bias": -2.3746789570399804,
-      "p90_absolute_error": 20.323824,
-      "p95_absolute_error": 29.0
+      "observations": 210178,
+      "mae": 23.850451078133773,
+      "rmse": 243.2873945064662,
+      "median_absolute_error": 8.255979999999994,
+      "bias": 5.363741277964392,
+      "p90_absolute_error": 42.41701100000007,
+      "p95_absolute_error": 61.728262999999984
     },
     {
       "horizon_minutes": "20-30",
-      "observations": 4023,
-      "mae": 8.742178575689785,
-      "rmse": 15.70311906199589,
-      "median_absolute_error": 4.07932000000001,
-      "bias": -2.200384004474273,
-      "p90_absolute_error": 23.73033400000004,
-      "p95_absolute_error": 33.78948899999996
+      "observations": 210130,
+      "mae": 27.54768812582687,
+      "rmse": 275.291749294685,
+      "median_absolute_error": 9.168284999999997,
+      "bias": 6.217021676676343,
+      "p90_absolute_error": 48.43453700000004,
+      "p95_absolute_error": 69.36
     },
     {
       "horizon_minutes": "30-40",
-      "observations": 4019,
-      "mae": 8.921110398108981,
-      "rmse": 15.323327579092258,
-      "median_absolute_error": 4.821219999999997,
-      "bias": -2.0764757128638966,
-      "p90_absolute_error": 23.10000000000001,
-      "p95_absolute_error": 32.632157000000014
+      "observations": 210082,
+      "mae": 31.28986998767148,
+      "rmse": 301.675099167956,
+      "median_absolute_error": 10.23,
+      "bias": 8.089394132814805,
+      "p90_absolute_error": 54.43952099999999,
+      "p95_absolute_error": 78.0535579999998
     },
     {
       "horizon_minutes": "40-50",
-      "observations": 4015,
-      "mae": 9.905053394769615,
-      "rmse": 16.57620881469337,
-      "median_absolute_error": 5.529610000000005,
-      "bias": -1.613024707347447,
-      "p90_absolute_error": 26.005384,
-      "p95_absolute_error": 34.19071899999997
+      "observations": 210034,
+      "mae": 36.44047239032728,
+      "rmse": 364.2418774854144,
+      "median_absolute_error": 11.060000000000002,
+      "bias": 11.78552295994934,
+      "p90_absolute_error": 58.689963999999996,
+      "p95_absolute_error": 84.0127999999999
     },
     {
       "horizon_minutes": "50-60",
-      "observations": 4011,
-      "mae": 12.57256313637497,
-      "rmse": 23.035915811588843,
-      "median_absolute_error": 6.727040000000002,
-      "bias": -0.10939700822737473,
-      "p90_absolute_error": 31.23959,
-      "p95_absolute_error": 43.969770000000004
+      "observations": 209986,
+      "mae": 45.813314470726624,
+      "rmse": 446.4555019374473,
+      "median_absolute_error": 12.810035,
+      "bias": 17.016118372320058,
+      "p90_absolute_error": 67.933655,
+      "p95_absolute_error": 99.678975
     }
   ]
 }

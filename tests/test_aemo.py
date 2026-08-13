@@ -3,6 +3,7 @@ from pathlib import Path
 import pandas as pd
 
 from vic_forecast_monitor.aemo import build_panel, parse_dispatch, parse_p5min
+from vic_forecast_monitor.monthly import audit_month
 
 
 def test_sample_archives_parse() -> None:
@@ -38,3 +39,18 @@ def test_panel_rejects_lookahead() -> None:
         assert "Lookahead" in str(error)
     else:
         raise AssertionError("Lookahead row was accepted")
+
+
+def test_month_audit_rejects_duplicate_vintage() -> None:
+    panel = pd.DataFrame(
+        {
+            "issue_time": pd.to_datetime(["2026-01-01 00:00"] * 2),
+            "target_time": pd.to_datetime(["2026-01-01 00:05"] * 2),
+            "region": ["VIC1"] * 2,
+            "horizon_minutes": [5.0] * 2,
+            "actual_price": [10.0] * 2,
+        }
+    )
+    audit = audit_month(panel, "202601")
+    assert not audit["passed"]
+    assert audit["duplicate_vintages"] == 1

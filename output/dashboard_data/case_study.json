@@ -1,0 +1,74 @@
+{
+  "issue_time": "2025-06-11T07:35:31",
+  "target_time": "2025-06-11T08:05:00",
+  "horizon_minutes": 29.483333333333334,
+  "forecast_price": 16961.09291,
+  "actual_price": 228.63647,
+  "forecast_error": 16732.456439999998,
+  "absolute_error": 16732.456439999998,
+  "source_file": "PUBLIC_ARCHIVE#P5MIN_REGIONSOLUTION#FILE01#202506010000.CSV",
+  "source_file_actual": "PUBLIC_ARCHIVE#DISPATCHPRICE#FILE01#202506010000.CSV",
+  "vintages": [
+    {
+      "issue_time": "2025-06-11T07:05:34",
+      "horizon_minutes": 59.43333333333333,
+      "forecast_price": 16052.26868
+    },
+    {
+      "issue_time": "2025-06-11T07:10:31",
+      "horizon_minutes": 54.483333333333334,
+      "forecast_price": 15925.23428
+    },
+    {
+      "issue_time": "2025-06-11T07:15:32",
+      "horizon_minutes": 49.46666666666667,
+      "forecast_price": 16308.40723
+    },
+    {
+      "issue_time": "2025-06-11T07:20:30",
+      "horizon_minutes": 44.5,
+      "forecast_price": 16829.12234
+    },
+    {
+      "issue_time": "2025-06-11T07:25:31",
+      "horizon_minutes": 39.483333333333334,
+      "forecast_price": 17143.62803
+    },
+    {
+      "issue_time": "2025-06-11T07:30:31",
+      "horizon_minutes": 34.483333333333334,
+      "forecast_price": 17499.65086
+    },
+    {
+      "issue_time": "2025-06-11T07:35:31",
+      "horizon_minutes": 29.483333333333334,
+      "forecast_price": 16961.09291
+    },
+    {
+      "issue_time": "2025-06-11T07:40:32",
+      "horizon_minutes": 24.466666666666665,
+      "forecast_price": 17093.79207
+    },
+    {
+      "issue_time": "2025-06-11T07:45:30",
+      "horizon_minutes": 19.5,
+      "forecast_price": 9816.70274
+    },
+    {
+      "issue_time": "2025-06-11T07:50:31",
+      "horizon_minutes": 14.483333333333333,
+      "forecast_price": 3882.89385
+    },
+    {
+      "issue_time": "2025-06-11T07:55:30",
+      "horizon_minutes": 9.5,
+      "forecast_price": 900.0
+    },
+    {
+      "issue_time": "2025-06-11T08:00:32",
+      "horizon_minutes": 4.466666666666667,
+      "forecast_price": 224.12715
+    }
+  ],
+  "selection_rule": "Largest absolute price miss using the forecast nearest to a 30-minute lead."
+}

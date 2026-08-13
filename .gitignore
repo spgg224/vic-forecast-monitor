@@ -13,6 +13,8 @@ venv/
 node_modules/
 .next/
 out/
+dist/
+*.tsbuildinfo
 
 # Environment and secrets
 .env
@@ -23,6 +25,7 @@ out/
 data/raw/
 data/interim/
 data/processed/monthly/
+data/processed/forecast_actual_panel_2025.parquet
 
 # Generated output (keep selected prototype figures)
 output/*
@@ -36,6 +39,9 @@ output/dashboard_data/*
 !output/dashboard_data/scorecard.json
 !output/dashboard_data/events.json
 !output/dashboard_data/error_heatmap.json
+!output/dashboard_data/findings.json
+!output/dashboard_data/monthly.json
+!output/dashboard_data/case_study.json
 
 # Editors and operating systems
 .vscode/

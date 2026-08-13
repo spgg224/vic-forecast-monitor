@@ -96,6 +96,48 @@ def largest_misses(panel: pd.DataFrame, lead_minutes: float = 30, count: int = 2
     return selected.to_dict(orient="records")
 
 
+def enrich_events(panel: pd.DataFrame, events: list[dict[str, object]]) -> list[dict[str, object]]:
+    enriched: list[dict[str, object]] = []
+    for event in events:
+        target = pd.Timestamp(event["target_time"])
+        vintages = panel.loc[panel["target_time"] == target].sort_values("issue_time")
+        item = dict(event)
+        item["vintages"] = [
+            {
+                "issue_time": row.issue_time.isoformat(),
+                "horizon_minutes": float(row.horizon_minutes),
+                "forecast_price": float(row.forecast_price),
+            }
+            for row in vintages.itertuples()
+        ]
+        enriched.append(item)
+    return enriched
+
+
+def findings(panel: pd.DataFrame) -> dict[str, object]:
+    frame = add_analysis_fields(panel)
+    selected = select_vintage(panel, 30)
+    selected["absolute_error"] = selected["forecast_error"].abs()
+    actuals = selected.drop_duplicates("target_time")
+    near = frame.loc[frame["horizon_bucket"] == "0-10", "absolute_error"].mean()
+    far = frame.loc[frame["horizon_bucket"] == "50-60", "absolute_error"].mean()
+    top_one_percent = selected.nlargest(max(1, len(selected) // 100), "absolute_error")["absolute_error"].sum()
+    return {
+        "lead_minutes": 30,
+        "near_horizon_mae": float(near),
+        "far_horizon_mae": float(far),
+        "far_to_near_error_ratio": float(far / near),
+        "thirty_minute_mae": float(selected["absolute_error"].mean()),
+        "thirty_minute_bias": float(selected["forecast_error"].mean()),
+        "top_one_percent_error_share": float(top_one_percent / selected["absolute_error"].sum()),
+        "actual_intervals_above_300": int((actuals["actual_price"] > 300).sum()),
+        "actual_intervals_above_1000": int((actuals["actual_price"] > 1000).sum()),
+        "max_actual_price": float(actuals["actual_price"].max()),
+        "largest_underforecast": float(selected["forecast_error"].min()),
+        "largest_overforecast": float(selected["forecast_error"].max()),
+    }
+
+
 def export_analysis(panel: pd.DataFrame, root: Path) -> None:
     output = root / "output"
     dashboard = output / "dashboard_data"
@@ -105,11 +147,20 @@ def export_analysis(panel: pd.DataFrame, root: Path) -> None:
 
     scores = scorecard(panel)
     (dashboard / "scorecard.json").write_text(json.dumps(scores, indent=2) + "\n", encoding="utf-8")
-    misses = {"lead_minutes": 30, "events": largest_misses(panel)}
+    misses = {"lead_minutes": 30, "events": enrich_events(panel, largest_misses(panel))}
     (dashboard / "events.json").write_text(json.dumps(misses, indent=2) + "\n", encoding="utf-8")
 
     heatmap = error_heatmap(panel)
     heatmap.reset_index().to_json(dashboard / "error_heatmap.json", orient="records", indent=2)
+    (dashboard / "findings.json").write_text(json.dumps(findings(panel), indent=2) + "\n", encoding="utf-8")
+    selected = select_vintage(panel, 30)
+    # NEM interval timestamps label the interval end; midnight belongs to the prior market day.
+    selected["month"] = (selected["target_time"] - pd.Timedelta("5min")).dt.strftime("%Y-%m")
+    monthly = selected.groupby("month").apply(metric_row, include_groups=False).to_dict()
+    (dashboard / "monthly.json").write_text(json.dumps(monthly, indent=2) + "\n", encoding="utf-8")
+    case = misses["events"][0]
+    case["selection_rule"] = "Largest absolute price miss using the forecast nearest to a 30-minute lead."
+    (dashboard / "case_study.json").write_text(json.dumps(case, indent=2) + "\n", encoding="utf-8")
     _plot_horizon(scores, figures / "mae_by_horizon.png")
     _plot_heatmap(heatmap, figures / "error_heatmap.png")
 
@@ -143,8 +194,10 @@ def _plot_heatmap(heatmap: pd.DataFrame, destination: Path) -> None:
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--root", type=Path, default=Path.cwd())
+    parser.add_argument("--panel", type=Path, help="Panel parquet; defaults to the prototype panel")
     args = parser.parse_args()
-    panel = pd.read_parquet(args.root / "data" / "processed" / "forecast_actual_panel.parquet")
+    panel_path = args.panel or args.root / "data" / "processed" / "forecast_actual_panel.parquet"
+    panel = pd.read_parquet(panel_path)
     export_analysis(panel, args.root)
     scores = scorecard(panel)
     print(json.dumps(scores, indent=2))
@@ -152,4 +205,3 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
-

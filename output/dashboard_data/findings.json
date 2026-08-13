@@ -1,0 +1,14 @@
+{
+  "lead_minutes": 30,
+  "near_horizon_mae": 15.267101997564525,
+  "far_horizon_mae": 45.813314470726624,
+  "far_to_near_error_ratio": 3.0007865591017184,
+  "thirty_minute_mae": 28.65357136805555,
+  "thirty_minute_bias": 6.485204798420853,
+  "top_one_percent_error_share": 0.39040674597987096,
+  "actual_intervals_above_300": 1031,
+  "actual_intervals_above_1000": 166,
+  "max_actual_price": 17500.0,
+  "largest_underforecast": -16281.50527,
+  "largest_overforecast": 16732.456439999998
+}

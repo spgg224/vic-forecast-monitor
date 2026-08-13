@@ -2,224 +2,1464 @@
   "lead_minutes": 30,
   "events": [
     {
-      "issue_time": "2026-07-02T16:25:31",
-      "target_time": "2026-07-02T16:55:00",
+      "issue_time": "2025-06-11T07:35:31",
+      "target_time": "2025-06-11T08:05:00",
       "horizon_minutes": 29.483333333333334,
-      "forecast_price": 48.35623,
-      "actual_price": 179.74739,
-      "forecast_error": -131.39116,
-      "absolute_error": 131.39116,
-      "source_file": "PUBLIC_P5MIN_202607021630_20260702162533.zip",
-      "source_file_actual": "PUBLIC_DISPATCHIS_202607021655_0000000525485396.zip"
+      "forecast_price": 16961.09291,
+      "actual_price": 228.63647,
+      "forecast_error": 16732.456439999998,
+      "absolute_error": 16732.456439999998,
+      "source_file": "PUBLIC_ARCHIVE#P5MIN_REGIONSOLUTION#FILE01#202506010000.CSV",
+      "source_file_actual": "PUBLIC_ARCHIVE#DISPATCHPRICE#FILE01#202506010000.CSV",
+      "vintages": [
+        {
+          "issue_time": "2025-06-11T07:05:34",
+          "horizon_minutes": 59.43333333333333,
+          "forecast_price": 16052.26868
+        },
+        {
+          "issue_time": "2025-06-11T07:10:31",
+          "horizon_minutes": 54.483333333333334,
+          "forecast_price": 15925.23428
+        },
+        {
+          "issue_time": "2025-06-11T07:15:32",
+          "horizon_minutes": 49.46666666666667,
+          "forecast_price": 16308.40723
+        },
+        {
+          "issue_time": "2025-06-11T07:20:30",
+          "horizon_minutes": 44.5,
+          "forecast_price": 16829.12234
+        },
+        {
+          "issue_time": "2025-06-11T07:25:31",
+          "horizon_minutes": 39.483333333333334,
+          "forecast_price": 17143.62803
+        },
+        {
+          "issue_time": "2025-06-11T07:30:31",
+          "horizon_minutes": 34.483333333333334,
+          "forecast_price": 17499.65086
+        },
+        {
+          "issue_time": "2025-06-11T07:35:31",
+          "horizon_minutes": 29.483333333333334,
+          "forecast_price": 16961.09291
+        },
+        {
+          "issue_time": "2025-06-11T07:40:32",
+          "horizon_minutes": 24.466666666666665,
+          "forecast_price": 17093.79207
+        },
+        {
+          "issue_time": "2025-06-11T07:45:30",
+          "horizon_minutes": 19.5,
+          "forecast_price": 9816.70274
+        },
+        {
+          "issue_time": "2025-06-11T07:50:31",
+          "horizon_minutes": 14.483333333333333,
+          "forecast_price": 3882.89385
+        },
+        {
+          "issue_time": "2025-06-11T07:55:30",
+          "horizon_minutes": 9.5,
+          "forecast_price": 900.0
+        },
+        {
+          "issue_time": "2025-06-11T08:00:32",
+          "horizon_minutes": 4.466666666666667,
+          "forecast_price": 224.12715
+        }
+      ]
     },
     {
-      "issue_time": "2026-07-07T18:05:31",
-      "target_time": "2026-07-07T18:35:00",
-      "horizon_minutes": 29.483333333333334,
-      "forecast_price": 256.91,
-      "actual_price": 138.95126,
-      "forecast_error": 117.95874000000003,
-      "absolute_error": 117.95874000000003,
-      "source_file": "PUBLIC_P5MIN_202607071810_20260707180533.zip",
-      "source_file_actual": "PUBLIC_DISPATCHIS_202607071835_0000000526304753.zip"
+      "issue_time": "2025-06-11T07:40:32",
+      "target_time": "2025-06-11T08:10:00",
+      "horizon_minutes": 29.466666666666665,
+      "forecast_price": 16829.09349,
+      "actual_price": 388.71754,
+      "forecast_error": 16440.375949999998,
+      "absolute_error": 16440.375949999998,
+      "source_file": "PUBLIC_ARCHIVE#P5MIN_REGIONSOLUTION#FILE01#202506010000.CSV",
+      "source_file_actual": "PUBLIC_ARCHIVE#DISPATCHPRICE#FILE01#202506010000.CSV",
+      "vintages": [
+        {
+          "issue_time": "2025-06-11T07:10:31",
+          "horizon_minutes": 59.483333333333334,
+          "forecast_price": 15925.23428
+        },
+        {
+          "issue_time": "2025-06-11T07:15:32",
+          "horizon_minutes": 54.46666666666667,
+          "forecast_price": 16437.52264
+        },
+        {
+          "issue_time": "2025-06-11T07:20:30",
+          "horizon_minutes": 49.5,
+          "forecast_price": 16961.09291
+        },
+        {
+          "issue_time": "2025-06-11T07:25:31",
+          "horizon_minutes": 44.483333333333334,
+          "forecast_price": 17227.30761
+        },
+        {
+          "issue_time": "2025-06-11T07:30:31",
+          "horizon_minutes": 39.483333333333334,
+          "forecast_price": 16697.87437
+        },
+        {
+          "issue_time": "2025-06-11T07:35:31",
+          "horizon_minutes": 34.483333333333334,
+          "forecast_price": 16961.09291
+        },
+        {
+          "issue_time": "2025-06-11T07:40:32",
+          "horizon_minutes": 29.466666666666665,
+          "forecast_price": 16829.09349
+        },
+        {
+          "issue_time": "2025-06-11T07:45:30",
+          "horizon_minutes": 24.5,
+          "forecast_price": 983.96
+        },
+        {
+          "issue_time": "2025-06-11T07:50:31",
+          "horizon_minutes": 19.483333333333334,
+          "forecast_price": 480.7958
+        },
+        {
+          "issue_time": "2025-06-11T07:55:30",
+          "horizon_minutes": 14.5,
+          "forecast_price": 480.7958
+        },
+        {
+          "issue_time": "2025-06-11T08:00:32",
+          "horizon_minutes": 9.466666666666667,
+          "forecast_price": 465.91935
+        },
+        {
+          "issue_time": "2025-06-11T08:05:34",
+          "horizon_minutes": 4.433333333333334,
+          "forecast_price": 406.48
+        }
+      ]
     },
     {
-      "issue_time": "2026-07-01T18:50:31",
-      "target_time": "2026-07-01T19:20:00",
-      "horizon_minutes": 29.483333333333334,
-      "forecast_price": 37.69,
-      "actual_price": 153.23422,
-      "forecast_error": -115.54422,
-      "absolute_error": 115.54422,
-      "source_file": "PUBLIC_P5MIN_202607011855_20260701185033.zip",
-      "source_file_actual": "PUBLIC_DISPATCHIS_202607011920_0000000525304279.zip"
+      "issue_time": "2025-06-12T19:00:29",
+      "target_time": "2025-06-12T19:30:00",
+      "horizon_minutes": 29.516666666666666,
+      "forecast_price": 1218.40473,
+      "actual_price": 17499.91,
+      "forecast_error": -16281.50527,
+      "absolute_error": 16281.50527,
+      "source_file": "PUBLIC_ARCHIVE#P5MIN_REGIONSOLUTION#FILE01#202506010000.CSV",
+      "source_file_actual": "PUBLIC_ARCHIVE#DISPATCHPRICE#FILE01#202506010000.CSV",
+      "vintages": [
+        {
+          "issue_time": "2025-06-12T18:30:30",
+          "horizon_minutes": 59.5,
+          "forecast_price": 5304.92061
+        },
+        {
+          "issue_time": "2025-06-12T18:35:31",
+          "horizon_minutes": 54.483333333333334,
+          "forecast_price": 11093.85218
+        },
+        {
+          "issue_time": "2025-06-12T18:40:32",
+          "horizon_minutes": 49.46666666666667,
+          "forecast_price": 12183.71834
+        },
+        {
+          "issue_time": "2025-06-12T18:45:30",
+          "horizon_minutes": 44.5,
+          "forecast_price": 11340.78
+        },
+        {
+          "issue_time": "2025-06-12T18:50:31",
+          "horizon_minutes": 39.483333333333334,
+          "forecast_price": 11402.84342
+        },
+        {
+          "issue_time": "2025-06-12T18:55:30",
+          "horizon_minutes": 34.5,
+          "forecast_price": 11270.2
+        },
+        {
+          "issue_time": "2025-06-12T19:00:29",
+          "horizon_minutes": 29.516666666666666,
+          "forecast_price": 1218.40473
+        },
+        {
+          "issue_time": "2025-06-12T19:05:30",
+          "horizon_minutes": 24.5,
+          "forecast_price": 11331.21
+        },
+        {
+          "issue_time": "2025-06-12T19:10:30",
+          "horizon_minutes": 19.5,
+          "forecast_price": 11214.34
+        },
+        {
+          "issue_time": "2025-06-12T19:15:30",
+          "horizon_minutes": 14.5,
+          "forecast_price": 11945.53142
+        },
+        {
+          "issue_time": "2025-06-12T19:20:29",
+          "horizon_minutes": 9.516666666666667,
+          "forecast_price": 16808.89845
+        },
+        {
+          "issue_time": "2025-06-12T19:25:29",
+          "horizon_minutes": 4.516666666666667,
+          "forecast_price": 17499.91
+        }
+      ]
     },
     {
-      "issue_time": "2026-07-01T18:35:31",
-      "target_time": "2026-07-01T19:05:00",
-      "horizon_minutes": 29.483333333333334,
-      "forecast_price": 15.0,
-      "actual_price": 119.40491,
-      "forecast_error": -104.40491,
-      "absolute_error": 104.40491,
-      "source_file": "PUBLIC_P5MIN_202607011840_20260701183532.zip",
-      "source_file_actual": "PUBLIC_DISPATCHIS_202607011905_0000000525302544.zip"
+      "issue_time": "2025-06-26T07:25:28",
+      "target_time": "2025-06-26T07:55:00",
+      "horizon_minutes": 29.533333333333335,
+      "forecast_price": 17093.79207,
+      "actual_price": 1045.0457,
+      "forecast_error": 16048.746369999999,
+      "absolute_error": 16048.746369999999,
+      "source_file": "PUBLIC_ARCHIVE#P5MIN_REGIONSOLUTION#FILE01#202506010000.CSV",
+      "source_file_actual": "PUBLIC_ARCHIVE#DISPATCHPRICE#FILE01#202506010000.CSV",
+      "vintages": [
+        {
+          "issue_time": "2025-06-26T06:55:27",
+          "horizon_minutes": 59.55,
+          "forecast_price": 9925.63861
+        },
+        {
+          "issue_time": "2025-06-26T07:00:28",
+          "horizon_minutes": 54.53333333333333,
+          "forecast_price": 10425.41825
+        },
+        {
+          "issue_time": "2025-06-26T07:05:28",
+          "horizon_minutes": 49.53333333333333,
+          "forecast_price": 10593.23034
+        },
+        {
+          "issue_time": "2025-06-26T07:10:28",
+          "horizon_minutes": 44.53333333333333,
+          "forecast_price": 10561.9806
+        },
+        {
+          "issue_time": "2025-06-26T07:15:28",
+          "horizon_minutes": 39.53333333333333,
+          "forecast_price": 14200.64755
+        },
+        {
+          "issue_time": "2025-06-26T07:20:30",
+          "horizon_minutes": 34.5,
+          "forecast_price": 16697.87437
+        },
+        {
+          "issue_time": "2025-06-26T07:25:28",
+          "horizon_minutes": 29.533333333333335,
+          "forecast_price": 17093.79207
+        },
+        {
+          "issue_time": "2025-06-26T07:30:28",
+          "horizon_minutes": 24.533333333333335,
+          "forecast_price": 10094.42518
+        },
+        {
+          "issue_time": "2025-06-26T07:35:27",
+          "horizon_minutes": 19.55,
+          "forecast_price": 10074.18304
+        },
+        {
+          "issue_time": "2025-06-26T07:40:28",
+          "horizon_minutes": 14.533333333333333,
+          "forecast_price": 3898.0
+        },
+        {
+          "issue_time": "2025-06-26T07:45:29",
+          "horizon_minutes": 9.516666666666667,
+          "forecast_price": 1110.11
+        },
+        {
+          "issue_time": "2025-06-26T07:50:28",
+          "horizon_minutes": 4.533333333333333,
+          "forecast_price": 1070.34399
+        }
+      ]
     },
     {
-      "issue_time": "2026-07-02T15:30:39",
-      "target_time": "2026-07-02T16:00:00",
-      "horizon_minutes": 29.35,
-      "forecast_price": 9.37804,
-      "actual_price": 110.34459,
-      "forecast_error": -100.96655,
-      "absolute_error": 100.96655,
-      "source_file": "PUBLIC_P5MIN_202607021535_20260702153041.zip",
-      "source_file_actual": "PUBLIC_DISPATCHIS_202607021600_0000000525478576.zip"
+      "issue_time": "2025-06-26T20:35:26",
+      "target_time": "2025-06-26T21:05:00",
+      "horizon_minutes": 29.566666666666666,
+      "forecast_price": 15797.95249,
+      "actual_price": 498.66815,
+      "forecast_error": 15299.28434,
+      "absolute_error": 15299.28434,
+      "source_file": "PUBLIC_ARCHIVE#P5MIN_REGIONSOLUTION#FILE01#202506010000.CSV",
+      "source_file_actual": "PUBLIC_ARCHIVE#DISPATCHPRICE#FILE01#202506010000.CSV",
+      "vintages": [
+        {
+          "issue_time": "2025-06-26T20:05:27",
+          "horizon_minutes": 59.55,
+          "forecast_price": 13665.40148
+        },
+        {
+          "issue_time": "2025-06-26T20:10:26",
+          "horizon_minutes": 54.56666666666667,
+          "forecast_price": 12559.21351
+        },
+        {
+          "issue_time": "2025-06-26T20:15:27",
+          "horizon_minutes": 49.55,
+          "forecast_price": 3898.0
+        },
+        {
+          "issue_time": "2025-06-26T20:20:26",
+          "horizon_minutes": 44.56666666666667,
+          "forecast_price": 15924.29696
+        },
+        {
+          "issue_time": "2025-06-26T20:25:27",
+          "horizon_minutes": 39.55,
+          "forecast_price": 12862.96184
+        },
+        {
+          "issue_time": "2025-06-26T20:30:27",
+          "horizon_minutes": 34.55,
+          "forecast_price": 9289.45002
+        },
+        {
+          "issue_time": "2025-06-26T20:35:26",
+          "horizon_minutes": 29.566666666666666,
+          "forecast_price": 15797.95249
+        },
+        {
+          "issue_time": "2025-06-26T20:40:26",
+          "horizon_minutes": 24.566666666666666,
+          "forecast_price": 15547.28903
+        },
+        {
+          "issue_time": "2025-06-26T20:45:26",
+          "horizon_minutes": 19.566666666666666,
+          "forecast_price": 15547.28903
+        },
+        {
+          "issue_time": "2025-06-26T20:50:27",
+          "horizon_minutes": 14.55,
+          "forecast_price": 15547.28903
+        },
+        {
+          "issue_time": "2025-06-26T20:55:27",
+          "horizon_minutes": 9.55,
+          "forecast_price": 580.46081
+        },
+        {
+          "issue_time": "2025-06-26T21:00:27",
+          "horizon_minutes": 4.55,
+          "forecast_price": 498.66815
+        }
+      ]
     },
     {
-      "issue_time": "2026-07-01T18:55:30",
-      "target_time": "2026-07-01T19:25:00",
+      "issue_time": "2025-06-12T20:10:30",
+      "target_time": "2025-06-12T20:40:00",
       "horizon_minutes": 29.5,
-      "forecast_price": 15.0,
-      "actual_price": 113.44224,
-      "forecast_error": -98.44224,
-      "absolute_error": 98.44224,
-      "source_file": "PUBLIC_P5MIN_202607011900_20260701185533.zip",
-      "source_file_actual": "PUBLIC_DISPATCHIS_202607011925_0000000525304846.zip"
+      "forecast_price": 16160.18678,
+      "actual_price": 899.01,
+      "forecast_error": 15261.17678,
+      "absolute_error": 15261.17678,
+      "source_file": "PUBLIC_ARCHIVE#P5MIN_REGIONSOLUTION#FILE01#202506010000.CSV",
+      "source_file_actual": "PUBLIC_ARCHIVE#DISPATCHPRICE#FILE01#202506010000.CSV",
+      "vintages": [
+        {
+          "issue_time": "2025-06-12T19:40:30",
+          "horizon_minutes": 59.5,
+          "forecast_price": 10881.09161
+        },
+        {
+          "issue_time": "2025-06-12T19:45:29",
+          "horizon_minutes": 54.516666666666666,
+          "forecast_price": 13264.58568
+        },
+        {
+          "issue_time": "2025-06-12T19:50:31",
+          "horizon_minutes": 49.483333333333334,
+          "forecast_price": 11270.46
+        },
+        {
+          "issue_time": "2025-06-12T19:55:30",
+          "horizon_minutes": 44.5,
+          "forecast_price": 13001.9941
+        },
+        {
+          "issue_time": "2025-06-12T20:00:32",
+          "horizon_minutes": 39.46666666666667,
+          "forecast_price": 11174.89
+        },
+        {
+          "issue_time": "2025-06-12T20:05:30",
+          "horizon_minutes": 34.5,
+          "forecast_price": 11174.37
+        },
+        {
+          "issue_time": "2025-06-12T20:10:30",
+          "horizon_minutes": 29.5,
+          "forecast_price": 16160.18678
+        },
+        {
+          "issue_time": "2025-06-12T20:15:30",
+          "horizon_minutes": 24.5,
+          "forecast_price": 16032.97835
+        },
+        {
+          "issue_time": "2025-06-12T20:20:31",
+          "horizon_minutes": 19.483333333333334,
+          "forecast_price": 13196.90559
+        },
+        {
+          "issue_time": "2025-06-12T20:25:31",
+          "horizon_minutes": 14.483333333333333,
+          "forecast_price": 14450.01
+        },
+        {
+          "issue_time": "2025-06-12T20:30:29",
+          "horizon_minutes": 9.516666666666667,
+          "forecast_price": 14450.01
+        },
+        {
+          "issue_time": "2025-06-12T20:35:31",
+          "horizon_minutes": 4.483333333333333,
+          "forecast_price": 899.01
+        }
+      ]
     },
     {
-      "issue_time": "2026-07-02T12:26:16",
-      "target_time": "2026-07-02T12:55:00",
-      "horizon_minutes": 28.733333333333334,
-      "forecast_price": -6.6,
-      "actual_price": 83.66,
-      "forecast_error": -90.25999999999999,
-      "absolute_error": 90.25999999999999,
-      "source_file": "PUBLIC_P5MIN_202607021230_20260702122618.zip",
-      "source_file_actual": "PUBLIC_DISPATCHIS_202607021255_0000000525445968.zip"
+      "issue_time": "2025-06-12T20:15:30",
+      "target_time": "2025-06-12T20:45:00",
+      "horizon_minutes": 29.5,
+      "forecast_price": 16032.97835,
+      "actual_price": 899.01,
+      "forecast_error": 15133.96835,
+      "absolute_error": 15133.96835,
+      "source_file": "PUBLIC_ARCHIVE#P5MIN_REGIONSOLUTION#FILE01#202506010000.CSV",
+      "source_file_actual": "PUBLIC_ARCHIVE#DISPATCHPRICE#FILE01#202506010000.CSV",
+      "vintages": [
+        {
+          "issue_time": "2025-06-12T19:45:29",
+          "horizon_minutes": 59.516666666666666,
+          "forecast_price": 13354.93282
+        },
+        {
+          "issue_time": "2025-06-12T19:50:31",
+          "horizon_minutes": 54.483333333333334,
+          "forecast_price": 11271.3
+        },
+        {
+          "issue_time": "2025-06-12T19:55:30",
+          "horizon_minutes": 49.5,
+          "forecast_price": 12811.10611
+        },
+        {
+          "issue_time": "2025-06-12T20:00:32",
+          "horizon_minutes": 44.46666666666667,
+          "forecast_price": 1228.67602
+        },
+        {
+          "issue_time": "2025-06-12T20:05:30",
+          "horizon_minutes": 39.5,
+          "forecast_price": 1286.24875
+        },
+        {
+          "issue_time": "2025-06-12T20:10:30",
+          "horizon_minutes": 34.5,
+          "forecast_price": 14450.01
+        },
+        {
+          "issue_time": "2025-06-12T20:15:30",
+          "horizon_minutes": 29.5,
+          "forecast_price": 16032.97835
+        },
+        {
+          "issue_time": "2025-06-12T20:20:31",
+          "horizon_minutes": 24.483333333333334,
+          "forecast_price": 13701.48482
+        },
+        {
+          "issue_time": "2025-06-12T20:25:31",
+          "horizon_minutes": 19.483333333333334,
+          "forecast_price": 13001.9941
+        },
+        {
+          "issue_time": "2025-06-12T20:30:29",
+          "horizon_minutes": 14.516666666666667,
+          "forecast_price": 14450.01
+        },
+        {
+          "issue_time": "2025-06-12T20:35:31",
+          "horizon_minutes": 9.483333333333333,
+          "forecast_price": 1084.41986
+        },
+        {
+          "issue_time": "2025-06-12T20:40:31",
+          "horizon_minutes": 4.483333333333333,
+          "forecast_price": 899.01
+        }
+      ]
     },
     {
-      "issue_time": "2026-07-01T18:40:31",
-      "target_time": "2026-07-01T19:10:00",
+      "issue_time": "2025-06-12T20:45:31",
+      "target_time": "2025-06-12T21:15:00",
       "horizon_minutes": 29.483333333333334,
-      "forecast_price": 16.55217,
-      "actual_price": 101.81019,
-      "forecast_error": -85.25802,
-      "absolute_error": 85.25802,
-      "source_file": "PUBLIC_P5MIN_202607011845_20260701184033.zip",
-      "source_file_actual": "PUBLIC_DISPATCHIS_202607011910_0000000525303201.zip"
+      "forecast_price": 15655.33987,
+      "actual_price": 900.0,
+      "forecast_error": 14755.33987,
+      "absolute_error": 14755.33987,
+      "source_file": "PUBLIC_ARCHIVE#P5MIN_REGIONSOLUTION#FILE01#202506010000.CSV",
+      "source_file_actual": "PUBLIC_ARCHIVE#DISPATCHPRICE#FILE01#202506010000.CSV",
+      "vintages": [
+        {
+          "issue_time": "2025-06-12T20:15:30",
+          "horizon_minutes": 59.5,
+          "forecast_price": 12968.66032
+        },
+        {
+          "issue_time": "2025-06-12T20:20:31",
+          "horizon_minutes": 54.483333333333334,
+          "forecast_price": 1305.14514
+        },
+        {
+          "issue_time": "2025-06-12T20:25:31",
+          "horizon_minutes": 49.483333333333334,
+          "forecast_price": 14450.01
+        },
+        {
+          "issue_time": "2025-06-12T20:30:29",
+          "horizon_minutes": 44.516666666666666,
+          "forecast_price": 11785.19356
+        },
+        {
+          "issue_time": "2025-06-12T20:35:31",
+          "horizon_minutes": 39.483333333333334,
+          "forecast_price": 635.19886
+        },
+        {
+          "issue_time": "2025-06-12T20:40:31",
+          "horizon_minutes": 34.483333333333334,
+          "forecast_price": 3920.0
+        },
+        {
+          "issue_time": "2025-06-12T20:45:31",
+          "horizon_minutes": 29.483333333333334,
+          "forecast_price": 15655.33987
+        },
+        {
+          "issue_time": "2025-06-12T20:50:32",
+          "horizon_minutes": 24.466666666666665,
+          "forecast_price": 13623.25076
+        },
+        {
+          "issue_time": "2025-06-12T20:55:30",
+          "horizon_minutes": 19.5,
+          "forecast_price": 12493.00223
+        },
+        {
+          "issue_time": "2025-06-12T21:00:32",
+          "horizon_minutes": 14.466666666666667,
+          "forecast_price": 14450.01
+        },
+        {
+          "issue_time": "2025-06-12T21:05:30",
+          "horizon_minutes": 9.5,
+          "forecast_price": 12308.28792
+        },
+        {
+          "issue_time": "2025-06-12T21:10:32",
+          "horizon_minutes": 4.466666666666667,
+          "forecast_price": 900.0
+        }
+      ]
     },
     {
-      "issue_time": "2026-07-01T18:45:31",
-      "target_time": "2026-07-01T19:15:00",
+      "issue_time": "2025-06-26T20:45:26",
+      "target_time": "2025-06-26T21:15:00",
+      "horizon_minutes": 29.566666666666666,
+      "forecast_price": 15299.29034,
+      "actual_price": 668.59847,
+      "forecast_error": 14630.691869999999,
+      "absolute_error": 14630.691869999999,
+      "source_file": "PUBLIC_ARCHIVE#P5MIN_REGIONSOLUTION#FILE01#202506010000.CSV",
+      "source_file_actual": "PUBLIC_ARCHIVE#DISPATCHPRICE#FILE01#202506010000.CSV",
+      "vintages": [
+        {
+          "issue_time": "2025-06-26T20:15:27",
+          "horizon_minutes": 59.55,
+          "forecast_price": 9583.93484
+        },
+        {
+          "issue_time": "2025-06-26T20:20:26",
+          "horizon_minutes": 54.56666666666667,
+          "forecast_price": 11169.78
+        },
+        {
+          "issue_time": "2025-06-26T20:25:27",
+          "horizon_minutes": 49.55,
+          "forecast_price": 12821.22812
+        },
+        {
+          "issue_time": "2025-06-26T20:30:27",
+          "horizon_minutes": 44.55,
+          "forecast_price": 1046.4666
+        },
+        {
+          "issue_time": "2025-06-26T20:35:26",
+          "horizon_minutes": 39.56666666666667,
+          "forecast_price": 11169.78
+        },
+        {
+          "issue_time": "2025-06-26T20:40:26",
+          "horizon_minutes": 34.56666666666667,
+          "forecast_price": 11169.78
+        },
+        {
+          "issue_time": "2025-06-26T20:45:26",
+          "horizon_minutes": 29.566666666666666,
+          "forecast_price": 15299.29034
+        },
+        {
+          "issue_time": "2025-06-26T20:50:27",
+          "horizon_minutes": 24.55,
+          "forecast_price": 14798.92
+        },
+        {
+          "issue_time": "2025-06-26T20:55:27",
+          "horizon_minutes": 19.55,
+          "forecast_price": 444.2009
+        },
+        {
+          "issue_time": "2025-06-26T21:00:27",
+          "horizon_minutes": 14.55,
+          "forecast_price": 447.77215
+        },
+        {
+          "issue_time": "2025-06-26T21:05:26",
+          "horizon_minutes": 9.566666666666666,
+          "forecast_price": 12543.19344
+        },
+        {
+          "issue_time": "2025-06-26T21:10:27",
+          "horizon_minutes": 4.55,
+          "forecast_price": 667.37152
+        }
+      ]
+    },
+    {
+      "issue_time": "2025-06-26T20:40:26",
+      "target_time": "2025-06-26T21:10:00",
+      "horizon_minutes": 29.566666666666666,
+      "forecast_price": 15422.95925,
+      "actual_price": 812.07763,
+      "forecast_error": 14610.88162,
+      "absolute_error": 14610.88162,
+      "source_file": "PUBLIC_ARCHIVE#P5MIN_REGIONSOLUTION#FILE01#202506010000.CSV",
+      "source_file_actual": "PUBLIC_ARCHIVE#DISPATCHPRICE#FILE01#202506010000.CSV",
+      "vintages": [
+        {
+          "issue_time": "2025-06-26T20:10:26",
+          "horizon_minutes": 59.56666666666667,
+          "forecast_price": 10093.29275
+        },
+        {
+          "issue_time": "2025-06-26T20:15:27",
+          "horizon_minutes": 54.55,
+          "forecast_price": 9142.43866
+        },
+        {
+          "issue_time": "2025-06-26T20:20:26",
+          "horizon_minutes": 49.56666666666667,
+          "forecast_price": 16051.32389
+        },
+        {
+          "issue_time": "2025-06-26T20:25:27",
+          "horizon_minutes": 44.55,
+          "forecast_price": 12923.50211
+        },
+        {
+          "issue_time": "2025-06-26T20:30:27",
+          "horizon_minutes": 39.55,
+          "forecast_price": 11169.78
+        },
+        {
+          "issue_time": "2025-06-26T20:35:26",
+          "horizon_minutes": 34.56666666666667,
+          "forecast_price": 15797.95249
+        },
+        {
+          "issue_time": "2025-06-26T20:40:26",
+          "horizon_minutes": 29.566666666666666,
+          "forecast_price": 15422.95925
+        },
+        {
+          "issue_time": "2025-06-26T20:45:26",
+          "horizon_minutes": 24.566666666666666,
+          "forecast_price": 15422.95925
+        },
+        {
+          "issue_time": "2025-06-26T20:50:27",
+          "horizon_minutes": 19.55,
+          "forecast_price": 15547.28903
+        },
+        {
+          "issue_time": "2025-06-26T20:55:27",
+          "horizon_minutes": 14.55,
+          "forecast_price": 580.46081
+        },
+        {
+          "issue_time": "2025-06-26T21:00:27",
+          "horizon_minutes": 9.55,
+          "forecast_price": 574.19292
+        },
+        {
+          "issue_time": "2025-06-26T21:05:26",
+          "horizon_minutes": 4.566666666666666,
+          "forecast_price": 809.32108
+        }
+      ]
+    },
+    {
+      "issue_time": "2025-06-11T17:45:31",
+      "target_time": "2025-06-11T18:15:00",
       "horizon_minutes": 29.483333333333334,
-      "forecast_price": 37.69,
-      "actual_price": 119.40511,
-      "forecast_error": -81.71511,
-      "absolute_error": 81.71511,
-      "source_file": "PUBLIC_P5MIN_202607011850_20260701184533.zip",
-      "source_file_actual": "PUBLIC_DISPATCHIS_202607011915_0000000525303679.zip"
+      "forecast_price": 15583.71752,
+      "actual_price": 1085.38725,
+      "forecast_error": 14498.33027,
+      "absolute_error": 14498.33027,
+      "source_file": "PUBLIC_ARCHIVE#P5MIN_REGIONSOLUTION#FILE01#202506010000.CSV",
+      "source_file_actual": "PUBLIC_ARCHIVE#DISPATCHPRICE#FILE01#202506010000.CSV",
+      "vintages": [
+        {
+          "issue_time": "2025-06-11T17:15:30",
+          "horizon_minutes": 59.5,
+          "forecast_price": 14794.25025
+        },
+        {
+          "issue_time": "2025-06-11T17:20:31",
+          "horizon_minutes": 54.483333333333334,
+          "forecast_price": 14798.91
+        },
+        {
+          "issue_time": "2025-06-11T17:25:30",
+          "horizon_minutes": 49.5,
+          "forecast_price": 14794.25025
+        },
+        {
+          "issue_time": "2025-06-11T17:30:31",
+          "horizon_minutes": 44.483333333333334,
+          "forecast_price": 14794.25025
+        },
+        {
+          "issue_time": "2025-06-11T17:35:30",
+          "horizon_minutes": 39.5,
+          "forecast_price": 14811.99086
+        },
+        {
+          "issue_time": "2025-06-11T17:40:42",
+          "horizon_minutes": 34.3,
+          "forecast_price": 15459.42795
+        },
+        {
+          "issue_time": "2025-06-11T17:45:31",
+          "horizon_minutes": 29.483333333333334,
+          "forecast_price": 15583.71752
+        },
+        {
+          "issue_time": "2025-06-11T17:50:32",
+          "horizon_minutes": 24.466666666666665,
+          "forecast_price": 12090.26868
+        },
+        {
+          "issue_time": "2025-06-11T17:55:32",
+          "horizon_minutes": 19.466666666666665,
+          "forecast_price": 14000.0
+        },
+        {
+          "issue_time": "2025-06-11T18:00:31",
+          "horizon_minutes": 14.483333333333333,
+          "forecast_price": 12090.45809
+        },
+        {
+          "issue_time": "2025-06-11T18:05:33",
+          "horizon_minutes": 9.45,
+          "forecast_price": 9438.05387
+        },
+        {
+          "issue_time": "2025-06-11T18:10:30",
+          "horizon_minutes": 4.5,
+          "forecast_price": 1085.38725
+        }
+      ]
     },
     {
-      "issue_time": "2026-07-02T12:01:11",
-      "target_time": "2026-07-02T12:30:00",
-      "horizon_minutes": 28.816666666666666,
-      "forecast_price": 0.01,
-      "actual_price": 79.72,
-      "forecast_error": -79.71,
-      "absolute_error": 79.71,
-      "source_file": "PUBLIC_P5MIN_202607021205_20260702120113.zip",
-      "source_file_actual": "PUBLIC_DISPATCHIS_202607021230_0000000525442740.zip"
-    },
-    {
-      "issue_time": "2026-07-02T11:46:14",
-      "target_time": "2026-07-02T12:15:00",
-      "horizon_minutes": 28.766666666666666,
-      "forecast_price": 0.28974,
-      "actual_price": 79.72,
-      "forecast_error": -79.43026,
-      "absolute_error": 79.43026,
-      "source_file": "PUBLIC_P5MIN_202607021150_20260702114615.zip",
-      "source_file_actual": "PUBLIC_DISPATCHIS_202607021215_0000000525440877.zip"
-    },
-    {
-      "issue_time": "2026-07-02T15:55:32",
-      "target_time": "2026-07-02T16:25:00",
-      "horizon_minutes": 29.466666666666665,
-      "forecast_price": 8.96,
-      "actual_price": 88.04,
-      "forecast_error": -79.08000000000001,
-      "absolute_error": 79.08000000000001,
-      "source_file": "PUBLIC_P5MIN_202607021600_20260702155533.zip",
-      "source_file_actual": "PUBLIC_DISPATCHIS_202607021625_0000000525481789.zip"
-    },
-    {
-      "issue_time": "2026-07-07T18:10:31",
-      "target_time": "2026-07-07T18:40:00",
+      "issue_time": "2025-06-05T07:45:31",
+      "target_time": "2025-06-05T08:15:00",
       "horizon_minutes": 29.483333333333334,
-      "forecast_price": 211.69,
-      "actual_price": 138.89431,
-      "forecast_error": 72.79569000000001,
-      "absolute_error": 72.79569000000001,
-      "source_file": "PUBLIC_P5MIN_202607071815_20260707181033.zip",
-      "source_file_actual": "PUBLIC_DISPATCHIS_202607071840_0000000526305310.zip"
+      "forecast_price": 13826.49033,
+      "actual_price": 106.01671,
+      "forecast_error": 13720.47362,
+      "absolute_error": 13720.47362,
+      "source_file": "PUBLIC_ARCHIVE#P5MIN_REGIONSOLUTION#FILE01#202506010000.CSV",
+      "source_file_actual": "PUBLIC_ARCHIVE#DISPATCHPRICE#FILE01#202506010000.CSV",
+      "vintages": [
+        {
+          "issue_time": "2025-06-05T07:15:31",
+          "horizon_minutes": 59.483333333333334,
+          "forecast_price": 7842.97725
+        },
+        {
+          "issue_time": "2025-06-05T07:20:30",
+          "horizon_minutes": 54.5,
+          "forecast_price": 3898.0
+        },
+        {
+          "issue_time": "2025-06-05T07:25:31",
+          "horizon_minutes": 49.483333333333334,
+          "forecast_price": 16437.60056
+        },
+        {
+          "issue_time": "2025-06-05T07:30:32",
+          "horizon_minutes": 44.46666666666667,
+          "forecast_price": 8393.31309
+        },
+        {
+          "issue_time": "2025-06-05T07:35:31",
+          "horizon_minutes": 39.483333333333334,
+          "forecast_price": 17500.0
+        },
+        {
+          "issue_time": "2025-06-05T07:40:30",
+          "horizon_minutes": 34.5,
+          "forecast_price": 17500.0
+        },
+        {
+          "issue_time": "2025-06-05T07:45:31",
+          "horizon_minutes": 29.483333333333334,
+          "forecast_price": 13826.49033
+        },
+        {
+          "issue_time": "2025-06-05T07:50:31",
+          "horizon_minutes": 24.483333333333334,
+          "forecast_price": 4271.06356
+        },
+        {
+          "issue_time": "2025-06-05T07:55:29",
+          "horizon_minutes": 19.516666666666666,
+          "forecast_price": 1295.19003
+        },
+        {
+          "issue_time": "2025-06-05T08:00:29",
+          "horizon_minutes": 14.516666666666667,
+          "forecast_price": 983.96
+        },
+        {
+          "issue_time": "2025-06-05T08:05:29",
+          "horizon_minutes": 9.516666666666667,
+          "forecast_price": 400.74394
+        },
+        {
+          "issue_time": "2025-06-05T08:10:31",
+          "horizon_minutes": 4.483333333333333,
+          "forecast_price": 136.42
+        }
+      ]
     },
     {
-      "issue_time": "2026-07-07T08:10:32",
-      "target_time": "2026-07-07T08:40:00",
-      "horizon_minutes": 29.466666666666665,
-      "forecast_price": 186.69,
-      "actual_price": 119.05,
-      "forecast_error": 67.64,
-      "absolute_error": 67.64,
-      "source_file": "PUBLIC_P5MIN_202607070815_20260707081034.zip",
-      "source_file_actual": "PUBLIC_DISPATCHIS_202607070840_0000000526233644.zip"
+      "issue_time": "2025-08-18T17:25:25",
+      "target_time": "2025-08-18T17:55:00",
+      "horizon_minutes": 29.583333333333332,
+      "forecast_price": 14646.35821,
+      "actual_price": 979.87,
+      "forecast_error": 13666.48821,
+      "absolute_error": 13666.48821,
+      "source_file": "PUBLIC_ARCHIVE#P5MIN_REGIONSOLUTION#FILE01#202508010000.CSV",
+      "source_file_actual": "PUBLIC_ARCHIVE#DISPATCHPRICE#FILE01#202508010000.CSV",
+      "vintages": [
+        {
+          "issue_time": "2025-08-18T16:55:26",
+          "horizon_minutes": 59.56666666666667,
+          "forecast_price": 14566.57796
+        },
+        {
+          "issue_time": "2025-08-18T17:00:26",
+          "horizon_minutes": 54.56666666666667,
+          "forecast_price": 17930.79578
+        },
+        {
+          "issue_time": "2025-08-18T17:05:27",
+          "horizon_minutes": 49.55,
+          "forecast_price": 12366.71543
+        },
+        {
+          "issue_time": "2025-08-18T17:10:26",
+          "horizon_minutes": 44.56666666666667,
+          "forecast_price": 3898.0
+        },
+        {
+          "issue_time": "2025-08-18T17:15:26",
+          "horizon_minutes": 39.56666666666667,
+          "forecast_price": 3898.0
+        },
+        {
+          "issue_time": "2025-08-18T17:20:26",
+          "horizon_minutes": 34.56666666666667,
+          "forecast_price": 9081.36447
+        },
+        {
+          "issue_time": "2025-08-18T17:25:25",
+          "horizon_minutes": 29.583333333333332,
+          "forecast_price": 14646.35821
+        },
+        {
+          "issue_time": "2025-08-18T17:30:26",
+          "horizon_minutes": 24.566666666666666,
+          "forecast_price": 17930.79578
+        },
+        {
+          "issue_time": "2025-08-18T17:35:25",
+          "horizon_minutes": 19.583333333333332,
+          "forecast_price": 3898.0
+        },
+        {
+          "issue_time": "2025-08-18T17:40:26",
+          "horizon_minutes": 14.566666666666666,
+          "forecast_price": 983.95
+        },
+        {
+          "issue_time": "2025-08-18T17:45:25",
+          "horizon_minutes": 9.583333333333334,
+          "forecast_price": 900.0
+        },
+        {
+          "issue_time": "2025-08-18T17:50:26",
+          "horizon_minutes": 4.566666666666666,
+          "forecast_price": 900.0
+        }
+      ]
     },
     {
-      "issue_time": "2026-07-07T07:00:32",
-      "target_time": "2026-07-07T07:30:00",
-      "horizon_minutes": 29.466666666666665,
-      "forecast_price": 187.55,
-      "actual_price": 125.68,
-      "forecast_error": 61.870000000000005,
-      "absolute_error": 61.870000000000005,
-      "source_file": "PUBLIC_P5MIN_202607070705_20260707070033.zip",
-      "source_file_actual": "PUBLIC_DISPATCHIS_202607070730_0000000526226438.zip"
+      "issue_time": "2025-06-12T19:05:30",
+      "target_time": "2025-06-12T19:35:00",
+      "horizon_minutes": 29.5,
+      "forecast_price": 3898.0,
+      "actual_price": 17499.91,
+      "forecast_error": -13601.91,
+      "absolute_error": 13601.91,
+      "source_file": "PUBLIC_ARCHIVE#P5MIN_REGIONSOLUTION#FILE01#202506010000.CSV",
+      "source_file_actual": "PUBLIC_ARCHIVE#DISPATCHPRICE#FILE01#202506010000.CSV",
+      "vintages": [
+        {
+          "issue_time": "2025-06-12T18:35:31",
+          "horizon_minutes": 59.483333333333334,
+          "forecast_price": 9512.96108
+        },
+        {
+          "issue_time": "2025-06-12T18:40:32",
+          "horizon_minutes": 54.46666666666667,
+          "forecast_price": 11171.69
+        },
+        {
+          "issue_time": "2025-06-12T18:45:30",
+          "horizon_minutes": 49.5,
+          "forecast_price": 11189.66
+        },
+        {
+          "issue_time": "2025-06-12T18:50:31",
+          "horizon_minutes": 44.483333333333334,
+          "forecast_price": 11212.06612
+        },
+        {
+          "issue_time": "2025-06-12T18:55:30",
+          "horizon_minutes": 39.5,
+          "forecast_price": 11197.51
+        },
+        {
+          "issue_time": "2025-06-12T19:00:29",
+          "horizon_minutes": 34.516666666666666,
+          "forecast_price": 10984.60641
+        },
+        {
+          "issue_time": "2025-06-12T19:05:30",
+          "horizon_minutes": 29.5,
+          "forecast_price": 3898.0
+        },
+        {
+          "issue_time": "2025-06-12T19:10:30",
+          "horizon_minutes": 24.5,
+          "forecast_price": 10748.66423
+        },
+        {
+          "issue_time": "2025-06-12T19:15:30",
+          "horizon_minutes": 19.5,
+          "forecast_price": 3925.73
+        },
+        {
+          "issue_time": "2025-06-12T19:20:29",
+          "horizon_minutes": 14.516666666666667,
+          "forecast_price": 16417.76934
+        },
+        {
+          "issue_time": "2025-06-12T19:25:29",
+          "horizon_minutes": 9.516666666666667,
+          "forecast_price": 16567.34309
+        },
+        {
+          "issue_time": "2025-06-12T19:30:31",
+          "horizon_minutes": 4.483333333333333,
+          "forecast_price": 17499.91
+        }
+      ]
     },
     {
-      "issue_time": "2026-07-01T19:00:31",
-      "target_time": "2026-07-01T19:30:00",
+      "issue_time": "2025-06-26T20:25:27",
+      "target_time": "2025-06-26T20:55:00",
+      "horizon_minutes": 29.55,
+      "forecast_price": 791.04971,
+      "actual_price": 14221.46478,
+      "forecast_error": -13430.415070000001,
+      "absolute_error": 13430.415070000001,
+      "source_file": "PUBLIC_ARCHIVE#P5MIN_REGIONSOLUTION#FILE01#202506010000.CSV",
+      "source_file_actual": "PUBLIC_ARCHIVE#DISPATCHPRICE#FILE01#202506010000.CSV",
+      "vintages": [
+        {
+          "issue_time": "2025-06-26T19:55:27",
+          "horizon_minutes": 59.55,
+          "forecast_price": 8996.99431
+        },
+        {
+          "issue_time": "2025-06-26T20:00:27",
+          "horizon_minutes": 54.55,
+          "forecast_price": 12539.24127
+        },
+        {
+          "issue_time": "2025-06-26T20:05:27",
+          "horizon_minutes": 49.55,
+          "forecast_price": 12439.23323
+        },
+        {
+          "issue_time": "2025-06-26T20:10:26",
+          "horizon_minutes": 44.56666666666667,
+          "forecast_price": 12659.91898
+        },
+        {
+          "issue_time": "2025-06-26T20:15:27",
+          "horizon_minutes": 39.55,
+          "forecast_price": 12539.24127
+        },
+        {
+          "issue_time": "2025-06-26T20:20:26",
+          "horizon_minutes": 34.56666666666667,
+          "forecast_price": 12459.04618
+        },
+        {
+          "issue_time": "2025-06-26T20:25:27",
+          "horizon_minutes": 29.55,
+          "forecast_price": 791.04971
+        },
+        {
+          "issue_time": "2025-06-26T20:30:27",
+          "horizon_minutes": 24.55,
+          "forecast_price": 11169.78
+        },
+        {
+          "issue_time": "2025-06-26T20:35:26",
+          "horizon_minutes": 19.566666666666666,
+          "forecast_price": 12563.70054
+        },
+        {
+          "issue_time": "2025-06-26T20:40:26",
+          "horizon_minutes": 14.566666666666666,
+          "forecast_price": 14798.92
+        },
+        {
+          "issue_time": "2025-06-26T20:45:26",
+          "horizon_minutes": 9.566666666666666,
+          "forecast_price": 15374.14028
+        },
+        {
+          "issue_time": "2025-06-26T20:50:27",
+          "horizon_minutes": 4.55,
+          "forecast_price": 14221.46478
+        }
+      ]
+    },
+    {
+      "issue_time": "2025-06-12T19:55:30",
+      "target_time": "2025-06-12T20:25:00",
+      "horizon_minutes": 29.5,
+      "forecast_price": 14450.01,
+      "actual_price": 1034.85652,
+      "forecast_error": 13415.15348,
+      "absolute_error": 13415.15348,
+      "source_file": "PUBLIC_ARCHIVE#P5MIN_REGIONSOLUTION#FILE01#202506010000.CSV",
+      "source_file_actual": "PUBLIC_ARCHIVE#DISPATCHPRICE#FILE01#202506010000.CSV",
+      "vintages": [
+        {
+          "issue_time": "2025-06-12T19:25:29",
+          "horizon_minutes": 59.516666666666666,
+          "forecast_price": 16547.06462
+        },
+        {
+          "issue_time": "2025-06-12T19:30:31",
+          "horizon_minutes": 54.483333333333334,
+          "forecast_price": 13328.71895
+        },
+        {
+          "issue_time": "2025-06-12T19:35:30",
+          "horizon_minutes": 49.5,
+          "forecast_price": 9664.00261
+        },
+        {
+          "issue_time": "2025-06-12T19:40:30",
+          "horizon_minutes": 44.5,
+          "forecast_price": 3844.0
+        },
+        {
+          "issue_time": "2025-06-12T19:45:29",
+          "horizon_minutes": 39.516666666666666,
+          "forecast_price": 10636.29731
+        },
+        {
+          "issue_time": "2025-06-12T19:50:31",
+          "horizon_minutes": 34.483333333333334,
+          "forecast_price": 12810.93202
+        },
+        {
+          "issue_time": "2025-06-12T19:55:30",
+          "horizon_minutes": 29.5,
+          "forecast_price": 14450.01
+        },
+        {
+          "issue_time": "2025-06-12T20:00:32",
+          "horizon_minutes": 24.466666666666665,
+          "forecast_price": 12710.7859
+        },
+        {
+          "issue_time": "2025-06-12T20:05:30",
+          "horizon_minutes": 19.5,
+          "forecast_price": 12970.15325
+        },
+        {
+          "issue_time": "2025-06-12T20:10:30",
+          "horizon_minutes": 14.5,
+          "forecast_price": 13161.13703
+        },
+        {
+          "issue_time": "2025-06-12T20:15:30",
+          "horizon_minutes": 9.5,
+          "forecast_price": 12741.97288
+        },
+        {
+          "issue_time": "2025-06-12T20:20:31",
+          "horizon_minutes": 4.483333333333333,
+          "forecast_price": 1038.98295
+        }
+      ]
+    },
+    {
+      "issue_time": "2025-06-12T19:45:29",
+      "target_time": "2025-06-12T20:15:00",
+      "horizon_minutes": 29.516666666666666,
+      "forecast_price": 14450.01,
+      "actual_price": 1049.39278,
+      "forecast_error": 13400.61722,
+      "absolute_error": 13400.61722,
+      "source_file": "PUBLIC_ARCHIVE#P5MIN_REGIONSOLUTION#FILE01#202506010000.CSV",
+      "source_file_actual": "PUBLIC_ARCHIVE#DISPATCHPRICE#FILE01#202506010000.CSV",
+      "vintages": [
+        {
+          "issue_time": "2025-06-12T19:15:30",
+          "horizon_minutes": 59.5,
+          "forecast_price": 5378.20611
+        },
+        {
+          "issue_time": "2025-06-12T19:20:29",
+          "horizon_minutes": 54.516666666666666,
+          "forecast_price": 16547.43378
+        },
+        {
+          "issue_time": "2025-06-12T19:25:29",
+          "horizon_minutes": 49.516666666666666,
+          "forecast_price": 11393.79
+        },
+        {
+          "issue_time": "2025-06-12T19:30:31",
+          "horizon_minutes": 44.483333333333334,
+          "forecast_price": 12942.74915
+        },
+        {
+          "issue_time": "2025-06-12T19:35:30",
+          "horizon_minutes": 39.5,
+          "forecast_price": 16808.89845
+        },
+        {
+          "issue_time": "2025-06-12T19:40:30",
+          "horizon_minutes": 34.5,
+          "forecast_price": 13943.36411
+        },
+        {
+          "issue_time": "2025-06-12T19:45:29",
+          "horizon_minutes": 29.516666666666666,
+          "forecast_price": 14450.01
+        },
+        {
+          "issue_time": "2025-06-12T19:50:31",
+          "horizon_minutes": 24.483333333333334,
+          "forecast_price": 16678.83885
+        },
+        {
+          "issue_time": "2025-06-12T19:55:30",
+          "horizon_minutes": 19.5,
+          "forecast_price": 16418.78392
+        },
+        {
+          "issue_time": "2025-06-12T20:00:32",
+          "horizon_minutes": 14.466666666666667,
+          "forecast_price": 13944.96527
+        },
+        {
+          "issue_time": "2025-06-12T20:05:30",
+          "horizon_minutes": 9.5,
+          "forecast_price": 1269.76449
+        },
+        {
+          "issue_time": "2025-06-12T20:10:30",
+          "horizon_minutes": 4.5,
+          "forecast_price": 1049.39278
+        }
+      ]
+    },
+    {
+      "issue_time": "2025-06-11T07:30:31",
+      "target_time": "2025-06-11T08:00:00",
       "horizon_minutes": 29.483333333333334,
-      "forecast_price": 10.65,
-      "actual_price": 72.43756,
-      "forecast_error": -61.787560000000006,
-      "absolute_error": 61.787560000000006,
-      "source_file": "PUBLIC_P5MIN_202607011905_20260701190033.zip",
-      "source_file_actual": "PUBLIC_DISPATCHIS_202607011930_0000000525305405.zip"
+      "forecast_price": 13176.37838,
+      "actual_price": 225.44242,
+      "forecast_error": 12950.93596,
+      "absolute_error": 12950.93596,
+      "source_file": "PUBLIC_ARCHIVE#P5MIN_REGIONSOLUTION#FILE01#202506010000.CSV",
+      "source_file_actual": "PUBLIC_ARCHIVE#DISPATCHPRICE#FILE01#202506010000.CSV",
+      "vintages": [
+        {
+          "issue_time": "2025-06-11T07:00:31",
+          "horizon_minutes": 59.483333333333334,
+          "forecast_price": 16961.09291
+        },
+        {
+          "issue_time": "2025-06-11T07:05:34",
+          "horizon_minutes": 54.43333333333333,
+          "forecast_price": 16829.09349
+        },
+        {
+          "issue_time": "2025-06-11T07:10:31",
+          "horizon_minutes": 49.483333333333334,
+          "forecast_price": 16697.84575
+        },
+        {
+          "issue_time": "2025-06-11T07:15:32",
+          "horizon_minutes": 44.46666666666667,
+          "forecast_price": 13637.91502
+        },
+        {
+          "issue_time": "2025-06-11T07:20:30",
+          "horizon_minutes": 39.5,
+          "forecast_price": 10180.41762
+        },
+        {
+          "issue_time": "2025-06-11T07:25:31",
+          "horizon_minutes": 34.483333333333334,
+          "forecast_price": 3898.09306
+        },
+        {
+          "issue_time": "2025-06-11T07:30:31",
+          "horizon_minutes": 29.483333333333334,
+          "forecast_price": 13176.37838
+        },
+        {
+          "issue_time": "2025-06-11T07:35:31",
+          "horizon_minutes": 24.483333333333334,
+          "forecast_price": 10100.48503
+        },
+        {
+          "issue_time": "2025-06-11T07:40:32",
+          "horizon_minutes": 19.466666666666665,
+          "forecast_price": 4008.80554
+        },
+        {
+          "issue_time": "2025-06-11T07:45:30",
+          "horizon_minutes": 14.5,
+          "forecast_price": 983.96
+        },
+        {
+          "issue_time": "2025-06-11T07:50:31",
+          "horizon_minutes": 9.483333333333333,
+          "forecast_price": 381.64418
+        },
+        {
+          "issue_time": "2025-06-11T07:55:30",
+          "horizon_minutes": 4.5,
+          "forecast_price": 237.20585
+        }
+      ]
     },
     {
-      "issue_time": "2026-07-02T17:45:31",
-      "target_time": "2026-07-02T18:15:00",
+      "issue_time": "2025-06-12T20:40:31",
+      "target_time": "2025-06-12T21:10:00",
       "horizon_minutes": 29.483333333333334,
-      "forecast_price": 28.99417,
-      "actual_price": 90.70316,
-      "forecast_error": -61.70899,
-      "absolute_error": 61.70899,
-      "source_file": "PUBLIC_P5MIN_202607021750_20260702174533.zip",
-      "source_file_actual": "PUBLIC_DISPATCHIS_202607021815_0000000525495184.zip"
+      "forecast_price": 13407.09293,
+      "actual_price": 587.95142,
+      "forecast_error": 12819.141510000001,
+      "absolute_error": 12819.141510000001,
+      "source_file": "PUBLIC_ARCHIVE#P5MIN_REGIONSOLUTION#FILE01#202506010000.CSV",
+      "source_file_actual": "PUBLIC_ARCHIVE#DISPATCHPRICE#FILE01#202506010000.CSV",
+      "vintages": [
+        {
+          "issue_time": "2025-06-12T20:10:30",
+          "horizon_minutes": 59.5,
+          "forecast_price": 1166.04563
+        },
+        {
+          "issue_time": "2025-06-12T20:15:30",
+          "horizon_minutes": 54.5,
+          "forecast_price": 14450.01
+        },
+        {
+          "issue_time": "2025-06-12T20:20:31",
+          "horizon_minutes": 49.483333333333334,
+          "forecast_price": 14450.01
+        },
+        {
+          "issue_time": "2025-06-12T20:25:31",
+          "horizon_minutes": 44.483333333333334,
+          "forecast_price": 15655.34009
+        },
+        {
+          "issue_time": "2025-06-12T20:30:29",
+          "horizon_minutes": 39.516666666666666,
+          "forecast_price": 14450.01
+        },
+        {
+          "issue_time": "2025-06-12T20:35:31",
+          "horizon_minutes": 34.483333333333334,
+          "forecast_price": 1038.67091
+        },
+        {
+          "issue_time": "2025-06-12T20:40:31",
+          "horizon_minutes": 29.483333333333334,
+          "forecast_price": 13407.09293
+        },
+        {
+          "issue_time": "2025-06-12T20:45:31",
+          "horizon_minutes": 24.483333333333334,
+          "forecast_price": 15780.87196
+        },
+        {
+          "issue_time": "2025-06-12T20:50:32",
+          "horizon_minutes": 19.466666666666665,
+          "forecast_price": 14450.01
+        },
+        {
+          "issue_time": "2025-06-12T20:55:30",
+          "horizon_minutes": 14.5,
+          "forecast_price": 15655.34009
+        },
+        {
+          "issue_time": "2025-06-12T21:00:32",
+          "horizon_minutes": 9.466666666666667,
+          "forecast_price": 12789.28276
+        },
+        {
+          "issue_time": "2025-06-12T21:05:30",
+          "horizon_minutes": 4.5,
+          "forecast_price": 587.95142
+        }
+      ]
     },
     {
-      "issue_time": "2026-07-02T15:25:36",
-      "target_time": "2026-07-02T15:55:00",
-      "horizon_minutes": 29.4,
-      "forecast_price": 2.62478,
-      "actual_price": 62.68913,
-      "forecast_error": -60.06435,
-      "absolute_error": 60.06435,
-      "source_file": "PUBLIC_P5MIN_202607021530_20260702152538.zip",
-      "source_file_actual": "PUBLIC_DISPATCHIS_202607021555_0000000525478057.zip"
-    },
-    {
-      "issue_time": "2026-07-02T17:10:31",
-      "target_time": "2026-07-02T17:40:00",
-      "horizon_minutes": 29.483333333333334,
-      "forecast_price": 14.10208,
-      "actual_price": 74.12,
-      "forecast_error": -60.017920000000004,
-      "absolute_error": 60.017920000000004,
-      "source_file": "PUBLIC_P5MIN_202607021715_20260702171033.zip",
-      "source_file_actual": "PUBLIC_DISPATCHIS_202607021740_0000000525490789.zip"
-    },
-    {
-      "issue_time": "2026-07-07T10:50:32",
-      "target_time": "2026-07-07T11:20:00",
-      "horizon_minutes": 29.466666666666665,
-      "forecast_price": 99.99,
-      "actual_price": 159.97978,
-      "forecast_error": -59.98978000000001,
-      "absolute_error": 59.98978000000001,
-      "source_file": "PUBLIC_P5MIN_202607071055_20260707105033.zip",
-      "source_file_actual": "PUBLIC_DISPATCHIS_202607071120_0000000526253983.zip"
+      "issue_time": "2025-06-12T19:40:30",
+      "target_time": "2025-06-12T20:10:00",
+      "horizon_minutes": 29.5,
+      "forecast_price": 13684.36714,
+      "actual_price": 1127.59584,
+      "forecast_error": 12556.7713,
+      "absolute_error": 12556.7713,
+      "source_file": "PUBLIC_ARCHIVE#P5MIN_REGIONSOLUTION#FILE01#202506010000.CSV",
+      "source_file_actual": "PUBLIC_ARCHIVE#DISPATCHPRICE#FILE01#202506010000.CSV",
+      "vintages": [
+        {
+          "issue_time": "2025-06-12T19:10:30",
+          "horizon_minutes": 59.5,
+          "forecast_price": 959.83
+        },
+        {
+          "issue_time": "2025-06-12T19:15:30",
+          "horizon_minutes": 54.5,
+          "forecast_price": 13100.5591
+        },
+        {
+          "issue_time": "2025-06-12T19:20:29",
+          "horizon_minutes": 49.516666666666666,
+          "forecast_price": 14798.92
+        },
+        {
+          "issue_time": "2025-06-12T19:25:29",
+          "horizon_minutes": 44.516666666666666,
+          "forecast_price": 13044.17463
+        },
+        {
+          "issue_time": "2025-06-12T19:30:31",
+          "horizon_minutes": 39.483333333333334,
+          "forecast_price": 14284.03303
+        },
+        {
+          "issue_time": "2025-06-12T19:35:30",
+          "horizon_minutes": 34.5,
+          "forecast_price": 16940.71043
+        },
+        {
+          "issue_time": "2025-06-12T19:40:30",
+          "horizon_minutes": 29.5,
+          "forecast_price": 13684.36714
+        },
+        {
+          "issue_time": "2025-06-12T19:45:29",
+          "horizon_minutes": 24.516666666666666,
+          "forecast_price": 14450.01
+        },
+        {
+          "issue_time": "2025-06-12T19:50:31",
+          "horizon_minutes": 19.483333333333334,
+          "forecast_price": 14450.01
+        },
+        {
+          "issue_time": "2025-06-12T19:55:30",
+          "horizon_minutes": 14.5,
+          "forecast_price": 16548.45647
+        },
+        {
+          "issue_time": "2025-06-12T20:00:32",
+          "horizon_minutes": 9.466666666666667,
+          "forecast_price": 3844.0
+        },
+        {
+          "issue_time": "2025-06-12T20:05:30",
+          "horizon_minutes": 4.5,
+          "forecast_price": 1045.12129
+        }
+      ]
     }
   ]
 }

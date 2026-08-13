@@ -12,9 +12,22 @@ Planned outputs include:
 - a detailed Victorian price-event case study; and
 - an optional calibrated spike-risk model, promoted only if it improves on transparent baselines out of sample.
 
-## Status
+## 2025 headline results
 
-The first milestone is complete: a vintage-aware, one-week feasibility prototype using archived AEMO P5MIN forecasts and actual VIC1 prices.
+The full 2025 vintage-aware dataset is complete and passed its integrity audit:
+
+- **105,120** realised five-minute VIC1 intervals;
+- **1,260,636** matched P5MIN forecast vintages;
+- all 12 months complete at five-minute spacing;
+- zero duplicate forecast vintages;
+- zero missing matched actual prices; and
+- zero forecasts available after their target interval.
+
+Across 2025, mean absolute error increased from **$15.27/MWh** at a 0-10 minute horizon to **$45.81/MWh** at 50-60 minutes. At a fixed 30-minute lead, the worst 1% of intervals contributed **39%** of total absolute error. There were **166** intervals above $1,000/MWh and the maximum realised price was $17,500/MWh.
+
+The largest 30-minute miss was an over-forecast on 11 June: **$16,961.09/MWh forecast versus $228.64/MWh realised**. The forecast fell to $224.13/MWh by roughly four minutes out, demonstrating why forecast vintage matters. Read the [case study](docs/case-study-2025-06-11.md).
+
+## Feasibility prototype
 
 For 1-7 July 2026, the pipeline reconstructed:
 
@@ -26,13 +39,11 @@ For 1-7 July 2026, the pipeline reconstructed:
 
 The sample is a pipeline feasibility test, not yet a representative assessment of forecast performance. In this week, forecast errors ranged from -$214.14/MWh to $314.31/MWh and averaged -$1.60/MWh across all vintages and horizons.
 
-The first scorecard found mean absolute price error increasing from $5.26/MWh at a 0-10 minute horizon to $12.57/MWh at 50-60 minutes. This is a one-week engineering result, not yet a general market conclusion.
-
 ![One-hour evolution of P5MIN forecasts for a realised VIC1 interval](output/figures/forecast_vintage_replay.png)
 
 ![Mean absolute price error by forecast horizon](output/figures/mae_by_horizon.png)
 
-The pipeline also supports AEMO's compact monthly MMSDM archives. A July 2025 scale test reconstructed 8,928 actual intervals and 107,070 forecast vintages from roughly 55 MB of source downloads, making a year-scale dataset practical.
+The pipeline uses AEMO's compact monthly MMSDM archives. The complete 2025 source download is roughly 650 MB.
 
 ## Run the prototype
 
@@ -42,10 +53,22 @@ python -m pip install -e ".[dev]"
 python -m vic_forecast_monitor.prototype --start 2026-07-01 --end 2026-07-07
 python -m vic_forecast_monitor.analysis
 python -m vic_forecast_monitor.monthly --month 2025-07
+python -m vic_forecast_monitor.monthly --year 2025
+python -m vic_forecast_monitor.analysis --panel data/processed/forecast_actual_panel_2025.parquet
 pytest
 ```
 
 The command downloads and caches original AEMO archives, writes a SHA-256 source manifest, exports parquet datasets and produces a forecast-vintage replay chart. Raw downloads are ignored by Git.
+
+## Dashboard
+
+```bash
+cd dashboard
+npm install
+npm run dev
+```
+
+The React/Vite dashboard reads versioned static JSON exports and includes headline metrics, horizon analysis, full forecast-revision replays, a largest-miss explorer, findings and methodology.
 
 ## Principles
 

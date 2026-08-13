@@ -16,7 +16,7 @@ def test_vintage_selection_uses_declared_lead() -> None:
     frame = pd.DataFrame(
         {
             "target_time": [target, target],
-            "issue_time": [target - pd.Timedelta(minutes=10), target - pd.Timedelta(minutes=31)],
+            "issue_time": [target - pd.Timedelta("10min"), target - pd.Timedelta("31min")],
             "horizon_minutes": [10.0, 31.0],
             "region": ["VIC1", "VIC1"],
             "forecast_error": [100.0, 5.0],
@@ -43,4 +43,3 @@ def test_largest_miss_does_not_duplicate_target_intervals() -> None:
     )
     events = largest_misses(frame, count=20)
     assert len(events) == 2
-
