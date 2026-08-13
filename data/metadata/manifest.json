@@ -1,0 +1,114 @@
+[
+  {
+    "url": "https://www.nemweb.com.au/Reports/ARCHIVE/P5_Reports/PUBLIC_P5MIN_20260701.zip",
+    "path": "C:/Users/spars/vic-forecast-monitor/data/raw/p5min/PUBLIC_P5MIN_20260701.zip",
+    "bytes": 56000146,
+    "sha256": "bcb1321af0d44b050c997618beb3c3287233d5a3e519f88a87c0807af8ed929d",
+    "product": "p5min",
+    "market_day": "2026-07-01"
+  },
+  {
+    "url": "https://www.nemweb.com.au/Reports/ARCHIVE/DispatchIS_Reports/PUBLIC_DISPATCHIS_20260701.zip",
+    "path": "C:/Users/spars/vic-forecast-monitor/data/raw/dispatch/PUBLIC_DISPATCHIS_20260701.zip",
+    "bytes": 5662305,
+    "sha256": "7d90c5c65bf845a660a217a2d36422bea4a423d056404712baa0a963e10519ea",
+    "product": "dispatch",
+    "market_day": "2026-07-01"
+  },
+  {
+    "url": "https://www.nemweb.com.au/Reports/ARCHIVE/P5_Reports/PUBLIC_P5MIN_20260702.zip",
+    "path": "C:/Users/spars/vic-forecast-monitor/data/raw/p5min/PUBLIC_P5MIN_20260702.zip",
+    "bytes": 58750405,
+    "sha256": "074d1f045af80bcd87cac8ebdaa260fe8df37297cfe5e8c2225f0cce57bb3ea1",
+    "product": "p5min",
+    "market_day": "2026-07-02"
+  },
+  {
+    "url": "https://www.nemweb.com.au/Reports/ARCHIVE/DispatchIS_Reports/PUBLIC_DISPATCHIS_20260702.zip",
+    "path": "C:/Users/spars/vic-forecast-monitor/data/raw/dispatch/PUBLIC_DISPATCHIS_20260702.zip",
+    "bytes": 5937579,
+    "sha256": "d65a3491692daf497f9609fb2c14a4ec52a9fc7cf17d85862318e383959e2b14",
+    "product": "dispatch",
+    "market_day": "2026-07-02"
+  },
+  {
+    "url": "https://www.nemweb.com.au/Reports/ARCHIVE/P5_Reports/PUBLIC_P5MIN_20260703.zip",
+    "path": "C:/Users/spars/vic-forecast-monitor/data/raw/p5min/PUBLIC_P5MIN_20260703.zip",
+    "bytes": 60121030,
+    "sha256": "ab1d8c0605426abcf9cc51b64489d0aab3d60f12861fa9d7a259e8a536bfbdcc",
+    "product": "p5min",
+    "market_day": "2026-07-03"
+  },
+  {
+    "url": "https://www.nemweb.com.au/Reports/ARCHIVE/DispatchIS_Reports/PUBLIC_DISPATCHIS_20260703.zip",
+    "path": "C:/Users/spars/vic-forecast-monitor/data/raw/dispatch/PUBLIC_DISPATCHIS_20260703.zip",
+    "bytes": 6038618,
+    "sha256": "66c96d174f50fd6b74c6f36fc02f537c5fb59c63022ea2e8e31d63496a50848f",
+    "product": "dispatch",
+    "market_day": "2026-07-03"
+  },
+  {
+    "url": "https://www.nemweb.com.au/Reports/ARCHIVE/P5_Reports/PUBLIC_P5MIN_20260704.zip",
+    "path": "C:/Users/spars/vic-forecast-monitor/data/raw/p5min/PUBLIC_P5MIN_20260704.zip",
+    "bytes": 57280045,
+    "sha256": "613057178a62fce17bfc9a9a5efb989ff7176645732e6658590833475f65d34f",
+    "product": "p5min",
+    "market_day": "2026-07-04"
+  },
+  {
+    "url": "https://www.nemweb.com.au/Reports/ARCHIVE/DispatchIS_Reports/PUBLIC_DISPATCHIS_20260704.zip",
+    "path": "C:/Users/spars/vic-forecast-monitor/data/raw/dispatch/PUBLIC_DISPATCHIS_20260704.zip",
+    "bytes": 5749896,
+    "sha256": "b27e0ceb7492769beb9e99a46041c202da5830297f16a5b0ceb7a1f1d6fa8ba1",
+    "product": "dispatch",
+    "market_day": "2026-07-04"
+  },
+  {
+    "url": "https://www.nemweb.com.au/Reports/ARCHIVE/P5_Reports/PUBLIC_P5MIN_20260705.zip",
+    "path": "C:/Users/spars/vic-forecast-monitor/data/raw/p5min/PUBLIC_P5MIN_20260705.zip",
+    "bytes": 57447213,
+    "sha256": "7bdeb63cf2639564af8df2c6017ce5c2b1812f664dc84c4d434d3136739d28f0",
+    "product": "p5min",
+    "market_day": "2026-07-05"
+  },
+  {
+    "url": "https://www.nemweb.com.au/Reports/ARCHIVE/DispatchIS_Reports/PUBLIC_DISPATCHIS_20260705.zip",
+    "path": "C:/Users/spars/vic-forecast-monitor/data/raw/dispatch/PUBLIC_DISPATCHIS_20260705.zip",
+    "bytes": 5763782,
+    "sha256": "d912ab292ce558e18595f82ca938e456eb6d7a2d44c367bb7e607f9a556edc67",
+    "product": "dispatch",
+    "market_day": "2026-07-05"
+  },
+  {
+    "url": "https://www.nemweb.com.au/Reports/ARCHIVE/P5_Reports/PUBLIC_P5MIN_20260706.zip",
+    "path": "C:/Users/spars/vic-forecast-monitor/data/raw/p5min/PUBLIC_P5MIN_20260706.zip",
+    "bytes": 58037215,
+    "sha256": "19407d2eed0bdf3ecbad782a0c2be96a65fa186d4a8b2b65f54dde6ee10533de",
+    "product": "p5min",
+    "market_day": "2026-07-06"
+  },
+  {
+    "url": "https://www.nemweb.com.au/Reports/ARCHIVE/DispatchIS_Reports/PUBLIC_DISPATCHIS_20260706.zip",
+    "path": "C:/Users/spars/vic-forecast-monitor/data/raw/dispatch/PUBLIC_DISPATCHIS_20260706.zip",
+    "bytes": 5805607,
+    "sha256": "0be4b011f856d6bc6671b32ace546222ef7ecc6a15030a820b0f6284b919fd88",
+    "product": "dispatch",
+    "market_day": "2026-07-06"
+  },
+  {
+    "url": "https://www.nemweb.com.au/Reports/ARCHIVE/P5_Reports/PUBLIC_P5MIN_20260707.zip",
+    "path": "C:/Users/spars/vic-forecast-monitor/data/raw/p5min/PUBLIC_P5MIN_20260707.zip",
+    "bytes": 58961204,
+    "sha256": "95741068cac763eb0c5ec00cc15241b4db0f4865e939fe454d7dcfc4ddd4cf32",
+    "product": "p5min",
+    "market_day": "2026-07-07"
+  },
+  {
+    "url": "https://www.nemweb.com.au/Reports/ARCHIVE/DispatchIS_Reports/PUBLIC_DISPATCHIS_20260707.zip",
+    "path": "C:/Users/spars/vic-forecast-monitor/data/raw/dispatch/PUBLIC_DISPATCHIS_20260707.zip",
+    "bytes": 5916318,
+    "sha256": "91a52bbc35d037bf73a56525685aaa0948c82bca0813e670a62e67767c2b532e",
+    "product": "dispatch",
+    "market_day": "2026-07-07"
+  }
+]

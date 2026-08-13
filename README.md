@@ -14,7 +14,30 @@ Planned outputs include:
 
 ## Status
 
-Early development. The first milestone is a one-week feasibility prototype using archived AEMO P5MIN forecasts and actual VIC1 prices.
+The first milestone is complete: a vintage-aware, one-week feasibility prototype using archived AEMO P5MIN forecasts and actual VIC1 prices.
+
+For 1-7 July 2026, the pipeline reconstructed:
+
+- 2,016 realised five-minute VIC1 intervals;
+- 24,126 matched P5MIN forecast vintages;
+- a median of 12 forecast vintages per target interval;
+- zero missing matched actual prices; and
+- zero forecast records whose availability timestamp occurred after their target interval.
+
+The sample is a pipeline feasibility test, not yet a representative assessment of forecast performance. In this week, forecast errors ranged from -$214.14/MWh to $314.31/MWh and averaged -$1.60/MWh across all vintages and horizons.
+
+![One-hour evolution of P5MIN forecasts for a realised VIC1 interval](output/figures/forecast_vintage_replay.png)
+
+## Run the prototype
+
+```bash
+py -3.12 -m venv .venv
+python -m pip install -e ".[dev]"
+python -m vic_forecast_monitor.prototype --start 2026-07-01 --end 2026-07-07
+pytest
+```
+
+The command downloads and caches original AEMO archives, writes a SHA-256 source manifest, exports parquet datasets and produces a forecast-vintage replay chart. Raw downloads are ignored by Git.
 
 ## Principles
 
@@ -30,4 +53,3 @@ The project uses public Australian Energy Market Operator market data. Raw archi
 ## Author
 
 Built by Sparsh Basantani.
-

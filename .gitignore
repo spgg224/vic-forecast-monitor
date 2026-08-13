@@ -5,6 +5,7 @@ __pycache__/
 .mypy_cache/
 .ruff_cache/
 .venv/
+.venv312/
 venv/
 
 # Node / Next.js
@@ -21,12 +22,14 @@ out/
 data/raw/
 data/interim/
 
-# Generated output
-output/
+# Generated output (keep selected prototype figures)
+output/*
+!output/figures/
+output/figures/*
+!output/figures/forecast_vintage_replay.png
 
 # Editors and operating systems
 .vscode/
 .idea/
 .DS_Store
 Thumbs.db
-

@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=75"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "vic-forecast-monitor"
+version = "0.1.0"
+description = "Vintage-aware analysis of AEMO VIC forecasts versus actual outcomes"
+requires-python = ">=3.10"
+dependencies = [
+  "matplotlib>=3.9,<4",
+  "pandas>=2.2,<3",
+  "pyarrow>=17,<22",
+  "requests>=2.32,<3",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.3,<9"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
