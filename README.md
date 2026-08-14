@@ -27,6 +27,8 @@ Across 2025, mean absolute error increased from **$15.27/MWh** at a 0-10 minute 
 
 The largest 30-minute miss was an over-forecast on 11 June: **$16,961.09/MWh forecast versus $228.64/MWh realised**. The forecast fell to $224.13/MWh by roughly four minutes out, demonstrating why forecast vintage matters. Read the [case study](docs/case-study-2025-06-11.md).
 
+The first explanatory extension joins forecast and realised regional demand across the full year. At a fixed 30-minute lead, demand MAE was **82.43 MW** with near-zero bias. Absolute demand error had only **0.013 correlation** with absolute price error, so demand misses alone do not explain the largest price misses.
+
 ## Feasibility prototype
 
 For 1-7 July 2026, the pipeline reconstructed:
@@ -55,6 +57,8 @@ python -m vic_forecast_monitor.analysis
 python -m vic_forecast_monitor.monthly --month 2025-07
 python -m vic_forecast_monitor.monthly --year 2025
 python -m vic_forecast_monitor.analysis --panel data/processed/forecast_actual_panel_2025.parquet
+python -m vic_forecast_monitor.enrich --year 2025
+python -m vic_forecast_monitor.analysis --panel data/processed/forecast_actual_panel_2025_enriched.parquet
 pytest
 ```
 

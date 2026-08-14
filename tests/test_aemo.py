@@ -2,7 +2,7 @@ from pathlib import Path
 
 import pandas as pd
 
-from vic_forecast_monitor.aemo import build_panel, parse_dispatch, parse_p5min
+from vic_forecast_monitor.aemo import build_panel, parse_dispatch, parse_p5min, parse_regionsum_monthly
 from vic_forecast_monitor.monthly import audit_month
 
 
@@ -54,3 +54,12 @@ def test_month_audit_rejects_duplicate_vintage() -> None:
     audit = audit_month(panel, "202601")
     assert not audit["passed"]
     assert audit["duplicate_vintages"] == 1
+
+
+def test_monthly_regionsum_parses_actual_demand() -> None:
+    archive = Path(__file__).parents[1] / "data/raw/dispatch/PUBLIC_ARCHIVE_DISPATCHREGIONSUM_202501.zip"
+    if not archive.exists():
+        return
+    actuals = parse_regionsum_monthly(archive)
+    assert len(actuals) == 8_928
+    assert actuals["actual_demand"].notna().all()

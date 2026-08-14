@@ -122,7 +122,7 @@ def findings(panel: pd.DataFrame) -> dict[str, object]:
     near = frame.loc[frame["horizon_bucket"] == "0-10", "absolute_error"].mean()
     far = frame.loc[frame["horizon_bucket"] == "50-60", "absolute_error"].mean()
     top_one_percent = selected.nlargest(max(1, len(selected) // 100), "absolute_error")["absolute_error"].sum()
-    return {
+    result = {
         "lead_minutes": 30,
         "near_horizon_mae": float(near),
         "far_horizon_mae": float(far),
@@ -136,6 +136,21 @@ def findings(panel: pd.DataFrame) -> dict[str, object]:
         "largest_underforecast": float(selected["forecast_error"].min()),
         "largest_overforecast": float(selected["forecast_error"].max()),
     }
+    if "actual_demand" in selected:
+        demand_error = selected["forecast_demand"] - selected["actual_demand"]
+        result.update(
+            {
+                "thirty_minute_demand_mae_mw": float(demand_error.abs().mean()),
+                "thirty_minute_demand_bias_mw": float(demand_error.mean()),
+                "absolute_demand_price_error_correlation": float(
+                    demand_error.abs().corr(selected["forecast_error"].abs())
+                ),
+                "demand_mae_when_price_above_1000_mw": float(
+                    demand_error.loc[selected["actual_price"] > 1000].abs().mean()
+                ),
+            }
+        )
+    return result
 
 
 def export_analysis(panel: pd.DataFrame, root: Path) -> None:
@@ -163,6 +178,19 @@ def export_analysis(panel: pd.DataFrame, root: Path) -> None:
     (dashboard / "case_study.json").write_text(json.dumps(case, indent=2) + "\n", encoding="utf-8")
     _plot_horizon(scores, figures / "mae_by_horizon.png")
     _plot_heatmap(heatmap, figures / "error_heatmap.png")
+    if "actual_demand" in panel:
+        demand = add_analysis_fields(panel)
+        demand["absolute_demand_error"] = (demand["forecast_demand"] - demand["actual_demand"]).abs()
+        demand_rows = [
+            {
+                "horizon_minutes": str(bucket),
+                "mae_mw": float(group["absolute_demand_error"].mean()),
+                "bias_mw": float((group["forecast_demand"] - group["actual_demand"]).mean()),
+            }
+            for bucket, group in demand.groupby("horizon_bucket", observed=True)
+        ]
+        (dashboard / "demand.json").write_text(json.dumps(demand_rows, indent=2) + "\n", encoding="utf-8")
+        _plot_demand(demand_rows, figures / "demand_mae_by_horizon.png")
 
 
 def _plot_horizon(scores: dict[str, object], destination: Path) -> None:
@@ -186,6 +214,17 @@ def _plot_heatmap(heatmap: pd.DataFrame, destination: Path) -> None:
     ax.set_xticks(range(24), range(24))
     ax.set_yticks(range(len(heatmap.index)), heatmap.index)
     fig.colorbar(image, ax=ax, label="MAE ($/MWh)")
+    fig.tight_layout()
+    fig.savefig(destination, dpi=180)
+    plt.close(fig)
+
+
+def _plot_demand(rows: list[dict[str, object]], destination: Path) -> None:
+    fig, ax = plt.subplots(figsize=(8.5, 4.8))
+    ax.bar([str(row["horizon_minutes"]) for row in rows], [float(row["mae_mw"]) for row in rows], color="#688b72")
+    ax.set(title="VIC demand forecast error by horizon", xlabel="Forecast horizon (minutes)", ylabel="Mean absolute error (MW)")
+    ax.grid(axis="y", alpha=0.2)
+    ax.set_axisbelow(True)
     fig.tight_layout()
     fig.savefig(destination, dpi=180)
     plt.close(fig)

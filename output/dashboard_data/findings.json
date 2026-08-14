@@ -10,5 +10,9 @@
   "actual_intervals_above_1000": 166,
   "max_actual_price": 17500.0,
   "largest_underforecast": -16281.50527,
-  "largest_overforecast": 16732.456439999998
+  "largest_overforecast": 16732.456439999998,
+  "thirty_minute_demand_mae_mw": 82.43265629756469,
+  "thirty_minute_demand_bias_mw": 0.20714811643835648,
+  "absolute_demand_price_error_correlation": 0.012585214819354568,
+  "demand_mae_when_price_above_1000_mw": 78.35734939759035
 }

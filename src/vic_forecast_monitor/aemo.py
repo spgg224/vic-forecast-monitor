@@ -100,12 +100,42 @@ def monthly_urls(month: date) -> tuple[str, str]:
     )
 
 
+def monthly_regionsum_url(month: date) -> str:
+    base = MMS_BASE.format(year=month.year, month=f"{month.month:02d}")
+    stamp = f"{month.year}{month.month:02d}010000"
+    return f"{base}/PUBLIC_ARCHIVE%23DISPATCHREGIONSUM%23FILE01%23{stamp}.zip"
+
+
 def parse_p5min_monthly(archive: Path, region: str = "VIC1") -> pd.DataFrame:
     return _parse_p5min_rows(_flat_table_rows(archive, "P5MIN", "REGIONSOLUTION"), region)
 
 
 def parse_dispatch_monthly(archive: Path, region: str = "VIC1") -> pd.DataFrame:
     return _parse_dispatch_rows(_flat_table_rows(archive, "DISPATCH", "PRICE"), region)
+
+
+def parse_regionsum_monthly(archive: Path, region: str = "VIC1") -> pd.DataFrame:
+    records: list[dict[str, object]] = []
+    for source_file, row in _flat_table_rows(archive, "DISPATCH", "REGIONSUM"):
+        if row.get("REGIONID") != region or row.get("INTERVENTION") != "0":
+            continue
+        records.append(
+            {
+                "target_time": pd.to_datetime(row["SETTLEMENTDATE"], format=TIME_FORMAT),
+                "region": region,
+                "actual_demand": float(row["TOTALDEMAND"]),
+                "actual_solar_cleared_mw": _optional_float(row.get("SS_SOLAR_CLEAREDMW")),
+                "actual_wind_cleared_mw": _optional_float(row.get("SS_WIND_CLEAREDMW")),
+                "actual_net_interchange_mw": _optional_float(row.get("NETINTERCHANGE")),
+                "source_file_regionsum": source_file,
+            }
+        )
+    frame = pd.DataFrame.from_records(records)
+    return frame.sort_values("target_time").drop_duplicates(["target_time", "region"], keep="last").reset_index(drop=True)
+
+
+def _optional_float(value: str | None) -> float:
+    return float(value) if value not in (None, "") else float("nan")
 
 
 def parse_p5min(archive: Path, region: str = "VIC1") -> pd.DataFrame:

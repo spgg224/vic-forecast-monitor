@@ -26,6 +26,7 @@ data/raw/
 data/interim/
 data/processed/monthly/
 data/processed/forecast_actual_panel_2025.parquet
+data/processed/forecast_actual_panel_2025_enriched.parquet
 
 # Generated output (keep selected prototype figures)
 output/*
@@ -34,6 +35,7 @@ output/figures/*
 !output/figures/forecast_vintage_replay.png
 !output/figures/mae_by_horizon.png
 !output/figures/error_heatmap.png
+!output/figures/demand_mae_by_horizon.png
 !output/dashboard_data/
 output/dashboard_data/*
 !output/dashboard_data/scorecard.json
@@ -42,6 +44,7 @@ output/dashboard_data/*
 !output/dashboard_data/findings.json
 !output/dashboard_data/monthly.json
 !output/dashboard_data/case_study.json
+!output/dashboard_data/demand.json
 
 # Editors and operating systems
 .vscode/
