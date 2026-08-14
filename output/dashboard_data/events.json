@@ -11,66 +11,98 @@
       "absolute_error": 16732.456439999998,
       "source_file": "PUBLIC_ARCHIVE#P5MIN_REGIONSOLUTION#FILE01#202506010000.CSV",
       "source_file_actual": "PUBLIC_ARCHIVE#DISPATCHPRICE#FILE01#202506010000.CSV",
+      "forecast_demand": 7746.06,
+      "actual_demand": 7646.51,
+      "forecast_solar_uigf_mw": 12.546,
+      "actual_solar_cleared_mw": 40.14282,
+      "forecast_wind_uigf_mw": 270.925,
+      "actual_wind_cleared_mw": 294.17257,
+      "forecast_net_interchange_mw": -1040.59,
+      "actual_net_interchange_mw": -1082.19,
       "vintages": [
         {
           "issue_time": "2025-06-11T07:05:34",
           "horizon_minutes": 59.43333333333333,
-          "forecast_price": 16052.26868
+          "forecast_price": 16052.26868,
+          "forecast_demand": 7670.72,
+          "forecast_net_interchange_mw": -594.61
         },
         {
           "issue_time": "2025-06-11T07:10:31",
           "horizon_minutes": 54.483333333333334,
-          "forecast_price": 15925.23428
+          "forecast_price": 15925.23428,
+          "forecast_demand": 7744.8,
+          "forecast_net_interchange_mw": -664.79
         },
         {
           "issue_time": "2025-06-11T07:15:32",
           "horizon_minutes": 49.46666666666667,
-          "forecast_price": 16308.40723
+          "forecast_price": 16308.40723,
+          "forecast_demand": 7807.27,
+          "forecast_net_interchange_mw": -733.54
         },
         {
           "issue_time": "2025-06-11T07:20:30",
           "horizon_minutes": 44.5,
-          "forecast_price": 16829.12234
+          "forecast_price": 16829.12234,
+          "forecast_demand": 7806.62,
+          "forecast_net_interchange_mw": -1136.94
         },
         {
           "issue_time": "2025-06-11T07:25:31",
           "horizon_minutes": 39.483333333333334,
-          "forecast_price": 17143.62803
+          "forecast_price": 17143.62803,
+          "forecast_demand": 7745.98,
+          "forecast_net_interchange_mw": -1089.47
         },
         {
           "issue_time": "2025-06-11T07:30:31",
           "horizon_minutes": 34.483333333333334,
-          "forecast_price": 17499.65086
+          "forecast_price": 17499.65086,
+          "forecast_demand": 7712.57,
+          "forecast_net_interchange_mw": -995.55
         },
         {
           "issue_time": "2025-06-11T07:35:31",
           "horizon_minutes": 29.483333333333334,
-          "forecast_price": 16961.09291
+          "forecast_price": 16961.09291,
+          "forecast_demand": 7746.06,
+          "forecast_net_interchange_mw": -1040.59
         },
         {
           "issue_time": "2025-06-11T07:40:32",
           "horizon_minutes": 24.466666666666665,
-          "forecast_price": 17093.79207
+          "forecast_price": 17093.79207,
+          "forecast_demand": 7771.78,
+          "forecast_net_interchange_mw": -1067.53
         },
         {
           "issue_time": "2025-06-11T07:45:30",
           "horizon_minutes": 19.5,
-          "forecast_price": 9816.70274
+          "forecast_price": 9816.70274,
+          "forecast_demand": 7698.09,
+          "forecast_net_interchange_mw": -840.31
         },
         {
           "issue_time": "2025-06-11T07:50:31",
           "horizon_minutes": 14.483333333333333,
-          "forecast_price": 3882.89385
+          "forecast_price": 3882.89385,
+          "forecast_demand": 7727.93,
+          "forecast_net_interchange_mw": -836.79
         },
         {
           "issue_time": "2025-06-11T07:55:30",
           "horizon_minutes": 9.5,
-          "forecast_price": 900.0
+          "forecast_price": 900.0,
+          "forecast_demand": 7660.46,
+          "forecast_net_interchange_mw": -972.42
         },
         {
           "issue_time": "2025-06-11T08:00:32",
           "horizon_minutes": 4.466666666666667,
-          "forecast_price": 224.12715
+          "forecast_price": 224.12715,
+          "forecast_demand": 7646.51,
+          "forecast_net_interchange_mw": -896.3
         }
       ]
     },
@@ -84,66 +116,98 @@
       "absolute_error": 16440.375949999998,
       "source_file": "PUBLIC_ARCHIVE#P5MIN_REGIONSOLUTION#FILE01#202506010000.CSV",
       "source_file_actual": "PUBLIC_ARCHIVE#DISPATCHPRICE#FILE01#202506010000.CSV",
+      "forecast_demand": 7785.78,
+      "actual_demand": 7734.38,
+      "forecast_solar_uigf_mw": 21.49276,
+      "actual_solar_cleared_mw": 50.87936,
+      "forecast_wind_uigf_mw": 279.459,
+      "actual_wind_cleared_mw": 287.0508,
+      "forecast_net_interchange_mw": -952.83,
+      "actual_net_interchange_mw": -914.45,
       "vintages": [
         {
           "issue_time": "2025-06-11T07:10:31",
           "horizon_minutes": 59.483333333333334,
-          "forecast_price": 15925.23428
+          "forecast_price": 15925.23428,
+          "forecast_demand": 7757.8,
+          "forecast_net_interchange_mw": -660.15
         },
         {
           "issue_time": "2025-06-11T07:15:32",
           "horizon_minutes": 54.46666666666667,
-          "forecast_price": 16437.52264
+          "forecast_price": 16437.52264,
+          "forecast_demand": 7823.27,
+          "forecast_net_interchange_mw": -737.27
         },
         {
           "issue_time": "2025-06-11T07:20:30",
           "horizon_minutes": 49.5,
-          "forecast_price": 16961.09291
+          "forecast_price": 16961.09291,
+          "forecast_demand": 7824.62,
+          "forecast_net_interchange_mw": -1137.84
         },
         {
           "issue_time": "2025-06-11T07:25:31",
           "horizon_minutes": 44.483333333333334,
-          "forecast_price": 17227.30761
+          "forecast_price": 17227.30761,
+          "forecast_demand": 7763.98,
+          "forecast_net_interchange_mw": -1090.94
         },
         {
           "issue_time": "2025-06-11T07:30:31",
           "horizon_minutes": 39.483333333333334,
-          "forecast_price": 16697.87437
+          "forecast_price": 16697.87437,
+          "forecast_demand": 7728.57,
+          "forecast_net_interchange_mw": -990.87
         },
         {
           "issue_time": "2025-06-11T07:35:31",
           "horizon_minutes": 34.483333333333334,
-          "forecast_price": 16961.09291
+          "forecast_price": 16961.09291,
+          "forecast_demand": 7759.06,
+          "forecast_net_interchange_mw": -1034.12
         },
         {
           "issue_time": "2025-06-11T07:40:32",
           "horizon_minutes": 29.466666666666665,
-          "forecast_price": 16829.09349
+          "forecast_price": 16829.09349,
+          "forecast_demand": 7785.78,
+          "forecast_net_interchange_mw": -952.83
         },
         {
           "issue_time": "2025-06-11T07:45:30",
           "horizon_minutes": 24.5,
-          "forecast_price": 983.96
+          "forecast_price": 983.96,
+          "forecast_demand": 7712.09,
+          "forecast_net_interchange_mw": -878.66
         },
         {
           "issue_time": "2025-06-11T07:50:31",
           "horizon_minutes": 19.483333333333334,
-          "forecast_price": 480.7958
+          "forecast_price": 480.7958,
+          "forecast_demand": 7740.93,
+          "forecast_net_interchange_mw": -904.44
         },
         {
           "issue_time": "2025-06-11T07:55:30",
           "horizon_minutes": 14.5,
-          "forecast_price": 480.7958
+          "forecast_price": 480.7958,
+          "forecast_demand": 7672.46,
+          "forecast_net_interchange_mw": -811.13
         },
         {
           "issue_time": "2025-06-11T08:00:32",
           "horizon_minutes": 9.466666666666667,
-          "forecast_price": 465.91935
+          "forecast_price": 465.91935,
+          "forecast_demand": 7656.51,
+          "forecast_net_interchange_mw": -527.34
         },
         {
           "issue_time": "2025-06-11T08:05:34",
           "horizon_minutes": 4.433333333333334,
-          "forecast_price": 406.48
+          "forecast_price": 406.48,
+          "forecast_demand": 7734.38,
+          "forecast_net_interchange_mw": -862.92
         }
       ]
     },
@@ -157,66 +221,98 @@
       "absolute_error": 16281.50527,
       "source_file": "PUBLIC_ARCHIVE#P5MIN_REGIONSOLUTION#FILE01#202506010000.CSV",
       "source_file_actual": "PUBLIC_ARCHIVE#DISPATCHPRICE#FILE01#202506010000.CSV",
+      "forecast_demand": 7490.48,
+      "actual_demand": 7753.6,
+      "forecast_solar_uigf_mw": 0.0,
+      "actual_solar_cleared_mw": 0.0,
+      "forecast_wind_uigf_mw": 48.026,
+      "actual_wind_cleared_mw": 40.7161,
+      "forecast_net_interchange_mw": -1073.46,
+      "actual_net_interchange_mw": -1094.56,
       "vintages": [
         {
           "issue_time": "2025-06-12T18:30:30",
           "horizon_minutes": 59.5,
-          "forecast_price": 5304.92061
+          "forecast_price": 5304.92061,
+          "forecast_demand": 7404.86,
+          "forecast_net_interchange_mw": -1044.14
         },
         {
           "issue_time": "2025-06-12T18:35:31",
           "horizon_minutes": 54.483333333333334,
-          "forecast_price": 11093.85218
+          "forecast_price": 11093.85218,
+          "forecast_demand": 7430.68,
+          "forecast_net_interchange_mw": -1012.07
         },
         {
           "issue_time": "2025-06-12T18:40:32",
           "horizon_minutes": 49.46666666666667,
-          "forecast_price": 12183.71834
+          "forecast_price": 12183.71834,
+          "forecast_demand": 7451.39,
+          "forecast_net_interchange_mw": -909.16
         },
         {
           "issue_time": "2025-06-12T18:45:30",
           "horizon_minutes": 44.5,
-          "forecast_price": 11340.78
+          "forecast_price": 11340.78,
+          "forecast_demand": 7439.75,
+          "forecast_net_interchange_mw": -903.23
         },
         {
           "issue_time": "2025-06-12T18:50:31",
           "horizon_minutes": 39.483333333333334,
-          "forecast_price": 11402.84342
+          "forecast_price": 11402.84342,
+          "forecast_demand": 7460.89,
+          "forecast_net_interchange_mw": -844.6
         },
         {
           "issue_time": "2025-06-12T18:55:30",
           "horizon_minutes": 34.5,
-          "forecast_price": 11270.2
+          "forecast_price": 11270.2,
+          "forecast_demand": 7495.15,
+          "forecast_net_interchange_mw": -1007.13
         },
         {
           "issue_time": "2025-06-12T19:00:29",
           "horizon_minutes": 29.516666666666666,
-          "forecast_price": 1218.40473
+          "forecast_price": 1218.40473,
+          "forecast_demand": 7490.48,
+          "forecast_net_interchange_mw": -1073.46
         },
         {
           "issue_time": "2025-06-12T19:05:30",
           "horizon_minutes": 24.5,
-          "forecast_price": 11331.21
+          "forecast_price": 11331.21,
+          "forecast_demand": 7493.09,
+          "forecast_net_interchange_mw": -895.41
         },
         {
           "issue_time": "2025-06-12T19:10:30",
           "horizon_minutes": 19.5,
-          "forecast_price": 11214.34
+          "forecast_price": 11214.34,
+          "forecast_demand": 7549.88,
+          "forecast_net_interchange_mw": -1014.53
         },
         {
           "issue_time": "2025-06-12T19:15:30",
           "horizon_minutes": 14.5,
-          "forecast_price": 11945.53142
+          "forecast_price": 11945.53142,
+          "forecast_demand": 7672.35,
+          "forecast_net_interchange_mw": -1143.61
         },
         {
           "issue_time": "2025-06-12T19:20:29",
           "horizon_minutes": 9.516666666666667,
-          "forecast_price": 16808.89845
+          "forecast_price": 16808.89845,
+          "forecast_demand": 7776.97,
+          "forecast_net_interchange_mw": -1134.2
         },
         {
           "issue_time": "2025-06-12T19:25:29",
           "horizon_minutes": 4.516666666666667,
-          "forecast_price": 17499.91
+          "forecast_price": 17499.91,
+          "forecast_demand": 7753.6,
+          "forecast_net_interchange_mw": -1117.61
         }
       ]
     },
@@ -230,66 +326,98 @@
       "absolute_error": 16048.746369999999,
       "source_file": "PUBLIC_ARCHIVE#P5MIN_REGIONSOLUTION#FILE01#202506010000.CSV",
       "source_file_actual": "PUBLIC_ARCHIVE#DISPATCHPRICE#FILE01#202506010000.CSV",
+      "forecast_demand": 7982.89,
+      "actual_demand": 8015.06,
+      "forecast_solar_uigf_mw": 3.902,
+      "actual_solar_cleared_mw": 51.61967,
+      "forecast_wind_uigf_mw": 187.293,
+      "actual_wind_cleared_mw": 154.51159,
+      "forecast_net_interchange_mw": -1157.7,
+      "actual_net_interchange_mw": -1608.34,
       "vintages": [
         {
           "issue_time": "2025-06-26T06:55:27",
           "horizon_minutes": 59.55,
-          "forecast_price": 9925.63861
+          "forecast_price": 9925.63861,
+          "forecast_demand": 7939.73,
+          "forecast_net_interchange_mw": -1013.33
         },
         {
           "issue_time": "2025-06-26T07:00:28",
           "horizon_minutes": 54.53333333333333,
-          "forecast_price": 10425.41825
+          "forecast_price": 10425.41825,
+          "forecast_demand": 7956.26,
+          "forecast_net_interchange_mw": -877.92
         },
         {
           "issue_time": "2025-06-26T07:05:28",
           "horizon_minutes": 49.53333333333333,
-          "forecast_price": 10593.23034
+          "forecast_price": 10593.23034,
+          "forecast_demand": 7860.49,
+          "forecast_net_interchange_mw": -1001.03
         },
         {
           "issue_time": "2025-06-26T07:10:28",
           "horizon_minutes": 44.53333333333333,
-          "forecast_price": 10561.9806
+          "forecast_price": 10561.9806,
+          "forecast_demand": 7929.08,
+          "forecast_net_interchange_mw": -1055.27
         },
         {
           "issue_time": "2025-06-26T07:15:28",
           "horizon_minutes": 39.53333333333333,
-          "forecast_price": 14200.64755
+          "forecast_price": 14200.64755,
+          "forecast_demand": 7960.53,
+          "forecast_net_interchange_mw": -1100.25
         },
         {
           "issue_time": "2025-06-26T07:20:30",
           "horizon_minutes": 34.5,
-          "forecast_price": 16697.87437
+          "forecast_price": 16697.87437,
+          "forecast_demand": 7975.83,
+          "forecast_net_interchange_mw": -1135.41
         },
         {
           "issue_time": "2025-06-26T07:25:28",
           "horizon_minutes": 29.533333333333335,
-          "forecast_price": 17093.79207
+          "forecast_price": 17093.79207,
+          "forecast_demand": 7982.89,
+          "forecast_net_interchange_mw": -1157.7
         },
         {
           "issue_time": "2025-06-26T07:30:28",
           "horizon_minutes": 24.533333333333335,
-          "forecast_price": 10094.42518
+          "forecast_price": 10094.42518,
+          "forecast_demand": 7956.66,
+          "forecast_net_interchange_mw": -1201.95
         },
         {
           "issue_time": "2025-06-26T07:35:27",
           "horizon_minutes": 19.55,
-          "forecast_price": 10074.18304
+          "forecast_price": 10074.18304,
+          "forecast_demand": 7957.49,
+          "forecast_net_interchange_mw": -1270.12
         },
         {
           "issue_time": "2025-06-26T07:40:28",
           "horizon_minutes": 14.533333333333333,
-          "forecast_price": 3898.0
+          "forecast_price": 3898.0,
+          "forecast_demand": 7994.23,
+          "forecast_net_interchange_mw": -1239.17
         },
         {
           "issue_time": "2025-06-26T07:45:29",
           "horizon_minutes": 9.516666666666667,
-          "forecast_price": 1110.11
+          "forecast_price": 1110.11,
+          "forecast_demand": 7948.88,
+          "forecast_net_interchange_mw": -1390.81
         },
         {
           "issue_time": "2025-06-26T07:50:28",
           "horizon_minutes": 4.533333333333333,
-          "forecast_price": 1070.34399
+          "forecast_price": 1070.34399,
+          "forecast_demand": 8015.06,
+          "forecast_net_interchange_mw": -1640.05
         }
       ]
     },
@@ -303,66 +431,98 @@
       "absolute_error": 15299.28434,
       "source_file": "PUBLIC_ARCHIVE#P5MIN_REGIONSOLUTION#FILE01#202506010000.CSV",
       "source_file_actual": "PUBLIC_ARCHIVE#DISPATCHPRICE#FILE01#202506010000.CSV",
+      "forecast_demand": 7277.45,
+      "actual_demand": 7250.5,
+      "forecast_solar_uigf_mw": 0.0,
+      "actual_solar_cleared_mw": 0.0,
+      "forecast_wind_uigf_mw": 31.14,
+      "actual_wind_cleared_mw": 31.651,
+      "forecast_net_interchange_mw": -496.31,
+      "actual_net_interchange_mw": -564.85,
       "vintages": [
         {
           "issue_time": "2025-06-26T20:05:27",
           "horizon_minutes": 59.55,
-          "forecast_price": 13665.40148
+          "forecast_price": 13665.40148,
+          "forecast_demand": 7249.82,
+          "forecast_net_interchange_mw": -593.69
         },
         {
           "issue_time": "2025-06-26T20:10:26",
           "horizon_minutes": 54.56666666666667,
-          "forecast_price": 12559.21351
+          "forecast_price": 12559.21351,
+          "forecast_demand": 7268.55,
+          "forecast_net_interchange_mw": -394.52
         },
         {
           "issue_time": "2025-06-26T20:15:27",
           "horizon_minutes": 49.55,
-          "forecast_price": 3898.0
+          "forecast_price": 3898.0,
+          "forecast_demand": 7260.43,
+          "forecast_net_interchange_mw": -564.44
         },
         {
           "issue_time": "2025-06-26T20:20:26",
           "horizon_minutes": 44.56666666666667,
-          "forecast_price": 15924.29696
+          "forecast_price": 15924.29696,
+          "forecast_demand": 7259.71,
+          "forecast_net_interchange_mw": -565.31
         },
         {
           "issue_time": "2025-06-26T20:25:27",
           "horizon_minutes": 39.55,
-          "forecast_price": 12862.96184
+          "forecast_price": 12862.96184,
+          "forecast_demand": 7273.07,
+          "forecast_net_interchange_mw": -574.96
         },
         {
           "issue_time": "2025-06-26T20:30:27",
           "horizon_minutes": 34.55,
-          "forecast_price": 9289.45002
+          "forecast_price": 9289.45002,
+          "forecast_demand": 7289.03,
+          "forecast_net_interchange_mw": -585.03
         },
         {
           "issue_time": "2025-06-26T20:35:26",
           "horizon_minutes": 29.566666666666666,
-          "forecast_price": 15797.95249
+          "forecast_price": 15797.95249,
+          "forecast_demand": 7277.45,
+          "forecast_net_interchange_mw": -496.31
         },
         {
           "issue_time": "2025-06-26T20:40:26",
           "horizon_minutes": 24.566666666666666,
-          "forecast_price": 15547.28903
+          "forecast_price": 15547.28903,
+          "forecast_demand": 7269.2,
+          "forecast_net_interchange_mw": -503.39
         },
         {
           "issue_time": "2025-06-26T20:45:26",
           "horizon_minutes": 19.566666666666666,
-          "forecast_price": 15547.28903
+          "forecast_price": 15547.28903,
+          "forecast_demand": 7275.71,
+          "forecast_net_interchange_mw": -521.88
         },
         {
           "issue_time": "2025-06-26T20:50:27",
           "horizon_minutes": 14.55,
-          "forecast_price": 15547.28903
+          "forecast_price": 15547.28903,
+          "forecast_demand": 7263.78,
+          "forecast_net_interchange_mw": -506.14
         },
         {
           "issue_time": "2025-06-26T20:55:27",
           "horizon_minutes": 9.55,
-          "forecast_price": 580.46081
+          "forecast_price": 580.46081,
+          "forecast_demand": 7258.56,
+          "forecast_net_interchange_mw": -569.05
         },
         {
           "issue_time": "2025-06-26T21:00:27",
           "horizon_minutes": 4.55,
-          "forecast_price": 498.66815
+          "forecast_price": 498.66815,
+          "forecast_demand": 7250.5,
+          "forecast_net_interchange_mw": -564.77
         }
       ]
     },
@@ -376,66 +536,98 @@
       "absolute_error": 15261.17678,
       "source_file": "PUBLIC_ARCHIVE#P5MIN_REGIONSOLUTION#FILE01#202506010000.CSV",
       "source_file_actual": "PUBLIC_ARCHIVE#DISPATCHPRICE#FILE01#202506010000.CSV",
+      "forecast_demand": 7485.96,
+      "actual_demand": 7483.27,
+      "forecast_solar_uigf_mw": 0.0,
+      "actual_solar_cleared_mw": 0.0,
+      "forecast_wind_uigf_mw": 74.776,
+      "actual_wind_cleared_mw": 53.3976,
+      "forecast_net_interchange_mw": -849.18,
+      "actual_net_interchange_mw": -1059.15,
       "vintages": [
         {
           "issue_time": "2025-06-12T19:40:30",
           "horizon_minutes": 59.5,
-          "forecast_price": 10881.09161
+          "forecast_price": 10881.09161,
+          "forecast_demand": 7445.01,
+          "forecast_net_interchange_mw": -1136.56
         },
         {
           "issue_time": "2025-06-12T19:45:29",
           "horizon_minutes": 54.516666666666666,
-          "forecast_price": 13264.58568
+          "forecast_price": 13264.58568,
+          "forecast_demand": 7476.73,
+          "forecast_net_interchange_mw": -1156.72
         },
         {
           "issue_time": "2025-06-12T19:50:31",
           "horizon_minutes": 49.483333333333334,
-          "forecast_price": 11270.46
+          "forecast_price": 11270.46,
+          "forecast_demand": 7481.71,
+          "forecast_net_interchange_mw": -1011.29
         },
         {
           "issue_time": "2025-06-12T19:55:30",
           "horizon_minutes": 44.5,
-          "forecast_price": 13001.9941
+          "forecast_price": 13001.9941,
+          "forecast_demand": 7489.9,
+          "forecast_net_interchange_mw": -817.82
         },
         {
           "issue_time": "2025-06-12T20:00:32",
           "horizon_minutes": 39.46666666666667,
-          "forecast_price": 11174.89
+          "forecast_price": 11174.89,
+          "forecast_demand": 7469.08,
+          "forecast_net_interchange_mw": -867.08
         },
         {
           "issue_time": "2025-06-12T20:05:30",
           "horizon_minutes": 34.5,
-          "forecast_price": 11174.37
+          "forecast_price": 11174.37,
+          "forecast_demand": 7465.83,
+          "forecast_net_interchange_mw": -787.99
         },
         {
           "issue_time": "2025-06-12T20:10:30",
           "horizon_minutes": 29.5,
-          "forecast_price": 16160.18678
+          "forecast_price": 16160.18678,
+          "forecast_demand": 7485.96,
+          "forecast_net_interchange_mw": -849.18
         },
         {
           "issue_time": "2025-06-12T20:15:30",
           "horizon_minutes": 24.5,
-          "forecast_price": 16032.97835
+          "forecast_price": 16032.97835,
+          "forecast_demand": 7465.18,
+          "forecast_net_interchange_mw": -769.25
         },
         {
           "issue_time": "2025-06-12T20:20:31",
           "horizon_minutes": 19.483333333333334,
-          "forecast_price": 13196.90559
+          "forecast_price": 13196.90559,
+          "forecast_demand": 7497.97,
+          "forecast_net_interchange_mw": -837.87
         },
         {
           "issue_time": "2025-06-12T20:25:31",
           "horizon_minutes": 14.483333333333333,
-          "forecast_price": 14450.01
+          "forecast_price": 14450.01,
+          "forecast_demand": 7506.71,
+          "forecast_net_interchange_mw": -831.64
         },
         {
           "issue_time": "2025-06-12T20:30:29",
           "horizon_minutes": 9.516666666666667,
-          "forecast_price": 14450.01
+          "forecast_price": 14450.01,
+          "forecast_demand": 7520.33,
+          "forecast_net_interchange_mw": -909.11
         },
         {
           "issue_time": "2025-06-12T20:35:31",
           "horizon_minutes": 4.483333333333333,
-          "forecast_price": 899.01
+          "forecast_price": 899.01,
+          "forecast_demand": 7483.27,
+          "forecast_net_interchange_mw": -1090.84
         }
       ]
     },
@@ -449,66 +641,98 @@
       "absolute_error": 15133.96835,
       "source_file": "PUBLIC_ARCHIVE#P5MIN_REGIONSOLUTION#FILE01#202506010000.CSV",
       "source_file_actual": "PUBLIC_ARCHIVE#DISPATCHPRICE#FILE01#202506010000.CSV",
+      "forecast_demand": 7428.18,
+      "actual_demand": 7490.7,
+      "forecast_solar_uigf_mw": 0.0,
+      "actual_solar_cleared_mw": 0.0,
+      "forecast_wind_uigf_mw": 74.765,
+      "actual_wind_cleared_mw": 55.9473,
+      "forecast_net_interchange_mw": -806.42,
+      "actual_net_interchange_mw": -1072.35,
       "vintages": [
         {
           "issue_time": "2025-06-12T19:45:29",
           "horizon_minutes": 59.516666666666666,
-          "forecast_price": 13354.93282
+          "forecast_price": 13354.93282,
+          "forecast_demand": 7439.73,
+          "forecast_net_interchange_mw": -1168.73
         },
         {
           "issue_time": "2025-06-12T19:50:31",
           "horizon_minutes": 54.483333333333334,
-          "forecast_price": 11271.3
+          "forecast_price": 11271.3,
+          "forecast_demand": 7443.71,
+          "forecast_net_interchange_mw": -1041.78
         },
         {
           "issue_time": "2025-06-12T19:55:30",
           "horizon_minutes": 49.5,
-          "forecast_price": 12811.10611
+          "forecast_price": 12811.10611,
+          "forecast_demand": 7451.9,
+          "forecast_net_interchange_mw": -758.69
         },
         {
           "issue_time": "2025-06-12T20:00:32",
           "horizon_minutes": 44.46666666666667,
-          "forecast_price": 1228.67602
+          "forecast_price": 1228.67602,
+          "forecast_demand": 7431.08,
+          "forecast_net_interchange_mw": -749.23
         },
         {
           "issue_time": "2025-06-12T20:05:30",
           "horizon_minutes": 39.5,
-          "forecast_price": 1286.24875
+          "forecast_price": 1286.24875,
+          "forecast_demand": 7427.83,
+          "forecast_net_interchange_mw": -787.02
         },
         {
           "issue_time": "2025-06-12T20:10:30",
           "horizon_minutes": 34.5,
-          "forecast_price": 14450.01
+          "forecast_price": 14450.01,
+          "forecast_demand": 7448.96,
+          "forecast_net_interchange_mw": -852.22
         },
         {
           "issue_time": "2025-06-12T20:15:30",
           "horizon_minutes": 29.5,
-          "forecast_price": 16032.97835
+          "forecast_price": 16032.97835,
+          "forecast_demand": 7428.18,
+          "forecast_net_interchange_mw": -806.42
         },
         {
           "issue_time": "2025-06-12T20:20:31",
           "horizon_minutes": 24.483333333333334,
-          "forecast_price": 13701.48482
+          "forecast_price": 13701.48482,
+          "forecast_demand": 7460.97,
+          "forecast_net_interchange_mw": -878.04
         },
         {
           "issue_time": "2025-06-12T20:25:31",
           "horizon_minutes": 19.483333333333334,
-          "forecast_price": 13001.9941
+          "forecast_price": 13001.9941,
+          "forecast_demand": 7470.71,
+          "forecast_net_interchange_mw": -821.62
         },
         {
           "issue_time": "2025-06-12T20:30:29",
           "horizon_minutes": 14.516666666666667,
-          "forecast_price": 14450.01
+          "forecast_price": 14450.01,
+          "forecast_demand": 7484.33,
+          "forecast_net_interchange_mw": -882.02
         },
         {
           "issue_time": "2025-06-12T20:35:31",
           "horizon_minutes": 9.483333333333333,
-          "forecast_price": 1084.41986
+          "forecast_price": 1084.41986,
+          "forecast_demand": 7448.27,
+          "forecast_net_interchange_mw": -938.8
         },
         {
           "issue_time": "2025-06-12T20:40:31",
           "horizon_minutes": 4.483333333333333,
-          "forecast_price": 899.01
+          "forecast_price": 899.01,
+          "forecast_demand": 7490.7,
+          "forecast_net_interchange_mw": -1070.03
         }
       ]
     },
@@ -522,66 +746,98 @@
       "absolute_error": 14755.33987,
       "source_file": "PUBLIC_ARCHIVE#P5MIN_REGIONSOLUTION#FILE01#202506010000.CSV",
       "source_file_actual": "PUBLIC_ARCHIVE#DISPATCHPRICE#FILE01#202506010000.CSV",
+      "forecast_demand": 7300.39,
+      "actual_demand": 7229.17,
+      "forecast_solar_uigf_mw": 0.0,
+      "actual_solar_cleared_mw": 0.0,
+      "forecast_wind_uigf_mw": 70.182,
+      "actual_wind_cleared_mw": 71.469,
+      "forecast_net_interchange_mw": -672.21,
+      "actual_net_interchange_mw": -674.56,
       "vintages": [
         {
           "issue_time": "2025-06-12T20:15:30",
           "horizon_minutes": 59.5,
-          "forecast_price": 12968.66032
+          "forecast_price": 12968.66032,
+          "forecast_demand": 7180.18,
+          "forecast_net_interchange_mw": -539.14
         },
         {
           "issue_time": "2025-06-12T20:20:31",
           "horizon_minutes": 54.483333333333334,
-          "forecast_price": 1305.14514
+          "forecast_price": 1305.14514,
+          "forecast_demand": 7213.97,
+          "forecast_net_interchange_mw": -596.84
         },
         {
           "issue_time": "2025-06-12T20:25:31",
           "horizon_minutes": 49.483333333333334,
-          "forecast_price": 14450.01
+          "forecast_price": 14450.01,
+          "forecast_demand": 7226.71,
+          "forecast_net_interchange_mw": -583.71
         },
         {
           "issue_time": "2025-06-12T20:30:29",
           "horizon_minutes": 44.516666666666666,
-          "forecast_price": 11785.19356
+          "forecast_price": 11785.19356,
+          "forecast_demand": 7244.33,
+          "forecast_net_interchange_mw": -640.02
         },
         {
           "issue_time": "2025-06-12T20:35:31",
           "horizon_minutes": 39.483333333333334,
-          "forecast_price": 635.19886
+          "forecast_price": 635.19886,
+          "forecast_demand": 7210.27,
+          "forecast_net_interchange_mw": -702.6
         },
         {
           "issue_time": "2025-06-12T20:40:31",
           "horizon_minutes": 34.483333333333334,
-          "forecast_price": 3920.0
+          "forecast_price": 3920.0,
+          "forecast_demand": 7256.7,
+          "forecast_net_interchange_mw": -717.3
         },
         {
           "issue_time": "2025-06-12T20:45:31",
           "horizon_minutes": 29.483333333333334,
-          "forecast_price": 15655.33987
+          "forecast_price": 15655.33987,
+          "forecast_demand": 7300.39,
+          "forecast_net_interchange_mw": -672.21
         },
         {
           "issue_time": "2025-06-12T20:50:32",
           "horizon_minutes": 24.466666666666665,
-          "forecast_price": 13623.25076
+          "forecast_price": 13623.25076,
+          "forecast_demand": 7261.09,
+          "forecast_net_interchange_mw": -723.78
         },
         {
           "issue_time": "2025-06-12T20:55:30",
           "horizon_minutes": 19.5,
-          "forecast_price": 12493.00223
+          "forecast_price": 12493.00223,
+          "forecast_demand": 7241.61,
+          "forecast_net_interchange_mw": -484.42
         },
         {
           "issue_time": "2025-06-12T21:00:32",
           "horizon_minutes": 14.466666666666667,
-          "forecast_price": 14450.01
+          "forecast_price": 14450.01,
+          "forecast_demand": 7255.77,
+          "forecast_net_interchange_mw": -572.62
         },
         {
           "issue_time": "2025-06-12T21:05:30",
           "horizon_minutes": 9.5,
-          "forecast_price": 12308.28792
+          "forecast_price": 12308.28792,
+          "forecast_demand": 7225.49,
+          "forecast_net_interchange_mw": -506.59
         },
         {
           "issue_time": "2025-06-12T21:10:32",
           "horizon_minutes": 4.466666666666667,
-          "forecast_price": 900.0
+          "forecast_price": 900.0,
+          "forecast_demand": 7229.17,
+          "forecast_net_interchange_mw": -678.32
         }
       ]
     },
@@ -595,66 +851,98 @@
       "absolute_error": 14630.691869999999,
       "source_file": "PUBLIC_ARCHIVE#P5MIN_REGIONSOLUTION#FILE01#202506010000.CSV",
       "source_file_actual": "PUBLIC_ARCHIVE#DISPATCHPRICE#FILE01#202506010000.CSV",
+      "forecast_demand": 7188.71,
+      "actual_demand": 7213.59,
+      "forecast_solar_uigf_mw": 0.0,
+      "actual_solar_cleared_mw": 0.0,
+      "forecast_wind_uigf_mw": 35.584,
+      "actual_wind_cleared_mw": 32.55599,
+      "forecast_net_interchange_mw": -435.13,
+      "actual_net_interchange_mw": -519.03,
       "vintages": [
         {
           "issue_time": "2025-06-26T20:15:27",
           "horizon_minutes": 59.55,
-          "forecast_price": 9583.93484
+          "forecast_price": 9583.93484,
+          "forecast_demand": 7172.43,
+          "forecast_net_interchange_mw": -399.22
         },
         {
           "issue_time": "2025-06-26T20:20:26",
           "horizon_minutes": 54.56666666666667,
-          "forecast_price": 11169.78
+          "forecast_price": 11169.78,
+          "forecast_demand": 7170.71,
+          "forecast_net_interchange_mw": -453.23
         },
         {
           "issue_time": "2025-06-26T20:25:27",
           "horizon_minutes": 49.55,
-          "forecast_price": 12821.22812
+          "forecast_price": 12821.22812,
+          "forecast_demand": 7183.07,
+          "forecast_net_interchange_mw": -468.75
         },
         {
           "issue_time": "2025-06-26T20:30:27",
           "horizon_minutes": 44.55,
-          "forecast_price": 1046.4666
+          "forecast_price": 1046.4666,
+          "forecast_demand": 7199.03,
+          "forecast_net_interchange_mw": -500.03
         },
         {
           "issue_time": "2025-06-26T20:35:26",
           "horizon_minutes": 39.56666666666667,
-          "forecast_price": 11169.78
+          "forecast_price": 11169.78,
+          "forecast_demand": 7189.45,
+          "forecast_net_interchange_mw": -423.67
         },
         {
           "issue_time": "2025-06-26T20:40:26",
           "horizon_minutes": 34.56666666666667,
-          "forecast_price": 11169.78
+          "forecast_price": 11169.78,
+          "forecast_demand": 7182.2,
+          "forecast_net_interchange_mw": -445.33
         },
         {
           "issue_time": "2025-06-26T20:45:26",
           "horizon_minutes": 29.566666666666666,
-          "forecast_price": 15299.29034
+          "forecast_price": 15299.29034,
+          "forecast_demand": 7188.71,
+          "forecast_net_interchange_mw": -435.13
         },
         {
           "issue_time": "2025-06-26T20:50:27",
           "horizon_minutes": 24.55,
-          "forecast_price": 14798.92
+          "forecast_price": 14798.92,
+          "forecast_demand": 7179.78,
+          "forecast_net_interchange_mw": -436.06
         },
         {
           "issue_time": "2025-06-26T20:55:27",
           "horizon_minutes": 19.55,
-          "forecast_price": 444.2009
+          "forecast_price": 444.2009,
+          "forecast_demand": 7174.56,
+          "forecast_net_interchange_mw": -482.53
         },
         {
           "issue_time": "2025-06-26T21:00:27",
           "horizon_minutes": 14.55,
-          "forecast_price": 447.77215
+          "forecast_price": 447.77215,
+          "forecast_demand": 7166.5,
+          "forecast_net_interchange_mw": -473.44
         },
         {
           "issue_time": "2025-06-26T21:05:26",
           "horizon_minutes": 9.566666666666666,
-          "forecast_price": 12543.19344
+          "forecast_price": 12543.19344,
+          "forecast_demand": 7208.81,
+          "forecast_net_interchange_mw": -505.29
         },
         {
           "issue_time": "2025-06-26T21:10:27",
           "horizon_minutes": 4.55,
-          "forecast_price": 667.37152
+          "forecast_price": 667.37152,
+          "forecast_demand": 7213.59,
+          "forecast_net_interchange_mw": -518.93
         }
       ]
     },
@@ -668,66 +956,98 @@
       "absolute_error": 14610.88162,
       "source_file": "PUBLIC_ARCHIVE#P5MIN_REGIONSOLUTION#FILE01#202506010000.CSV",
       "source_file_actual": "PUBLIC_ARCHIVE#DISPATCHPRICE#FILE01#202506010000.CSV",
+      "forecast_demand": 7227.2,
+      "actual_demand": 7252.81,
+      "forecast_solar_uigf_mw": 0.0,
+      "actual_solar_cleared_mw": 0.0,
+      "forecast_wind_uigf_mw": 36.225,
+      "actual_wind_cleared_mw": 32.342,
+      "forecast_net_interchange_mw": -448.97,
+      "actual_net_interchange_mw": -566.47,
       "vintages": [
         {
           "issue_time": "2025-06-26T20:10:26",
           "horizon_minutes": 59.56666666666667,
-          "forecast_price": 10093.29275
+          "forecast_price": 10093.29275,
+          "forecast_demand": 7226.55,
+          "forecast_net_interchange_mw": -442.1
         },
         {
           "issue_time": "2025-06-26T20:15:27",
           "horizon_minutes": 54.55,
-          "forecast_price": 9142.43866
+          "forecast_price": 9142.43866,
+          "forecast_demand": 7217.43,
+          "forecast_net_interchange_mw": -445.76
         },
         {
           "issue_time": "2025-06-26T20:20:26",
           "horizon_minutes": 49.56666666666667,
-          "forecast_price": 16051.32389
+          "forecast_price": 16051.32389,
+          "forecast_demand": 7216.71,
+          "forecast_net_interchange_mw": -501.72
         },
         {
           "issue_time": "2025-06-26T20:25:27",
           "horizon_minutes": 44.55,
-          "forecast_price": 12923.50211
+          "forecast_price": 12923.50211,
+          "forecast_demand": 7230.07,
+          "forecast_net_interchange_mw": -523.34
         },
         {
           "issue_time": "2025-06-26T20:30:27",
           "horizon_minutes": 39.55,
-          "forecast_price": 11169.78
+          "forecast_price": 11169.78,
+          "forecast_demand": 7246.03,
+          "forecast_net_interchange_mw": -525.21
         },
         {
           "issue_time": "2025-06-26T20:35:26",
           "horizon_minutes": 34.56666666666667,
-          "forecast_price": 15797.95249
+          "forecast_price": 15797.95249,
+          "forecast_demand": 7235.45,
+          "forecast_net_interchange_mw": -431.91
         },
         {
           "issue_time": "2025-06-26T20:40:26",
           "horizon_minutes": 29.566666666666666,
-          "forecast_price": 15422.95925
+          "forecast_price": 15422.95925,
+          "forecast_demand": 7227.2,
+          "forecast_net_interchange_mw": -448.97
         },
         {
           "issue_time": "2025-06-26T20:45:26",
           "horizon_minutes": 24.566666666666666,
-          "forecast_price": 15422.95925
+          "forecast_price": 15422.95925,
+          "forecast_demand": 7233.71,
+          "forecast_net_interchange_mw": -479.54
         },
         {
           "issue_time": "2025-06-26T20:50:27",
           "horizon_minutes": 19.55,
-          "forecast_price": 15547.28903
+          "forecast_price": 15547.28903,
+          "forecast_demand": 7223.78,
+          "forecast_net_interchange_mw": -467.82
         },
         {
           "issue_time": "2025-06-26T20:55:27",
           "horizon_minutes": 14.55,
-          "forecast_price": 580.46081
+          "forecast_price": 580.46081,
+          "forecast_demand": 7218.56,
+          "forecast_net_interchange_mw": -541.84
         },
         {
           "issue_time": "2025-06-26T21:00:27",
           "horizon_minutes": 9.55,
-          "forecast_price": 574.19292
+          "forecast_price": 574.19292,
+          "forecast_demand": 7210.5,
+          "forecast_net_interchange_mw": -518.87
         },
         {
           "issue_time": "2025-06-26T21:05:26",
           "horizon_minutes": 4.566666666666666,
-          "forecast_price": 809.32108
+          "forecast_price": 809.32108,
+          "forecast_demand": 7252.81,
+          "forecast_net_interchange_mw": -565.33
         }
       ]
     },
@@ -741,66 +1061,98 @@
       "absolute_error": 14498.33027,
       "source_file": "PUBLIC_ARCHIVE#P5MIN_REGIONSOLUTION#FILE01#202506010000.CSV",
       "source_file_actual": "PUBLIC_ARCHIVE#DISPATCHPRICE#FILE01#202506010000.CSV",
+      "forecast_demand": 7852.81,
+      "actual_demand": 7786.58,
+      "forecast_solar_uigf_mw": 0.0,
+      "actual_solar_cleared_mw": 0.0,
+      "forecast_wind_uigf_mw": 23.616,
+      "actual_wind_cleared_mw": 22.179,
+      "forecast_net_interchange_mw": -789.19,
+      "actual_net_interchange_mw": -1140.55,
       "vintages": [
         {
           "issue_time": "2025-06-11T17:15:30",
           "horizon_minutes": 59.5,
-          "forecast_price": 14794.25025
+          "forecast_price": 14794.25025,
+          "forecast_demand": 7816.01,
+          "forecast_net_interchange_mw": -609.76
         },
         {
           "issue_time": "2025-06-11T17:20:31",
           "horizon_minutes": 54.483333333333334,
-          "forecast_price": 14798.91
+          "forecast_price": 14798.91,
+          "forecast_demand": 7801.73,
+          "forecast_net_interchange_mw": -578.0
         },
         {
           "issue_time": "2025-06-11T17:25:30",
           "horizon_minutes": 49.5,
-          "forecast_price": 14794.25025
+          "forecast_price": 14794.25025,
+          "forecast_demand": 7808.81,
+          "forecast_net_interchange_mw": -581.22
         },
         {
           "issue_time": "2025-06-11T17:30:31",
           "horizon_minutes": 44.483333333333334,
-          "forecast_price": 14794.25025
+          "forecast_price": 14794.25025,
+          "forecast_demand": 7838.4,
+          "forecast_net_interchange_mw": -606.21
         },
         {
           "issue_time": "2025-06-11T17:35:30",
           "horizon_minutes": 39.5,
-          "forecast_price": 14811.99086
+          "forecast_price": 14811.99086,
+          "forecast_demand": 7833.19,
+          "forecast_net_interchange_mw": -600.72
         },
         {
           "issue_time": "2025-06-11T17:40:42",
           "horizon_minutes": 34.3,
-          "forecast_price": 15459.42795
+          "forecast_price": 15459.42795,
+          "forecast_demand": 7795.01,
+          "forecast_net_interchange_mw": -763.65
         },
         {
           "issue_time": "2025-06-11T17:45:31",
           "horizon_minutes": 29.483333333333334,
-          "forecast_price": 15583.71752
+          "forecast_price": 15583.71752,
+          "forecast_demand": 7852.81,
+          "forecast_net_interchange_mw": -789.19
         },
         {
           "issue_time": "2025-06-11T17:50:32",
           "horizon_minutes": 24.466666666666665,
-          "forecast_price": 12090.26868
+          "forecast_price": 12090.26868,
+          "forecast_demand": 7822.0,
+          "forecast_net_interchange_mw": -881.25
         },
         {
           "issue_time": "2025-06-11T17:55:32",
           "horizon_minutes": 19.466666666666665,
-          "forecast_price": 14000.0
+          "forecast_price": 14000.0,
+          "forecast_demand": 7832.96,
+          "forecast_net_interchange_mw": -842.14
         },
         {
           "issue_time": "2025-06-11T18:00:31",
           "horizon_minutes": 14.483333333333333,
-          "forecast_price": 12090.45809
+          "forecast_price": 12090.45809,
+          "forecast_demand": 7823.03,
+          "forecast_net_interchange_mw": -911.33
         },
         {
           "issue_time": "2025-06-11T18:05:33",
           "horizon_minutes": 9.45,
-          "forecast_price": 9438.05387
+          "forecast_price": 9438.05387,
+          "forecast_demand": 7779.34,
+          "forecast_net_interchange_mw": -968.53
         },
         {
           "issue_time": "2025-06-11T18:10:30",
           "horizon_minutes": 4.5,
-          "forecast_price": 1085.38725
+          "forecast_price": 1085.38725,
+          "forecast_demand": 7786.58,
+          "forecast_net_interchange_mw": -1140.65
         }
       ]
     },
@@ -814,66 +1166,98 @@
       "absolute_error": 13720.47362,
       "source_file": "PUBLIC_ARCHIVE#P5MIN_REGIONSOLUTION#FILE01#202506010000.CSV",
       "source_file_actual": "PUBLIC_ARCHIVE#DISPATCHPRICE#FILE01#202506010000.CSV",
+      "forecast_demand": 7978.6,
+      "actual_demand": 7756.25,
+      "forecast_solar_uigf_mw": 66.45507,
+      "actual_solar_cleared_mw": 265.25072,
+      "forecast_wind_uigf_mw": 171.546,
+      "actual_wind_cleared_mw": 148.22448,
+      "forecast_net_interchange_mw": -1237.19,
+      "actual_net_interchange_mw": -218.37,
       "vintages": [
         {
           "issue_time": "2025-06-05T07:15:31",
           "horizon_minutes": 59.483333333333334,
-          "forecast_price": 7842.97725
+          "forecast_price": 7842.97725,
+          "forecast_demand": 7953.82,
+          "forecast_net_interchange_mw": -886.11
         },
         {
           "issue_time": "2025-06-05T07:20:30",
           "horizon_minutes": 54.5,
-          "forecast_price": 3898.0
+          "forecast_price": 3898.0,
+          "forecast_demand": 7905.98,
+          "forecast_net_interchange_mw": -1073.67
         },
         {
           "issue_time": "2025-06-05T07:25:31",
           "horizon_minutes": 49.483333333333334,
-          "forecast_price": 16437.60056
+          "forecast_price": 16437.60056,
+          "forecast_demand": 7891.99,
+          "forecast_net_interchange_mw": -1009.2
         },
         {
           "issue_time": "2025-06-05T07:30:32",
           "horizon_minutes": 44.46666666666667,
-          "forecast_price": 8393.31309
+          "forecast_price": 8393.31309,
+          "forecast_demand": 7888.53,
+          "forecast_net_interchange_mw": -1069.58
         },
         {
           "issue_time": "2025-06-05T07:35:31",
           "horizon_minutes": 39.483333333333334,
-          "forecast_price": 17500.0
+          "forecast_price": 17500.0,
+          "forecast_demand": 7891.62,
+          "forecast_net_interchange_mw": -1081.96
         },
         {
           "issue_time": "2025-06-05T07:40:30",
           "horizon_minutes": 34.5,
-          "forecast_price": 17500.0
+          "forecast_price": 17500.0,
+          "forecast_demand": 7848.74,
+          "forecast_net_interchange_mw": -1230.68
         },
         {
           "issue_time": "2025-06-05T07:45:31",
           "horizon_minutes": 29.483333333333334,
-          "forecast_price": 13826.49033
+          "forecast_price": 13826.49033,
+          "forecast_demand": 7978.6,
+          "forecast_net_interchange_mw": -1237.19
         },
         {
           "issue_time": "2025-06-05T07:50:31",
           "horizon_minutes": 24.483333333333334,
-          "forecast_price": 4271.06356
+          "forecast_price": 4271.06356,
+          "forecast_demand": 7914.31,
+          "forecast_net_interchange_mw": -646.58
         },
         {
           "issue_time": "2025-06-05T07:55:29",
           "horizon_minutes": 19.516666666666666,
-          "forecast_price": 1295.19003
+          "forecast_price": 1295.19003,
+          "forecast_demand": 7886.25,
+          "forecast_net_interchange_mw": -585.84
         },
         {
           "issue_time": "2025-06-05T08:00:29",
           "horizon_minutes": 14.516666666666667,
-          "forecast_price": 983.96
+          "forecast_price": 983.96,
+          "forecast_demand": 7835.62,
+          "forecast_net_interchange_mw": -368.12
         },
         {
           "issue_time": "2025-06-05T08:05:29",
           "horizon_minutes": 9.516666666666667,
-          "forecast_price": 400.74394
+          "forecast_price": 400.74394,
+          "forecast_demand": 7815.36,
+          "forecast_net_interchange_mw": -347.87
         },
         {
           "issue_time": "2025-06-05T08:10:31",
           "horizon_minutes": 4.483333333333333,
-          "forecast_price": 136.42
+          "forecast_price": 136.42,
+          "forecast_demand": 7756.25,
+          "forecast_net_interchange_mw": -180.9
         }
       ]
     },
@@ -887,66 +1271,98 @@
       "absolute_error": 13666.48821,
       "source_file": "PUBLIC_ARCHIVE#P5MIN_REGIONSOLUTION#FILE01#202508010000.CSV",
       "source_file_actual": "PUBLIC_ARCHIVE#DISPATCHPRICE#FILE01#202508010000.CSV",
+      "forecast_demand": 8015.67,
+      "actual_demand": 7628.73,
+      "forecast_solar_uigf_mw": 21.206,
+      "actual_solar_cleared_mw": 0.73062,
+      "forecast_wind_uigf_mw": 834.705,
+      "actual_wind_cleared_mw": 780.69755,
+      "forecast_net_interchange_mw": -341.76,
+      "actual_net_interchange_mw": -176.28,
       "vintages": [
         {
           "issue_time": "2025-08-18T16:55:26",
           "horizon_minutes": 59.56666666666667,
-          "forecast_price": 14566.57796
+          "forecast_price": 14566.57796,
+          "forecast_demand": 7971.23,
+          "forecast_net_interchange_mw": -213.4
         },
         {
           "issue_time": "2025-08-18T17:00:26",
           "horizon_minutes": 54.56666666666667,
-          "forecast_price": 17930.79578
+          "forecast_price": 17930.79578,
+          "forecast_demand": 7990.55,
+          "forecast_net_interchange_mw": -281.24
         },
         {
           "issue_time": "2025-08-18T17:05:27",
           "horizon_minutes": 49.55,
-          "forecast_price": 12366.71543
+          "forecast_price": 12366.71543,
+          "forecast_demand": 8034.59,
+          "forecast_net_interchange_mw": -294.08
         },
         {
           "issue_time": "2025-08-18T17:10:26",
           "horizon_minutes": 44.56666666666667,
-          "forecast_price": 3898.0
+          "forecast_price": 3898.0,
+          "forecast_demand": 7983.98,
+          "forecast_net_interchange_mw": -275.41
         },
         {
           "issue_time": "2025-08-18T17:15:26",
           "horizon_minutes": 39.56666666666667,
-          "forecast_price": 3898.0
+          "forecast_price": 3898.0,
+          "forecast_demand": 8019.35,
+          "forecast_net_interchange_mw": -296.38
         },
         {
           "issue_time": "2025-08-18T17:20:26",
           "horizon_minutes": 34.56666666666667,
-          "forecast_price": 9081.36447
+          "forecast_price": 9081.36447,
+          "forecast_demand": 8071.84,
+          "forecast_net_interchange_mw": -368.02
         },
         {
           "issue_time": "2025-08-18T17:25:25",
           "horizon_minutes": 29.583333333333332,
-          "forecast_price": 14646.35821
+          "forecast_price": 14646.35821,
+          "forecast_demand": 8015.67,
+          "forecast_net_interchange_mw": -341.76
         },
         {
           "issue_time": "2025-08-18T17:30:26",
           "horizon_minutes": 24.566666666666666,
-          "forecast_price": 17930.79578
+          "forecast_price": 17930.79578,
+          "forecast_demand": 8019.38,
+          "forecast_net_interchange_mw": -296.8
         },
         {
           "issue_time": "2025-08-18T17:35:25",
           "horizon_minutes": 19.583333333333332,
-          "forecast_price": 3898.0
+          "forecast_price": 3898.0,
+          "forecast_demand": 7925.34,
+          "forecast_net_interchange_mw": -239.01
         },
         {
           "issue_time": "2025-08-18T17:40:26",
           "horizon_minutes": 14.566666666666666,
-          "forecast_price": 983.95
+          "forecast_price": 983.95,
+          "forecast_demand": 7859.89,
+          "forecast_net_interchange_mw": -170.45
         },
         {
           "issue_time": "2025-08-18T17:45:25",
           "horizon_minutes": 9.583333333333334,
-          "forecast_price": 900.0
+          "forecast_price": 900.0,
+          "forecast_demand": 7607.21,
+          "forecast_net_interchange_mw": -56.24
         },
         {
           "issue_time": "2025-08-18T17:50:26",
           "horizon_minutes": 4.566666666666666,
-          "forecast_price": 900.0
+          "forecast_price": 900.0,
+          "forecast_demand": 7628.73,
+          "forecast_net_interchange_mw": -180.51
         }
       ]
     },
@@ -960,66 +1376,98 @@
       "absolute_error": 13601.91,
       "source_file": "PUBLIC_ARCHIVE#P5MIN_REGIONSOLUTION#FILE01#202506010000.CSV",
       "source_file_actual": "PUBLIC_ARCHIVE#DISPATCHPRICE#FILE01#202506010000.CSV",
+      "forecast_demand": 7469.09,
+      "actual_demand": 7795.64,
+      "forecast_solar_uigf_mw": 0.0,
+      "actual_solar_cleared_mw": 0.0,
+      "forecast_wind_uigf_mw": 43.196,
+      "actual_wind_cleared_mw": 37.1754,
+      "forecast_net_interchange_mw": -1095.64,
+      "actual_net_interchange_mw": -1030.79,
       "vintages": [
         {
           "issue_time": "2025-06-12T18:35:31",
           "horizon_minutes": 59.483333333333334,
-          "forecast_price": 9512.96108
+          "forecast_price": 9512.96108,
+          "forecast_demand": 7405.68,
+          "forecast_net_interchange_mw": -1033.15
         },
         {
           "issue_time": "2025-06-12T18:40:32",
           "horizon_minutes": 54.46666666666667,
-          "forecast_price": 11171.69
+          "forecast_price": 11171.69,
+          "forecast_demand": 7425.39,
+          "forecast_net_interchange_mw": -990.59
         },
         {
           "issue_time": "2025-06-12T18:45:30",
           "horizon_minutes": 49.5,
-          "forecast_price": 11189.66
+          "forecast_price": 11189.66,
+          "forecast_demand": 7413.75,
+          "forecast_net_interchange_mw": -960.94
         },
         {
           "issue_time": "2025-06-12T18:50:31",
           "horizon_minutes": 44.483333333333334,
-          "forecast_price": 11212.06612
+          "forecast_price": 11212.06612,
+          "forecast_demand": 7435.89,
+          "forecast_net_interchange_mw": -965.76
         },
         {
           "issue_time": "2025-06-12T18:55:30",
           "horizon_minutes": 39.5,
-          "forecast_price": 11197.51
+          "forecast_price": 11197.51,
+          "forecast_demand": 7470.15,
+          "forecast_net_interchange_mw": -1042.11
         },
         {
           "issue_time": "2025-06-12T19:00:29",
           "horizon_minutes": 34.516666666666666,
-          "forecast_price": 10984.60641
+          "forecast_price": 10984.60641,
+          "forecast_demand": 7466.48,
+          "forecast_net_interchange_mw": -1120.69
         },
         {
           "issue_time": "2025-06-12T19:05:30",
           "horizon_minutes": 29.5,
-          "forecast_price": 3898.0
+          "forecast_price": 3898.0,
+          "forecast_demand": 7469.09,
+          "forecast_net_interchange_mw": -1095.64
         },
         {
           "issue_time": "2025-06-12T19:10:30",
           "horizon_minutes": 24.5,
-          "forecast_price": 10748.66423
+          "forecast_price": 10748.66423,
+          "forecast_demand": 7526.88,
+          "forecast_net_interchange_mw": -1109.26
         },
         {
           "issue_time": "2025-06-12T19:15:30",
           "horizon_minutes": 19.5,
-          "forecast_price": 3925.73
+          "forecast_price": 3925.73,
+          "forecast_demand": 7651.35,
+          "forecast_net_interchange_mw": -1208.68
         },
         {
           "issue_time": "2025-06-12T19:20:29",
           "horizon_minutes": 14.516666666666667,
-          "forecast_price": 16417.76934
+          "forecast_price": 16417.76934,
+          "forecast_demand": 7757.97,
+          "forecast_net_interchange_mw": -1066.46
         },
         {
           "issue_time": "2025-06-12T19:25:29",
           "horizon_minutes": 9.516666666666667,
-          "forecast_price": 16567.34309
+          "forecast_price": 16567.34309,
+          "forecast_demand": 7735.6,
+          "forecast_net_interchange_mw": -1042.74
         },
         {
           "issue_time": "2025-06-12T19:30:31",
           "horizon_minutes": 4.483333333333333,
-          "forecast_price": 17499.91
+          "forecast_price": 17499.91,
+          "forecast_demand": 7795.64,
+          "forecast_net_interchange_mw": -1041.18
         }
       ]
     },
@@ -1033,66 +1481,98 @@
       "absolute_error": 13430.415070000001,
       "source_file": "PUBLIC_ARCHIVE#P5MIN_REGIONSOLUTION#FILE01#202506010000.CSV",
       "source_file_actual": "PUBLIC_ARCHIVE#DISPATCHPRICE#FILE01#202506010000.CSV",
+      "forecast_demand": 7353.07,
+      "actual_demand": 7337.78,
+      "forecast_solar_uigf_mw": 0.0,
+      "actual_solar_cleared_mw": 0.0,
+      "forecast_wind_uigf_mw": 28.62899,
+      "actual_wind_cleared_mw": 29.182,
+      "forecast_net_interchange_mw": -659.44,
+      "actual_net_interchange_mw": -637.0,
       "vintages": [
         {
           "issue_time": "2025-06-26T19:55:27",
           "horizon_minutes": 59.55,
-          "forecast_price": 8996.99431
+          "forecast_price": 8996.99431,
+          "forecast_demand": 7317.55,
+          "forecast_net_interchange_mw": -474.89
         },
         {
           "issue_time": "2025-06-26T20:00:27",
           "horizon_minutes": 54.55,
-          "forecast_price": 12539.24127
+          "forecast_price": 12539.24127,
+          "forecast_demand": 7328.66,
+          "forecast_net_interchange_mw": -623.64
         },
         {
           "issue_time": "2025-06-26T20:05:27",
           "horizon_minutes": 49.55,
-          "forecast_price": 12439.23323
+          "forecast_price": 12439.23323,
+          "forecast_demand": 7329.82,
+          "forecast_net_interchange_mw": -562.88
         },
         {
           "issue_time": "2025-06-26T20:10:26",
           "horizon_minutes": 44.56666666666667,
-          "forecast_price": 12659.91898
+          "forecast_price": 12659.91898,
+          "forecast_demand": 7349.55,
+          "forecast_net_interchange_mw": -653.77
         },
         {
           "issue_time": "2025-06-26T20:15:27",
           "horizon_minutes": 39.55,
-          "forecast_price": 12539.24127
+          "forecast_price": 12539.24127,
+          "forecast_demand": 7341.43,
+          "forecast_net_interchange_mw": -647.41
         },
         {
           "issue_time": "2025-06-26T20:20:26",
           "horizon_minutes": 34.56666666666667,
-          "forecast_price": 12459.04618
+          "forecast_price": 12459.04618,
+          "forecast_demand": 7340.71,
+          "forecast_net_interchange_mw": -599.89
         },
         {
           "issue_time": "2025-06-26T20:25:27",
           "horizon_minutes": 29.55,
-          "forecast_price": 791.04971
+          "forecast_price": 791.04971,
+          "forecast_demand": 7353.07,
+          "forecast_net_interchange_mw": -659.44
         },
         {
           "issue_time": "2025-06-26T20:30:27",
           "horizon_minutes": 24.55,
-          "forecast_price": 11169.78
+          "forecast_price": 11169.78,
+          "forecast_demand": 7367.03,
+          "forecast_net_interchange_mw": -647.28
         },
         {
           "issue_time": "2025-06-26T20:35:26",
           "horizon_minutes": 19.566666666666666,
-          "forecast_price": 12563.70054
+          "forecast_price": 12563.70054,
+          "forecast_demand": 7356.45,
+          "forecast_net_interchange_mw": -611.88
         },
         {
           "issue_time": "2025-06-26T20:40:26",
           "horizon_minutes": 14.566666666666666,
-          "forecast_price": 14798.92
+          "forecast_price": 14798.92,
+          "forecast_demand": 7346.2,
+          "forecast_net_interchange_mw": -598.3
         },
         {
           "issue_time": "2025-06-26T20:45:26",
           "horizon_minutes": 9.566666666666666,
-          "forecast_price": 15374.14028
+          "forecast_price": 15374.14028,
+          "forecast_demand": 7353.71,
+          "forecast_net_interchange_mw": -602.28
         },
         {
           "issue_time": "2025-06-26T20:50:27",
           "horizon_minutes": 4.55,
-          "forecast_price": 14221.46478
+          "forecast_price": 14221.46478,
+          "forecast_demand": 7337.78,
+          "forecast_net_interchange_mw": -637.31
         }
       ]
     },
@@ -1106,66 +1586,98 @@
       "absolute_error": 13415.15348,
       "source_file": "PUBLIC_ARCHIVE#P5MIN_REGIONSOLUTION#FILE01#202506010000.CSV",
       "source_file_actual": "PUBLIC_ARCHIVE#DISPATCHPRICE#FILE01#202506010000.CSV",
+      "forecast_demand": 7596.9,
+      "actual_demand": 7605.97,
+      "forecast_solar_uigf_mw": 0.0,
+      "actual_solar_cleared_mw": 0.0,
+      "forecast_wind_uigf_mw": 60.557,
+      "actual_wind_cleared_mw": 60.2574,
+      "forecast_net_interchange_mw": -1048.89,
+      "actual_net_interchange_mw": -1074.9,
       "vintages": [
         {
           "issue_time": "2025-06-12T19:25:29",
           "horizon_minutes": 59.516666666666666,
-          "forecast_price": 16547.06462
+          "forecast_price": 16547.06462,
+          "forecast_demand": 7452.6,
+          "forecast_net_interchange_mw": -982.28
         },
         {
           "issue_time": "2025-06-12T19:30:31",
           "horizon_minutes": 54.483333333333334,
-          "forecast_price": 13328.71895
+          "forecast_price": 13328.71895,
+          "forecast_demand": 7518.64,
+          "forecast_net_interchange_mw": -1013.61
         },
         {
           "issue_time": "2025-06-12T19:35:30",
           "horizon_minutes": 49.5,
-          "forecast_price": 9664.00261
+          "forecast_price": 9664.00261,
+          "forecast_demand": 7529.49,
+          "forecast_net_interchange_mw": -968.9
         },
         {
           "issue_time": "2025-06-12T19:40:30",
           "horizon_minutes": 44.5,
-          "forecast_price": 3844.0
+          "forecast_price": 3844.0,
+          "forecast_demand": 7555.01,
+          "forecast_net_interchange_mw": -1099.18
         },
         {
           "issue_time": "2025-06-12T19:45:29",
           "horizon_minutes": 39.516666666666666,
-          "forecast_price": 10636.29731
+          "forecast_price": 10636.29731,
+          "forecast_demand": 7586.73,
+          "forecast_net_interchange_mw": -1111.69
         },
         {
           "issue_time": "2025-06-12T19:50:31",
           "horizon_minutes": 34.483333333333334,
-          "forecast_price": 12810.93202
+          "forecast_price": 12810.93202,
+          "forecast_demand": 7590.71,
+          "forecast_net_interchange_mw": -1033.17
         },
         {
           "issue_time": "2025-06-12T19:55:30",
           "horizon_minutes": 29.5,
-          "forecast_price": 14450.01
+          "forecast_price": 14450.01,
+          "forecast_demand": 7596.9,
+          "forecast_net_interchange_mw": -1048.89
         },
         {
           "issue_time": "2025-06-12T20:00:32",
           "horizon_minutes": 24.466666666666665,
-          "forecast_price": 12710.7859
+          "forecast_price": 12710.7859,
+          "forecast_demand": 7576.08,
+          "forecast_net_interchange_mw": -1047.4
         },
         {
           "issue_time": "2025-06-12T20:05:30",
           "horizon_minutes": 19.5,
-          "forecast_price": 12970.15325
+          "forecast_price": 12970.15325,
+          "forecast_demand": 7573.83,
+          "forecast_net_interchange_mw": -1025.11
         },
         {
           "issue_time": "2025-06-12T20:10:30",
           "horizon_minutes": 14.5,
-          "forecast_price": 13161.13703
+          "forecast_price": 13161.13703,
+          "forecast_demand": 7593.96,
+          "forecast_net_interchange_mw": -1050.53
         },
         {
           "issue_time": "2025-06-12T20:15:30",
           "horizon_minutes": 9.5,
-          "forecast_price": 12741.97288
+          "forecast_price": 12741.97288,
+          "forecast_demand": 7573.18,
+          "forecast_net_interchange_mw": -975.22
         },
         {
           "issue_time": "2025-06-12T20:20:31",
           "horizon_minutes": 4.483333333333333,
-          "forecast_price": 1038.98295
+          "forecast_price": 1038.98295,
+          "forecast_demand": 7605.97,
+          "forecast_net_interchange_mw": -1073.2
         }
       ]
     },
@@ -1179,66 +1691,98 @@
       "absolute_error": 13400.61722,
       "source_file": "PUBLIC_ARCHIVE#P5MIN_REGIONSOLUTION#FILE01#202506010000.CSV",
       "source_file_actual": "PUBLIC_ARCHIVE#DISPATCHPRICE#FILE01#202506010000.CSV",
+      "forecast_demand": 7652.73,
+      "actual_demand": 7657.96,
+      "forecast_solar_uigf_mw": 0.0,
+      "actual_solar_cleared_mw": 0.0,
+      "forecast_wind_uigf_mw": 54.912,
+      "actual_wind_cleared_mw": 60.4089,
+      "forecast_net_interchange_mw": -1196.76,
+      "actual_net_interchange_mw": -1104.55,
       "vintages": [
         {
           "issue_time": "2025-06-12T19:15:30",
           "horizon_minutes": 59.5,
-          "forecast_price": 5378.20611
+          "forecast_price": 5378.20611,
+          "forecast_demand": 7424.35,
+          "forecast_net_interchange_mw": -1220.19
         },
         {
           "issue_time": "2025-06-12T19:20:29",
           "horizon_minutes": 54.516666666666666,
-          "forecast_price": 16547.43378
+          "forecast_price": 16547.43378,
+          "forecast_demand": 7535.97,
+          "forecast_net_interchange_mw": -1055.49
         },
         {
           "issue_time": "2025-06-12T19:25:29",
           "horizon_minutes": 49.516666666666666,
-          "forecast_price": 11393.79
+          "forecast_price": 11393.79,
+          "forecast_demand": 7520.6,
+          "forecast_net_interchange_mw": -899.76
         },
         {
           "issue_time": "2025-06-12T19:30:31",
           "horizon_minutes": 44.483333333333334,
-          "forecast_price": 12942.74915
+          "forecast_price": 12942.74915,
+          "forecast_demand": 7587.64,
+          "forecast_net_interchange_mw": -906.56
         },
         {
           "issue_time": "2025-06-12T19:35:30",
           "horizon_minutes": 39.5,
-          "forecast_price": 16808.89845
+          "forecast_price": 16808.89845,
+          "forecast_demand": 7598.49,
+          "forecast_net_interchange_mw": -1038.43
         },
         {
           "issue_time": "2025-06-12T19:40:30",
           "horizon_minutes": 34.5,
-          "forecast_price": 13943.36411
+          "forecast_price": 13943.36411,
+          "forecast_demand": 7623.01,
+          "forecast_net_interchange_mw": -1149.95
         },
         {
           "issue_time": "2025-06-12T19:45:29",
           "horizon_minutes": 29.516666666666666,
-          "forecast_price": 14450.01
+          "forecast_price": 14450.01,
+          "forecast_demand": 7652.73,
+          "forecast_net_interchange_mw": -1196.76
         },
         {
           "issue_time": "2025-06-12T19:50:31",
           "horizon_minutes": 24.483333333333334,
-          "forecast_price": 16678.83885
+          "forecast_price": 16678.83885,
+          "forecast_demand": 7654.71,
+          "forecast_net_interchange_mw": -1055.26
         },
         {
           "issue_time": "2025-06-12T19:55:30",
           "horizon_minutes": 19.5,
-          "forecast_price": 16418.78392
+          "forecast_price": 16418.78392,
+          "forecast_demand": 7658.9,
+          "forecast_net_interchange_mw": -993.01
         },
         {
           "issue_time": "2025-06-12T20:00:32",
           "horizon_minutes": 14.466666666666667,
-          "forecast_price": 13944.96527
+          "forecast_price": 13944.96527,
+          "forecast_demand": 7638.08,
+          "forecast_net_interchange_mw": -1032.49
         },
         {
           "issue_time": "2025-06-12T20:05:30",
           "horizon_minutes": 9.5,
-          "forecast_price": 1269.76449
+          "forecast_price": 1269.76449,
+          "forecast_demand": 7637.83,
+          "forecast_net_interchange_mw": -1054.96
         },
         {
           "issue_time": "2025-06-12T20:10:30",
           "horizon_minutes": 4.5,
-          "forecast_price": 1049.39278
+          "forecast_price": 1049.39278,
+          "forecast_demand": 7657.96,
+          "forecast_net_interchange_mw": -1103.19
         }
       ]
     },
@@ -1252,66 +1796,98 @@
       "absolute_error": 12950.93596,
       "source_file": "PUBLIC_ARCHIVE#P5MIN_REGIONSOLUTION#FILE01#202506010000.CSV",
       "source_file_actual": "PUBLIC_ARCHIVE#DISPATCHPRICE#FILE01#202506010000.CSV",
+      "forecast_demand": 7690.57,
+      "actual_demand": 7638.46,
+      "forecast_solar_uigf_mw": 7.448,
+      "actual_solar_cleared_mw": 34.25114,
+      "forecast_wind_uigf_mw": 280.60199,
+      "actual_wind_cleared_mw": 299.09533,
+      "forecast_net_interchange_mw": -906.52,
+      "actual_net_interchange_mw": -1055.22,
       "vintages": [
         {
           "issue_time": "2025-06-11T07:00:31",
           "horizon_minutes": 59.483333333333334,
-          "forecast_price": 16961.09291
+          "forecast_price": 16961.09291,
+          "forecast_demand": 7743.74,
+          "forecast_net_interchange_mw": -1003.25
         },
         {
           "issue_time": "2025-06-11T07:05:34",
           "horizon_minutes": 54.43333333333333,
-          "forecast_price": 16829.09349
+          "forecast_price": 16829.09349,
+          "forecast_demand": 7646.72,
+          "forecast_net_interchange_mw": -896.07
         },
         {
           "issue_time": "2025-06-11T07:10:31",
           "horizon_minutes": 49.483333333333334,
-          "forecast_price": 16697.84575
+          "forecast_price": 16697.84575,
+          "forecast_demand": 7719.8,
+          "forecast_net_interchange_mw": -959.78
         },
         {
           "issue_time": "2025-06-11T07:15:32",
           "horizon_minutes": 44.46666666666667,
-          "forecast_price": 13637.91502
+          "forecast_price": 13637.91502,
+          "forecast_demand": 7780.27,
+          "forecast_net_interchange_mw": -975.31
         },
         {
           "issue_time": "2025-06-11T07:20:30",
           "horizon_minutes": 39.5,
-          "forecast_price": 10180.41762
+          "forecast_price": 10180.41762,
+          "forecast_demand": 7779.62,
+          "forecast_net_interchange_mw": -887.71
         },
         {
           "issue_time": "2025-06-11T07:25:31",
           "horizon_minutes": 34.483333333333334,
-          "forecast_price": 3898.09306
+          "forecast_price": 3898.09306,
+          "forecast_demand": 7719.98,
+          "forecast_net_interchange_mw": -841.83
         },
         {
           "issue_time": "2025-06-11T07:30:31",
           "horizon_minutes": 29.483333333333334,
-          "forecast_price": 13176.37838
+          "forecast_price": 13176.37838,
+          "forecast_demand": 7690.57,
+          "forecast_net_interchange_mw": -906.52
         },
         {
           "issue_time": "2025-06-11T07:35:31",
           "horizon_minutes": 24.483333333333334,
-          "forecast_price": 10100.48503
+          "forecast_price": 10100.48503,
+          "forecast_demand": 7724.06,
+          "forecast_net_interchange_mw": -943.03
         },
         {
           "issue_time": "2025-06-11T07:40:32",
           "horizon_minutes": 19.466666666666665,
-          "forecast_price": 4008.80554
+          "forecast_price": 4008.80554,
+          "forecast_demand": 7747.78,
+          "forecast_net_interchange_mw": -973.57
         },
         {
           "issue_time": "2025-06-11T07:45:30",
           "horizon_minutes": 14.5,
-          "forecast_price": 983.96
+          "forecast_price": 983.96,
+          "forecast_demand": 7674.09,
+          "forecast_net_interchange_mw": -1008.14
         },
         {
           "issue_time": "2025-06-11T07:50:31",
           "horizon_minutes": 9.483333333333333,
-          "forecast_price": 381.64418
+          "forecast_price": 381.64418,
+          "forecast_demand": 7704.93,
+          "forecast_net_interchange_mw": -1066.13
         },
         {
           "issue_time": "2025-06-11T07:55:30",
           "horizon_minutes": 4.5,
-          "forecast_price": 237.20585
+          "forecast_price": 237.20585,
+          "forecast_demand": 7638.46,
+          "forecast_net_interchange_mw": -1069.15
         }
       ]
     },
@@ -1325,66 +1901,98 @@
       "absolute_error": 12819.141510000001,
       "source_file": "PUBLIC_ARCHIVE#P5MIN_REGIONSOLUTION#FILE01#202506010000.CSV",
       "source_file_actual": "PUBLIC_ARCHIVE#DISPATCHPRICE#FILE01#202506010000.CSV",
+      "forecast_demand": 7301.7,
+      "actual_demand": 7269.49,
+      "forecast_solar_uigf_mw": 0.0,
+      "actual_solar_cleared_mw": 0.0,
+      "forecast_wind_uigf_mw": 66.544,
+      "actual_wind_cleared_mw": 71.7007,
+      "forecast_net_interchange_mw": -759.16,
+      "actual_net_interchange_mw": -719.96,
       "vintages": [
         {
           "issue_time": "2025-06-12T20:10:30",
           "horizon_minutes": 59.5,
-          "forecast_price": 1166.04563
+          "forecast_price": 1166.04563,
+          "forecast_demand": 7245.96,
+          "forecast_net_interchange_mw": -625.7
         },
         {
           "issue_time": "2025-06-12T20:15:30",
           "horizon_minutes": 54.5,
-          "forecast_price": 14450.01
+          "forecast_price": 14450.01,
+          "forecast_demand": 7225.18,
+          "forecast_net_interchange_mw": -504.59
         },
         {
           "issue_time": "2025-06-12T20:20:31",
           "horizon_minutes": 49.483333333333334,
-          "forecast_price": 14450.01
+          "forecast_price": 14450.01,
+          "forecast_demand": 7259.97,
+          "forecast_net_interchange_mw": -635.2
         },
         {
           "issue_time": "2025-06-12T20:25:31",
           "horizon_minutes": 44.483333333333334,
-          "forecast_price": 15655.34009
+          "forecast_price": 15655.34009,
+          "forecast_demand": 7273.71,
+          "forecast_net_interchange_mw": -614.33
         },
         {
           "issue_time": "2025-06-12T20:30:29",
           "horizon_minutes": 39.516666666666666,
-          "forecast_price": 14450.01
+          "forecast_price": 14450.01,
+          "forecast_demand": 7290.33,
+          "forecast_net_interchange_mw": -638.01
         },
         {
           "issue_time": "2025-06-12T20:35:31",
           "horizon_minutes": 34.483333333333334,
-          "forecast_price": 1038.67091
+          "forecast_price": 1038.67091,
+          "forecast_demand": 7256.27,
+          "forecast_net_interchange_mw": -718.95
         },
         {
           "issue_time": "2025-06-12T20:40:31",
           "horizon_minutes": 29.483333333333334,
-          "forecast_price": 13407.09293
+          "forecast_price": 13407.09293,
+          "forecast_demand": 7301.7,
+          "forecast_net_interchange_mw": -759.16
         },
         {
           "issue_time": "2025-06-12T20:45:31",
           "horizon_minutes": 24.483333333333334,
-          "forecast_price": 15780.87196
+          "forecast_price": 15780.87196,
+          "forecast_demand": 7344.39,
+          "forecast_net_interchange_mw": -707.89
         },
         {
           "issue_time": "2025-06-12T20:50:32",
           "horizon_minutes": 19.466666666666665,
-          "forecast_price": 14450.01
+          "forecast_price": 14450.01,
+          "forecast_demand": 7304.09,
+          "forecast_net_interchange_mw": -719.5
         },
         {
           "issue_time": "2025-06-12T20:55:30",
           "horizon_minutes": 14.5,
-          "forecast_price": 15655.34009
+          "forecast_price": 15655.34009,
+          "forecast_demand": 7284.61,
+          "forecast_net_interchange_mw": -576.42
         },
         {
           "issue_time": "2025-06-12T21:00:32",
           "horizon_minutes": 9.466666666666667,
-          "forecast_price": 12789.28276
+          "forecast_price": 12789.28276,
+          "forecast_demand": 7299.77,
+          "forecast_net_interchange_mw": -570.91
         },
         {
           "issue_time": "2025-06-12T21:05:30",
           "horizon_minutes": 4.5,
-          "forecast_price": 587.95142
+          "forecast_price": 587.95142,
+          "forecast_demand": 7269.49,
+          "forecast_net_interchange_mw": -718.63
         }
       ]
     },
@@ -1398,66 +2006,98 @@
       "absolute_error": 12556.7713,
       "source_file": "PUBLIC_ARCHIVE#P5MIN_REGIONSOLUTION#FILE01#202506010000.CSV",
       "source_file_actual": "PUBLIC_ARCHIVE#DISPATCHPRICE#FILE01#202506010000.CSV",
+      "forecast_demand": 7654.01,
+      "actual_demand": 7666.83,
+      "forecast_solar_uigf_mw": 0.0,
+      "actual_solar_cleared_mw": 0.0,
+      "forecast_wind_uigf_mw": 50.087,
+      "actual_wind_cleared_mw": 59.0244,
+      "forecast_net_interchange_mw": -1132.93,
+      "actual_net_interchange_mw": -1161.86,
       "vintages": [
         {
           "issue_time": "2025-06-12T19:10:30",
           "horizon_minutes": 59.5,
-          "forecast_price": 959.83
+          "forecast_price": 959.83,
+          "forecast_demand": 7327.88,
+          "forecast_net_interchange_mw": -1132.42
         },
         {
           "issue_time": "2025-06-12T19:15:30",
           "horizon_minutes": 54.5,
-          "forecast_price": 13100.5591
+          "forecast_price": 13100.5591,
+          "forecast_demand": 7456.35,
+          "forecast_net_interchange_mw": -1264.37
         },
         {
           "issue_time": "2025-06-12T19:20:29",
           "horizon_minutes": 49.516666666666666,
-          "forecast_price": 14798.92
+          "forecast_price": 14798.92,
+          "forecast_demand": 7568.97,
+          "forecast_net_interchange_mw": -1006.87
         },
         {
           "issue_time": "2025-06-12T19:25:29",
           "horizon_minutes": 44.516666666666666,
-          "forecast_price": 13044.17463
+          "forecast_price": 13044.17463,
+          "forecast_demand": 7553.6,
+          "forecast_net_interchange_mw": -928.38
         },
         {
           "issue_time": "2025-06-12T19:30:31",
           "horizon_minutes": 39.483333333333334,
-          "forecast_price": 14284.03303
+          "forecast_price": 14284.03303,
+          "forecast_demand": 7620.64,
+          "forecast_net_interchange_mw": -1039.41
         },
         {
           "issue_time": "2025-06-12T19:35:30",
           "horizon_minutes": 34.5,
-          "forecast_price": 16940.71043
+          "forecast_price": 16940.71043,
+          "forecast_demand": 7630.49,
+          "forecast_net_interchange_mw": -1083.25
         },
         {
           "issue_time": "2025-06-12T19:40:30",
           "horizon_minutes": 29.5,
-          "forecast_price": 13684.36714
+          "forecast_price": 13684.36714,
+          "forecast_demand": 7654.01,
+          "forecast_net_interchange_mw": -1132.93
         },
         {
           "issue_time": "2025-06-12T19:45:29",
           "horizon_minutes": 24.516666666666666,
-          "forecast_price": 14450.01
+          "forecast_price": 14450.01,
+          "forecast_demand": 7682.73,
+          "forecast_net_interchange_mw": -1221.59
         },
         {
           "issue_time": "2025-06-12T19:50:31",
           "horizon_minutes": 19.483333333333334,
-          "forecast_price": 14450.01
+          "forecast_price": 14450.01,
+          "forecast_demand": 7683.71,
+          "forecast_net_interchange_mw": -1045.28
         },
         {
           "issue_time": "2025-06-12T19:55:30",
           "horizon_minutes": 14.5,
-          "forecast_price": 16548.45647
+          "forecast_price": 16548.45647,
+          "forecast_demand": 7686.9,
+          "forecast_net_interchange_mw": -1002.54
         },
         {
           "issue_time": "2025-06-12T20:00:32",
           "horizon_minutes": 9.466666666666667,
-          "forecast_price": 3844.0
+          "forecast_price": 3844.0,
+          "forecast_demand": 7666.08,
+          "forecast_net_interchange_mw": -1033.0
         },
         {
           "issue_time": "2025-06-12T20:05:30",
           "horizon_minutes": 4.5,
-          "forecast_price": 1045.12129
+          "forecast_price": 1045.12129,
+          "forecast_demand": 7666.83,
+          "forecast_net_interchange_mw": -1131.03
         }
       ]
     }

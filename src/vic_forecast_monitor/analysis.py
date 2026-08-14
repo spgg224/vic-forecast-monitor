@@ -90,6 +90,13 @@ def largest_misses(panel: pd.DataFrame, lead_minutes: float = 30, count: int = 2
         "source_file",
         "source_file_actual",
     ]
+    for optional in (
+        "forecast_demand", "actual_demand", "forecast_solar_uigf_mw", "actual_solar_cleared_mw",
+        "forecast_wind_uigf_mw", "actual_wind_cleared_mw", "forecast_net_interchange_mw",
+        "actual_net_interchange_mw",
+    ):
+        if optional in frame:
+            columns.append(optional)
     selected = frame.nlargest(count, "absolute_error")[columns].copy()
     for column in ("issue_time", "target_time"):
         selected[column] = selected[column].map(pd.Timestamp.isoformat)
@@ -107,6 +114,8 @@ def enrich_events(panel: pd.DataFrame, events: list[dict[str, object]]) -> list[
                 "issue_time": row.issue_time.isoformat(),
                 "horizon_minutes": float(row.horizon_minutes),
                 "forecast_price": float(row.forecast_price),
+                **({"forecast_demand": float(row.forecast_demand)} if hasattr(row, "forecast_demand") else {}),
+                **({"forecast_net_interchange_mw": float(row.forecast_net_interchange_mw)} if hasattr(row, "forecast_net_interchange_mw") else {}),
             }
             for row in vintages.itertuples()
         ]
@@ -148,6 +157,18 @@ def findings(panel: pd.DataFrame) -> dict[str, object]:
                 "demand_mae_when_price_above_1000_mw": float(
                     demand_error.loc[selected["actual_price"] > 1000].abs().mean()
                 ),
+            }
+        )
+    if "forecast_net_interchange_mw" in selected:
+        interchange_error = selected["forecast_net_interchange_mw"] - selected["actual_net_interchange_mw"]
+        result.update(
+            {
+                "thirty_minute_net_interchange_mae_mw": float(interchange_error.abs().mean()),
+                "absolute_interchange_price_error_correlation": float(
+                    interchange_error.abs().corr(selected["forecast_error"].abs())
+                ),
+                "thirty_minute_solar_uigf_to_cleared_gap_mw": float(selected["solar_gap_mw"].abs().mean()),
+                "thirty_minute_wind_uigf_to_cleared_gap_mw": float(selected["wind_gap_mw"].abs().mean()),
             }
         )
     return result

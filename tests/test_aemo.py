@@ -2,7 +2,7 @@ from pathlib import Path
 
 import pandas as pd
 
-from vic_forecast_monitor.aemo import build_panel, parse_dispatch, parse_p5min, parse_regionsum_monthly
+from vic_forecast_monitor.aemo import build_panel, parse_dispatch, parse_p5min, parse_p5min_conditions_monthly, parse_regionsum_monthly
 from vic_forecast_monitor.monthly import audit_month
 
 
@@ -63,3 +63,14 @@ def test_monthly_regionsum_parses_actual_demand() -> None:
     actuals = parse_regionsum_monthly(archive)
     assert len(actuals) == 8_928
     assert actuals["actual_demand"].notna().all()
+
+
+def test_monthly_conditions_preserve_forecast_vintage() -> None:
+    archive = Path(__file__).parents[1] / "data/raw/p5min/PUBLIC_ARCHIVE_P5MIN_REGIONSOLUTION_202507.zip"
+    if not archive.exists():
+        return
+    conditions = parse_p5min_conditions_monthly(archive)
+    # Monthly forecast archives can include future target rows beyond the month's actual-price boundary.
+    assert len(conditions) >= 107_070
+    assert not conditions.duplicated(["issue_time", "target_time", "region"]).any()
+    assert conditions[["forecast_solar_uigf_mw", "forecast_wind_uigf_mw", "forecast_net_interchange_mw"]].notna().all().all()

@@ -27,6 +27,7 @@ data/interim/
 data/processed/monthly/
 data/processed/forecast_actual_panel_2025.parquet
 data/processed/forecast_actual_panel_2025_enriched.parquet
+data/processed/forecast_actual_panel_2025_conditions.parquet
 
 # Generated output (keep selected prototype figures)
 output/*

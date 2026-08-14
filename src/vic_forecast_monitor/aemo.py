@@ -75,7 +75,9 @@ def _table_rows(archive: Path, package: str, table: str) -> Iterator[tuple[str, 
                                 yield inner_name, dict(zip(header, values, strict=False))
 
 
-def _flat_table_rows(archive: Path, package: str, table: str) -> Iterator[tuple[str, dict[str, str]]]:
+def _flat_table_rows(
+    archive: Path, package: str, table: str, data_contains: bytes | None = None
+) -> Iterator[tuple[str, dict[str, str]]]:
     """Stream a table from an MMSDM monthly archive containing one CSV."""
     info_prefix = f"I,{package},{table},".encode()
     data_prefix = f"D,{package},{table},".encode()
@@ -86,7 +88,9 @@ def _flat_table_rows(archive: Path, package: str, table: str) -> Iterator[tuple[
             for line in raw:
                 if line.startswith(info_prefix):
                     header = next(csv.reader([line.decode("utf-8-sig")]))[4:]
-                elif header is not None and line.startswith(data_prefix):
+                elif header is not None and line.startswith(data_prefix) and (
+                    data_contains is None or data_contains in line
+                ):
                     values = next(csv.reader([line.decode("utf-8-sig")]))[4:]
                     yield csv_name, dict(zip(header, values, strict=False))
 
@@ -110,13 +114,53 @@ def parse_p5min_monthly(archive: Path, region: str = "VIC1") -> pd.DataFrame:
     return _parse_p5min_rows(_flat_table_rows(archive, "P5MIN", "REGIONSOLUTION"), region)
 
 
+def parse_p5min_conditions_monthly(archive: Path, region: str = "VIC1") -> pd.DataFrame:
+    records: list[dict[str, object]] = []
+    prefix = b"I,P5MIN,REGIONSOLUTION,"
+    data_prefix = b"D,P5MIN,REGIONSOLUTION,"
+    wanted = ["RUN_DATETIME", "LASTCHANGED", "INTERVAL_DATETIME", "REGIONID", "INTERVENTION", "SS_SOLAR_UIGF", "SS_WIND_UIGF", "NETINTERCHANGE"]
+    with zipfile.ZipFile(archive) as bundle:
+        source_file = next(name for name in bundle.namelist() if name.lower().endswith(".csv"))
+        with bundle.open(source_file) as raw:
+            indices: dict[str, int] | None = None
+            for line in raw:
+                if line.startswith(prefix):
+                    header = line.decode("utf-8-sig").rstrip().split(",")[4:]
+                    indices = {name: header.index(name) + 4 for name in wanted}
+                elif indices is not None and line.startswith(data_prefix) and f",{region},".encode() in line:
+                    values = line.decode("utf-8-sig").rstrip().split(",")
+                    get = lambda name: values[indices[name]].strip('"')
+                    if get("REGIONID") != region or get("INTERVENTION") != "0":
+                        continue
+                    records.append(
+                        {
+                            "run_time": get("RUN_DATETIME"),
+                            "issue_time": get("LASTCHANGED"),
+                            "target_time": get("INTERVAL_DATETIME"),
+                            "region": region,
+                            "forecast_solar_uigf_mw": _optional_float(get("SS_SOLAR_UIGF")),
+                            "forecast_wind_uigf_mw": _optional_float(get("SS_WIND_UIGF")),
+                            "forecast_net_interchange_mw": _optional_float(get("NETINTERCHANGE")),
+                            "source_file_conditions": source_file,
+                        }
+                    )
+    frame = pd.DataFrame.from_records(records)
+    for column in ("run_time", "issue_time", "target_time"):
+        frame[column] = pd.to_datetime(frame[column], format=TIME_FORMAT)
+    return (
+        frame.sort_values(["target_time", "issue_time"])
+        .drop_duplicates(["issue_time", "target_time", "region"], keep="last")
+        .reset_index(drop=True)
+    )
+
+
 def parse_dispatch_monthly(archive: Path, region: str = "VIC1") -> pd.DataFrame:
-    return _parse_dispatch_rows(_flat_table_rows(archive, "DISPATCH", "PRICE"), region)
+    return _parse_dispatch_rows(_flat_table_rows(archive, "DISPATCH", "PRICE", f",{region},".encode()), region)
 
 
 def parse_regionsum_monthly(archive: Path, region: str = "VIC1") -> pd.DataFrame:
     records: list[dict[str, object]] = []
-    for source_file, row in _flat_table_rows(archive, "DISPATCH", "REGIONSUM"):
+    for source_file, row in _flat_table_rows(archive, "DISPATCH", "REGIONSUM", f",{region},".encode()):
         if row.get("REGIONID") != region or row.get("INTERVENTION") != "0":
             continue
         records.append(

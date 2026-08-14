@@ -14,5 +14,9 @@
   "thirty_minute_demand_mae_mw": 82.43265629756469,
   "thirty_minute_demand_bias_mw": 0.20714811643835648,
   "absolute_demand_price_error_correlation": 0.012585214819354568,
-  "demand_mae_when_price_above_1000_mw": 78.35734939759035
+  "demand_mae_when_price_above_1000_mw": 78.35734939759035,
+  "thirty_minute_net_interchange_mae_mw": 152.48968892694066,
+  "absolute_interchange_price_error_correlation": 0.018506707022674925,
+  "thirty_minute_solar_uigf_to_cleared_gap_mw": 74.60167448925039,
+  "thirty_minute_wind_uigf_to_cleared_gap_mw": 285.05980929366433
 }
