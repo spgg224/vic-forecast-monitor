@@ -12,6 +12,12 @@ Planned outputs include:
 - a detailed Victorian price-event case study; and
 - an optional calibrated spike-risk model, promoted only if it improves on transparent baselines out of sample.
 
+## Forecast-disagreement model
+
+The dashboard compares AEMO's approximately 30-minute P5MIN forecast with an independent estimate of the eventual VIC1 RRP. The model uses the AEMO forecast, demand, solar and wind UIGF, net interchange, forecast revisions, calendar terms, and prices already known at issue time.
+
+The split is chronological: January–September 2025 is used for training and October–December 2025 is untouched test data. On that test period, AEMO's MAE was **$15.23/MWh** and the model's MAE was **$13.89/MWh**, an **8.8% improvement**. This is encouraging forecasting evidence, not a backtest of executable trading P&L. The displayed `MODEL HIGHER` and `MODEL LOWER` labels mean the model differs from AEMO by at least $25/MWh; a real trade still depends on asset exposure, bids, constraints, liquidity, and transaction costs.
+
 ## 2025 headline results
 
 The full 2025 vintage-aware dataset is complete and passed its integrity audit:

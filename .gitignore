@@ -46,6 +46,8 @@ output/dashboard_data/*
 !output/dashboard_data/monthly.json
 !output/dashboard_data/case_study.json
 !output/dashboard_data/demand.json
+!output/dashboard_data/model_summary.json
+!output/dashboard_data/model_signals.json
 
 # Editors and operating systems
 .vscode/

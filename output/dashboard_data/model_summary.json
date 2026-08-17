@@ -1,0 +1,24 @@
+{
+  "model": "Histogram gradient boosting with absolute-error loss",
+  "signal_definition": "Model fair value minus AEMO P5MIN forecast at approximately 30 minutes",
+  "signal_threshold_mwh": 25,
+  "training_start": "2025-01-01T01:05:00",
+  "training_end": "2025-09-30T23:55:00",
+  "test_start": "2025-10-01T00:00:00",
+  "test_end": "2026-01-01T00:00:00",
+  "training_intervals": 78611,
+  "test_intervals": 26497,
+  "aemo_mae": 15.227732716533948,
+  "model_mae": 13.893578492300682,
+  "mae_improvement_percent": 8.761345165880606,
+  "aemo_rmse": 26.750219457752316,
+  "model_rmse": 23.084951259975547,
+  "model_bias": 1.489373305363337,
+  "aemo_bias": 1.456238162433483,
+  "signals": {
+    "NEUTRAL": 23896,
+    "MODEL HIGHER": 1434,
+    "MODEL LOWER": 1167
+  },
+  "warning": "A forecast-disagreement research signal, not an executable market price or backtested trading P&L."
+}

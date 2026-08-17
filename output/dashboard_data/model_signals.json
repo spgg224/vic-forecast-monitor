@@ -1,0 +1,902 @@
+[
+  {
+    "target_time": "2025-10-01T19:50:00",
+    "issue_time": "2025-10-01T19:21:17",
+    "forecast_price": -59.46,
+    "model_fair_value": 27.492295560774263,
+    "actual_price": 67.58273,
+    "model_edge": 86.95229556077426,
+    "signal": "MODEL HIGHER"
+  },
+  {
+    "target_time": "2025-10-01T20:05:00",
+    "issue_time": "2025-10-01T19:36:38",
+    "forecast_price": -57.00396,
+    "model_fair_value": 29.55554111971633,
+    "actual_price": 19.0,
+    "model_edge": 86.55950111971633,
+    "signal": "MODEL HIGHER"
+  },
+  {
+    "target_time": "2025-10-01T20:15:00",
+    "issue_time": "2025-10-01T19:46:37",
+    "forecast_price": -59.46,
+    "model_fair_value": 33.090766019147324,
+    "actual_price": 19.0,
+    "model_edge": 92.55076601914732,
+    "signal": "MODEL HIGHER"
+  },
+  {
+    "target_time": "2025-10-01T20:30:00",
+    "issue_time": "2025-10-01T20:01:17",
+    "forecast_price": -74.53926,
+    "model_fair_value": 12.298951536539398,
+    "actual_price": 18.54976,
+    "model_edge": 86.8382115365394,
+    "signal": "MODEL HIGHER"
+  },
+  {
+    "target_time": "2025-10-03T21:25:00",
+    "issue_time": "2025-10-03T20:55:29",
+    "forecast_price": 308.12034,
+    "model_fair_value": 207.5435215812351,
+    "actual_price": 298.33804,
+    "model_edge": -100.5768184187649,
+    "signal": "MODEL LOWER"
+  },
+  {
+    "target_time": "2025-10-13T04:50:00",
+    "issue_time": "2025-10-13T04:20:27",
+    "forecast_price": 348.75752,
+    "model_fair_value": 195.20596280420878,
+    "actual_price": 300.89,
+    "model_edge": -153.55155719579122,
+    "signal": "MODEL LOWER"
+  },
+  {
+    "target_time": "2025-10-13T05:10:00",
+    "issue_time": "2025-10-13T04:40:26",
+    "forecast_price": 262.07495,
+    "model_fair_value": 182.5783605924213,
+    "actual_price": 157.49279,
+    "model_edge": -79.49658940757871,
+    "signal": "MODEL LOWER"
+  },
+  {
+    "target_time": "2025-10-13T05:20:00",
+    "issue_time": "2025-10-13T04:50:28",
+    "forecast_price": 292.4112,
+    "model_fair_value": 206.79706600319133,
+    "actual_price": 218.05092,
+    "model_edge": -85.61413399680868,
+    "signal": "MODEL LOWER"
+  },
+  {
+    "target_time": "2025-10-13T05:35:00",
+    "issue_time": "2025-10-13T05:05:28",
+    "forecast_price": 292.18054,
+    "model_fair_value": 212.6222007710794,
+    "actual_price": 170.22,
+    "model_edge": -79.5583392289206,
+    "signal": "MODEL LOWER"
+  },
+  {
+    "target_time": "2025-10-13T06:10:00",
+    "issue_time": "2025-10-13T05:40:27",
+    "forecast_price": 502.23608,
+    "model_fair_value": 258.3467099349604,
+    "actual_price": 206.31207,
+    "model_edge": -243.8893700650396,
+    "signal": "MODEL LOWER"
+  },
+  {
+    "target_time": "2025-10-13T06:15:00",
+    "issue_time": "2025-10-13T05:45:28",
+    "forecast_price": 353.57203,
+    "model_fair_value": 270.4557950947867,
+    "actual_price": 182.8384,
+    "model_edge": -83.11623490521328,
+    "signal": "MODEL LOWER"
+  },
+  {
+    "target_time": "2025-10-13T07:00:00",
+    "issue_time": "2025-10-13T06:30:27",
+    "forecast_price": 397.80686,
+    "model_fair_value": 204.17427099664937,
+    "actual_price": 128.72992,
+    "model_edge": -193.6325890033506,
+    "signal": "MODEL LOWER"
+  },
+  {
+    "target_time": "2025-10-15T05:50:00",
+    "issue_time": "2025-10-15T05:20:29",
+    "forecast_price": 467.77798,
+    "model_fair_value": 261.01884423926094,
+    "actual_price": 287.56638,
+    "model_edge": -206.75913576073907,
+    "signal": "MODEL LOWER"
+  },
+  {
+    "target_time": "2025-10-15T05:55:00",
+    "issue_time": "2025-10-15T05:25:30",
+    "forecast_price": 382.1709,
+    "model_fair_value": 209.51247082167433,
+    "actual_price": 288.2574,
+    "model_edge": -172.6584291783257,
+    "signal": "MODEL LOWER"
+  },
+  {
+    "target_time": "2025-10-15T06:00:00",
+    "issue_time": "2025-10-15T05:30:29",
+    "forecast_price": 338.34105,
+    "model_fair_value": 237.04050156553552,
+    "actual_price": 200.89,
+    "model_edge": -101.30054843446447,
+    "signal": "MODEL LOWER"
+  },
+  {
+    "target_time": "2025-10-15T06:05:00",
+    "issue_time": "2025-10-15T05:35:29",
+    "forecast_price": 417.35534,
+    "model_fair_value": 266.7995925904107,
+    "actual_price": 136.48606,
+    "model_edge": -150.5557474095893,
+    "signal": "MODEL LOWER"
+  },
+  {
+    "target_time": "2025-10-15T06:10:00",
+    "issue_time": "2025-10-15T05:40:29",
+    "forecast_price": 573.78153,
+    "model_fair_value": 311.8205705104157,
+    "actual_price": 166.22093,
+    "model_edge": -261.9609594895843,
+    "signal": "MODEL LOWER"
+  },
+  {
+    "target_time": "2025-10-15T06:45:00",
+    "issue_time": "2025-10-15T06:15:28",
+    "forecast_price": 230.86691,
+    "model_fair_value": 149.12502470758278,
+    "actual_price": 113.81174,
+    "model_edge": -81.74188529241721,
+    "signal": "MODEL LOWER"
+  },
+  {
+    "target_time": "2025-10-16T18:50:00",
+    "issue_time": "2025-10-16T18:20:28",
+    "forecast_price": 201.46888,
+    "model_fair_value": 121.40795670667544,
+    "actual_price": 158.97,
+    "model_edge": -80.06092329332458,
+    "signal": "MODEL LOWER"
+  },
+  {
+    "target_time": "2025-10-21T07:05:00",
+    "issue_time": "2025-10-21T06:35:27",
+    "forecast_price": 378.22843,
+    "model_fair_value": 240.84310224510656,
+    "actual_price": 371.08,
+    "model_edge": -137.38532775489344,
+    "signal": "MODEL LOWER"
+  },
+  {
+    "target_time": "2025-10-21T07:10:00",
+    "issue_time": "2025-10-21T06:40:27",
+    "forecast_price": 378.30371,
+    "model_fair_value": 233.8423041203494,
+    "actual_price": 180.96,
+    "model_edge": -144.4614058796506,
+    "signal": "MODEL LOWER"
+  },
+  {
+    "target_time": "2025-10-21T07:15:00",
+    "issue_time": "2025-10-21T06:45:27",
+    "forecast_price": 381.82568,
+    "model_fair_value": 230.6224357149857,
+    "actual_price": 239.69,
+    "model_edge": -151.20324428501428,
+    "signal": "MODEL LOWER"
+  },
+  {
+    "target_time": "2025-10-21T07:20:00",
+    "issue_time": "2025-10-21T06:50:43",
+    "forecast_price": 589.69,
+    "model_fair_value": 203.93591412610854,
+    "actual_price": 239.69,
+    "model_edge": -385.75408587389154,
+    "signal": "MODEL LOWER"
+  },
+  {
+    "target_time": "2025-10-21T07:25:00",
+    "issue_time": "2025-10-21T06:55:27",
+    "forecast_price": 549.42569,
+    "model_fair_value": 216.96623925234007,
+    "actual_price": 202.07873,
+    "model_edge": -332.45945074765996,
+    "signal": "MODEL LOWER"
+  },
+  {
+    "target_time": "2025-10-21T18:50:00",
+    "issue_time": "2025-10-21T18:20:28",
+    "forecast_price": 278.66308,
+    "model_fair_value": 194.8257737292006,
+    "actual_price": 219.66346,
+    "model_edge": -83.83730627079939,
+    "signal": "MODEL LOWER"
+  },
+  {
+    "target_time": "2025-10-23T06:05:00",
+    "issue_time": "2025-10-23T05:35:30",
+    "forecast_price": 261.22706,
+    "model_fair_value": 175.76737024943293,
+    "actual_price": 138.06567,
+    "model_edge": -85.45968975056707,
+    "signal": "MODEL LOWER"
+  },
+  {
+    "target_time": "2025-10-24T05:55:00",
+    "issue_time": "2025-10-24T05:25:29",
+    "forecast_price": 311.6103,
+    "model_fair_value": 222.1920746441821,
+    "actual_price": 266.97975,
+    "model_edge": -89.4182253558179,
+    "signal": "MODEL LOWER"
+  },
+  {
+    "target_time": "2025-10-24T06:05:00",
+    "issue_time": "2025-10-24T05:35:28",
+    "forecast_price": 299.89,
+    "model_fair_value": 210.01432460513152,
+    "actual_price": 255.15917,
+    "model_edge": -89.87567539486847,
+    "signal": "MODEL LOWER"
+  },
+  {
+    "target_time": "2025-10-24T06:10:00",
+    "issue_time": "2025-10-24T05:40:31",
+    "forecast_price": 310.07889,
+    "model_fair_value": 203.39519415333362,
+    "actual_price": 177.67,
+    "model_edge": -106.68369584666638,
+    "signal": "MODEL LOWER"
+  },
+  {
+    "target_time": "2025-10-24T06:15:00",
+    "issue_time": "2025-10-24T05:45:30",
+    "forecast_price": 304.07723,
+    "model_fair_value": 190.5636538897887,
+    "actual_price": 190.48638,
+    "model_edge": -113.51357611021129,
+    "signal": "MODEL LOWER"
+  },
+  {
+    "target_time": "2025-10-24T06:20:00",
+    "issue_time": "2025-10-24T05:50:30",
+    "forecast_price": 428.29421,
+    "model_fair_value": 207.77466722377875,
+    "actual_price": 157.69,
+    "model_edge": -220.51954277622127,
+    "signal": "MODEL LOWER"
+  },
+  {
+    "target_time": "2025-10-24T06:25:00",
+    "issue_time": "2025-10-24T05:55:28",
+    "forecast_price": 308.56003,
+    "model_fair_value": 201.8264276617667,
+    "actual_price": 217.99389,
+    "model_edge": -106.73360233823328,
+    "signal": "MODEL LOWER"
+  },
+  {
+    "target_time": "2025-10-24T06:30:00",
+    "issue_time": "2025-10-24T06:00:29",
+    "forecast_price": 311.6103,
+    "model_fair_value": 220.53584011719272,
+    "actual_price": 131.23295,
+    "model_edge": -91.07445988280728,
+    "signal": "MODEL LOWER"
+  },
+  {
+    "target_time": "2025-10-24T06:35:00",
+    "issue_time": "2025-10-24T06:05:28",
+    "forecast_price": 319.19,
+    "model_fair_value": 182.5643397585096,
+    "actual_price": 115.56935,
+    "model_edge": -136.6256602414904,
+    "signal": "MODEL LOWER"
+  },
+  {
+    "target_time": "2025-10-24T06:40:00",
+    "issue_time": "2025-10-24T06:10:29",
+    "forecast_price": 448.89,
+    "model_fair_value": 207.76261051584373,
+    "actual_price": 118.23778,
+    "model_edge": -241.12738948415625,
+    "signal": "MODEL LOWER"
+  },
+  {
+    "target_time": "2025-10-24T06:45:00",
+    "issue_time": "2025-10-24T06:15:30",
+    "forecast_price": 411.65961,
+    "model_fair_value": 200.94597326095572,
+    "actual_price": 125.49,
+    "model_edge": -210.71363673904426,
+    "signal": "MODEL LOWER"
+  },
+  {
+    "target_time": "2025-10-24T08:45:00",
+    "issue_time": "2025-10-24T08:16:29",
+    "forecast_price": 217.44331,
+    "model_fair_value": 108.04945539423412,
+    "actual_price": 90.0,
+    "model_edge": -109.39385460576588,
+    "signal": "MODEL LOWER"
+  },
+  {
+    "target_time": "2025-10-29T06:15:00",
+    "issue_time": "2025-10-29T05:45:30",
+    "forecast_price": 385.96083,
+    "model_fair_value": 234.10128648436822,
+    "actual_price": 289.35946,
+    "model_edge": -151.85954351563177,
+    "signal": "MODEL LOWER"
+  },
+  {
+    "target_time": "2025-10-29T06:20:00",
+    "issue_time": "2025-10-29T05:50:28",
+    "forecast_price": 388.64922,
+    "model_fair_value": 235.72076831592173,
+    "actual_price": 259.3,
+    "model_edge": -152.92845168407828,
+    "signal": "MODEL LOWER"
+  },
+  {
+    "target_time": "2025-10-31T17:20:00",
+    "issue_time": "2025-10-31T16:50:29",
+    "forecast_price": 259.3,
+    "model_fair_value": 176.11158607664697,
+    "actual_price": 173.64365,
+    "model_edge": -83.18841392335304,
+    "signal": "MODEL LOWER"
+  },
+  {
+    "target_time": "2025-11-08T15:25:00",
+    "issue_time": "2025-11-08T14:56:49",
+    "forecast_price": -117.76949,
+    "model_fair_value": -29.968612079030155,
+    "actual_price": -30.83723,
+    "model_edge": 87.80087792096985,
+    "signal": "MODEL HIGHER"
+  },
+  {
+    "target_time": "2025-11-10T05:50:00",
+    "issue_time": "2025-11-10T05:20:28",
+    "forecast_price": 191.05393,
+    "model_fair_value": 106.87345544166858,
+    "actual_price": 97.30955,
+    "model_edge": -84.18047455833143,
+    "signal": "MODEL LOWER"
+  },
+  {
+    "target_time": "2025-11-10T19:10:00",
+    "issue_time": "2025-11-10T18:40:28",
+    "forecast_price": 270.7365,
+    "model_fair_value": 179.83048208920377,
+    "actual_price": 149.88148,
+    "model_edge": -90.90601791079621,
+    "signal": "MODEL LOWER"
+  },
+  {
+    "target_time": "2025-11-22T21:45:00",
+    "issue_time": "2025-11-22T21:15:28",
+    "forecast_price": 273.81,
+    "model_fair_value": 181.41899543776424,
+    "actual_price": 123.27691,
+    "model_edge": -92.39100456223576,
+    "signal": "MODEL LOWER"
+  },
+  {
+    "target_time": "2025-11-23T06:05:00",
+    "issue_time": "2025-11-23T05:35:28",
+    "forecast_price": 264.94121,
+    "model_fair_value": 169.25020761873813,
+    "actual_price": 116.89,
+    "model_edge": -95.69100238126188,
+    "signal": "MODEL LOWER"
+  },
+  {
+    "target_time": "2025-11-28T13:35:00",
+    "issue_time": "2025-11-28T13:07:03",
+    "forecast_price": 221.69,
+    "model_fair_value": 73.67446020192874,
+    "actual_price": -3.7,
+    "model_edge": -148.01553979807125,
+    "signal": "MODEL LOWER"
+  },
+  {
+    "target_time": "2025-12-02T06:10:00",
+    "issue_time": "2025-12-02T05:40:29",
+    "forecast_price": 215.88061,
+    "model_fair_value": 133.70292950914956,
+    "actual_price": 137.69,
+    "model_edge": -82.17768049085043,
+    "signal": "MODEL LOWER"
+  },
+  {
+    "target_time": "2025-12-02T06:20:00",
+    "issue_time": "2025-12-02T05:50:28",
+    "forecast_price": 214.68,
+    "model_fair_value": 128.3274675020605,
+    "actual_price": 118.69,
+    "model_edge": -86.3525324979395,
+    "signal": "MODEL LOWER"
+  },
+  {
+    "target_time": "2025-12-09T19:40:00",
+    "issue_time": "2025-12-09T19:10:30",
+    "forecast_price": 239.33361,
+    "model_fair_value": 138.20737507324105,
+    "actual_price": 110.65721,
+    "model_edge": -101.12623492675894,
+    "signal": "MODEL LOWER"
+  },
+  {
+    "target_time": "2025-12-18T19:30:00",
+    "issue_time": "2025-12-18T19:00:33",
+    "forecast_price": 270.0,
+    "model_fair_value": 502.07959189227944,
+    "actual_price": 241.70866,
+    "model_edge": 232.07959189227944,
+    "signal": "MODEL HIGHER"
+  },
+  {
+    "target_time": "2025-12-18T19:35:00",
+    "issue_time": "2025-12-18T19:05:32",
+    "forecast_price": 270.0,
+    "model_fair_value": 363.93070590960724,
+    "actual_price": 181.32,
+    "model_edge": 93.93070590960724,
+    "signal": "MODEL HIGHER"
+  },
+  {
+    "target_time": "2025-12-18T19:40:00",
+    "issue_time": "2025-12-18T19:10:32",
+    "forecast_price": 257.69586,
+    "model_fair_value": 348.2894789632508,
+    "actual_price": 239.31123,
+    "model_edge": 90.59361896325083,
+    "signal": "MODEL HIGHER"
+  },
+  {
+    "target_time": "2025-12-19T11:00:00",
+    "issue_time": "2025-12-19T10:30:46",
+    "forecast_price": 206.38138,
+    "model_fair_value": 121.16403102445561,
+    "actual_price": 100.23,
+    "model_edge": -85.2173489755444,
+    "signal": "MODEL LOWER"
+  },
+  {
+    "target_time": "2025-12-19T11:35:00",
+    "issue_time": "2025-12-19T11:05:30",
+    "forecast_price": 227.97,
+    "model_fair_value": 130.78558079088805,
+    "actual_price": 222.42855,
+    "model_edge": -97.18441920911195,
+    "signal": "MODEL LOWER"
+  },
+  {
+    "target_time": "2025-12-19T11:40:00",
+    "issue_time": "2025-12-19T11:10:30",
+    "forecast_price": 241.79,
+    "model_fair_value": 119.19380658006331,
+    "actual_price": 175.64,
+    "model_edge": -122.59619341993668,
+    "signal": "MODEL LOWER"
+  },
+  {
+    "target_time": "2025-12-19T11:45:00",
+    "issue_time": "2025-12-19T11:15:32",
+    "forecast_price": 244.88932,
+    "model_fair_value": 155.74061951336552,
+    "actual_price": 170.22,
+    "model_edge": -89.14870048663448,
+    "signal": "MODEL LOWER"
+  },
+  {
+    "target_time": "2025-12-19T11:55:00",
+    "issue_time": "2025-12-19T11:26:41",
+    "forecast_price": 299.5,
+    "model_fair_value": 195.30674691890283,
+    "actual_price": 96.99971,
+    "model_edge": -104.19325308109717,
+    "signal": "MODEL LOWER"
+  },
+  {
+    "target_time": "2025-12-21T14:05:00",
+    "issue_time": "2025-12-21T13:35:27",
+    "forecast_price": 274.66342,
+    "model_fair_value": 148.23743091539376,
+    "actual_price": -7.99992,
+    "model_edge": -126.42598908460621,
+    "signal": "MODEL LOWER"
+  },
+  {
+    "target_time": "2025-12-22T10:35:00",
+    "issue_time": "2025-12-22T10:06:48",
+    "forecast_price": -200.17065,
+    "model_fair_value": -30.33570624075173,
+    "actual_price": -20.99,
+    "model_edge": 169.83494375924826,
+    "signal": "MODEL HIGHER"
+  },
+  {
+    "target_time": "2025-12-25T13:00:00",
+    "issue_time": "2025-12-25T12:32:11",
+    "forecast_price": -207.5336,
+    "model_fair_value": -97.2206544554966,
+    "actual_price": -207.00823,
+    "model_edge": 110.3129455445034,
+    "signal": "MODEL HIGHER"
+  },
+  {
+    "target_time": "2025-12-25T13:10:00",
+    "issue_time": "2025-12-25T12:42:11",
+    "forecast_price": -253.6,
+    "model_fair_value": -97.6370403516382,
+    "actual_price": -203.24544,
+    "model_edge": 155.9629596483618,
+    "signal": "MODEL HIGHER"
+  },
+  {
+    "target_time": "2025-12-25T13:15:00",
+    "issue_time": "2025-12-25T12:47:13",
+    "forecast_price": -253.6,
+    "model_fair_value": -96.99144847243524,
+    "actual_price": -242.37916,
+    "model_edge": 156.60855152756477,
+    "signal": "MODEL HIGHER"
+  },
+  {
+    "target_time": "2025-12-25T13:20:00",
+    "issue_time": "2025-12-25T12:52:17",
+    "forecast_price": -260.70707,
+    "model_fair_value": -97.25966396714156,
+    "actual_price": -237.45272,
+    "model_edge": 163.44740603285842,
+    "signal": "MODEL HIGHER"
+  },
+  {
+    "target_time": "2025-12-25T13:30:00",
+    "issue_time": "2025-12-25T13:02:17",
+    "forecast_price": -242.37916,
+    "model_fair_value": -78.3593129253612,
+    "actual_price": -240.28867,
+    "model_edge": 164.01984707463882,
+    "signal": "MODEL HIGHER"
+  },
+  {
+    "target_time": "2025-12-25T13:35:00",
+    "issue_time": "2025-12-25T13:07:28",
+    "forecast_price": -253.6,
+    "model_fair_value": -96.96287730213903,
+    "actual_price": -253.6,
+    "model_edge": 156.63712269786095,
+    "signal": "MODEL HIGHER"
+  },
+  {
+    "target_time": "2025-12-25T13:40:00",
+    "issue_time": "2025-12-25T13:12:04",
+    "forecast_price": -253.6,
+    "model_fair_value": -78.23815347514133,
+    "actual_price": -153.87561,
+    "model_edge": 175.36184652485866,
+    "signal": "MODEL HIGHER"
+  },
+  {
+    "target_time": "2025-12-25T13:45:00",
+    "issue_time": "2025-12-25T13:17:19",
+    "forecast_price": -215.60429,
+    "model_fair_value": -78.96483360032818,
+    "actual_price": -253.6,
+    "model_edge": 136.63945639967181,
+    "signal": "MODEL HIGHER"
+  },
+  {
+    "target_time": "2025-12-25T13:50:00",
+    "issue_time": "2025-12-25T13:21:54",
+    "forecast_price": -225.62686,
+    "model_fair_value": -81.97312789964182,
+    "actual_price": -194.51438,
+    "model_edge": 143.65373210035818,
+    "signal": "MODEL HIGHER"
+  },
+  {
+    "target_time": "2025-12-25T14:00:00",
+    "issue_time": "2025-12-25T13:32:00",
+    "forecast_price": -223.259,
+    "model_fair_value": -96.6835905589165,
+    "actual_price": -240.28867,
+    "model_edge": 126.57540944108348,
+    "signal": "MODEL HIGHER"
+  },
+  {
+    "target_time": "2025-12-25T14:05:00",
+    "issue_time": "2025-12-25T13:36:56",
+    "forecast_price": -385.5059,
+    "model_fair_value": -96.41150588702978,
+    "actual_price": -253.6,
+    "model_edge": 289.09439411297024,
+    "signal": "MODEL HIGHER"
+  },
+  {
+    "target_time": "2025-12-25T14:10:00",
+    "issue_time": "2025-12-25T13:42:02",
+    "forecast_price": -178.0,
+    "model_fair_value": -92.67607452688836,
+    "actual_price": -253.6,
+    "model_edge": 85.32392547311164,
+    "signal": "MODEL HIGHER"
+  },
+  {
+    "target_time": "2025-12-25T14:15:00",
+    "issue_time": "2025-12-25T13:47:14",
+    "forecast_price": -253.6,
+    "model_fair_value": -95.4106509960522,
+    "actual_price": -253.6,
+    "model_edge": 158.1893490039478,
+    "signal": "MODEL HIGHER"
+  },
+  {
+    "target_time": "2025-12-25T14:20:00",
+    "issue_time": "2025-12-25T13:52:08",
+    "forecast_price": -253.6,
+    "model_fair_value": -95.44738274052968,
+    "actual_price": -239.97354,
+    "model_edge": 158.15261725947033,
+    "signal": "MODEL HIGHER"
+  },
+  {
+    "target_time": "2025-12-25T14:25:00",
+    "issue_time": "2025-12-25T13:57:10",
+    "forecast_price": -253.6,
+    "model_fair_value": -96.45210680868766,
+    "actual_price": -242.37916,
+    "model_edge": 157.14789319131233,
+    "signal": "MODEL HIGHER"
+  },
+  {
+    "target_time": "2025-12-25T14:30:00",
+    "issue_time": "2025-12-25T14:02:09",
+    "forecast_price": -253.6,
+    "model_fair_value": -94.7674490144162,
+    "actual_price": -253.6,
+    "model_edge": 158.8325509855838,
+    "signal": "MODEL HIGHER"
+  },
+  {
+    "target_time": "2025-12-25T14:35:00",
+    "issue_time": "2025-12-25T14:07:11",
+    "forecast_price": -253.6,
+    "model_fair_value": -77.04358007839608,
+    "actual_price": -240.57046,
+    "model_edge": 176.55641992160392,
+    "signal": "MODEL HIGHER"
+  },
+  {
+    "target_time": "2025-12-25T14:40:00",
+    "issue_time": "2025-12-25T14:12:07",
+    "forecast_price": -213.48681,
+    "model_fair_value": -93.5170479381657,
+    "actual_price": -253.6,
+    "model_edge": 119.96976206183429,
+    "signal": "MODEL HIGHER"
+  },
+  {
+    "target_time": "2025-12-25T14:45:00",
+    "issue_time": "2025-12-25T14:17:12",
+    "forecast_price": -220.12247,
+    "model_fair_value": -93.24883244345938,
+    "actual_price": -241.17035,
+    "model_edge": 126.87363755654061,
+    "signal": "MODEL HIGHER"
+  },
+  {
+    "target_time": "2025-12-25T14:50:00",
+    "issue_time": "2025-12-25T14:21:59",
+    "forecast_price": -178.0,
+    "model_fair_value": -77.96709108202802,
+    "actual_price": -236.66998,
+    "model_edge": 100.03290891797198,
+    "signal": "MODEL HIGHER"
+  },
+  {
+    "target_time": "2025-12-25T14:55:00",
+    "issue_time": "2025-12-25T14:26:45",
+    "forecast_price": -178.0,
+    "model_fair_value": -91.12899185201502,
+    "actual_price": -148.88476,
+    "model_edge": 86.87100814798498,
+    "signal": "MODEL HIGHER"
+  },
+  {
+    "target_time": "2025-12-25T15:30:00",
+    "issue_time": "2025-12-25T15:02:01",
+    "forecast_price": -178.0,
+    "model_fair_value": -83.21781871991342,
+    "actual_price": -148.0,
+    "model_edge": 94.78218128008658,
+    "signal": "MODEL HIGHER"
+  },
+  {
+    "target_time": "2025-12-25T15:45:00",
+    "issue_time": "2025-12-25T15:16:31",
+    "forecast_price": -178.0,
+    "model_fair_value": -93.46565102234676,
+    "actual_price": -153.59621,
+    "model_edge": 84.53434897765324,
+    "signal": "MODEL HIGHER"
+  },
+  {
+    "target_time": "2025-12-26T11:40:00",
+    "issue_time": "2025-12-26T11:11:54",
+    "forecast_price": -162.11746,
+    "model_fair_value": -68.78557202057837,
+    "actual_price": -110.01,
+    "model_edge": 93.33188797942162,
+    "signal": "MODEL HIGHER"
+  },
+  {
+    "target_time": "2025-12-26T13:00:00",
+    "issue_time": "2025-12-26T12:31:55",
+    "forecast_price": -192.67063,
+    "model_fair_value": -74.9665761871723,
+    "actual_price": -175.99827,
+    "model_edge": 117.7040538128277,
+    "signal": "MODEL HIGHER"
+  },
+  {
+    "target_time": "2025-12-26T13:40:00",
+    "issue_time": "2025-12-26T13:11:48",
+    "forecast_price": -178.0,
+    "model_fair_value": -84.09238978341389,
+    "actual_price": -135.0,
+    "model_edge": 93.90761021658611,
+    "signal": "MODEL HIGHER"
+  },
+  {
+    "target_time": "2025-12-26T14:00:00",
+    "issue_time": "2025-12-26T13:31:48",
+    "forecast_price": -200.0,
+    "model_fair_value": -83.80923386301096,
+    "actual_price": -186.58903,
+    "model_edge": 116.19076613698904,
+    "signal": "MODEL HIGHER"
+  },
+  {
+    "target_time": "2025-12-26T14:10:00",
+    "issue_time": "2025-12-26T13:41:45",
+    "forecast_price": -172.23505,
+    "model_fair_value": -68.45133894687538,
+    "actual_price": -104.33379,
+    "model_edge": 103.78371105312462,
+    "signal": "MODEL HIGHER"
+  },
+  {
+    "target_time": "2025-12-26T14:40:00",
+    "issue_time": "2025-12-26T14:11:56",
+    "forecast_price": -172.68008,
+    "model_fair_value": -68.12383293760836,
+    "actual_price": -186.1568,
+    "model_edge": 104.55624706239165,
+    "signal": "MODEL HIGHER"
+  },
+  {
+    "target_time": "2025-12-26T14:45:00",
+    "issue_time": "2025-12-26T14:16:52",
+    "forecast_price": -178.0,
+    "model_fair_value": -68.09891263815894,
+    "actual_price": -121.82141,
+    "model_edge": 109.90108736184106,
+    "signal": "MODEL HIGHER"
+  },
+  {
+    "target_time": "2025-12-26T14:55:00",
+    "issue_time": "2025-12-26T14:26:55",
+    "forecast_price": -192.83736,
+    "model_fair_value": -69.06897041308392,
+    "actual_price": -203.66596,
+    "model_edge": 123.76838958691607,
+    "signal": "MODEL HIGHER"
+  },
+  {
+    "target_time": "2025-12-26T15:00:00",
+    "issue_time": "2025-12-26T14:31:29",
+    "forecast_price": -155.43817,
+    "model_fair_value": -70.08475845778952,
+    "actual_price": -148.0,
+    "model_edge": 85.3534115422105,
+    "signal": "MODEL HIGHER"
+  },
+  {
+    "target_time": "2025-12-27T11:00:00",
+    "issue_time": "2025-12-27T10:32:19",
+    "forecast_price": -178.0,
+    "model_fair_value": -90.11500570452687,
+    "actual_price": -101.14214,
+    "model_edge": 87.88499429547313,
+    "signal": "MODEL HIGHER"
+  },
+  {
+    "target_time": "2025-12-27T11:30:00",
+    "issue_time": "2025-12-27T11:02:17",
+    "forecast_price": -200.29,
+    "model_fair_value": -90.86191281000896,
+    "actual_price": -132.10261,
+    "model_edge": 109.42808718999103,
+    "signal": "MODEL HIGHER"
+  },
+  {
+    "target_time": "2025-12-27T12:00:00",
+    "issue_time": "2025-12-27T11:32:17",
+    "forecast_price": -198.84,
+    "model_fair_value": -89.95348775410834,
+    "actual_price": -178.0,
+    "model_edge": 108.88651224589167,
+    "signal": "MODEL HIGHER"
+  },
+  {
+    "target_time": "2025-12-27T12:15:00",
+    "issue_time": "2025-12-27T11:47:12",
+    "forecast_price": -204.15,
+    "model_fair_value": -89.55548672681422,
+    "actual_price": -185.42369,
+    "model_edge": 114.59451327318578,
+    "signal": "MODEL HIGHER"
+  },
+  {
+    "target_time": "2025-12-27T12:30:00",
+    "issue_time": "2025-12-27T12:02:14",
+    "forecast_price": -253.6,
+    "model_fair_value": -89.33315962117254,
+    "actual_price": -178.0,
+    "model_edge": 164.26684037882745,
+    "signal": "MODEL HIGHER"
+  },
+  {
+    "target_time": "2025-12-27T12:40:00",
+    "issue_time": "2025-12-27T12:12:27",
+    "forecast_price": -179.20074,
+    "model_fair_value": -87.85531991925951,
+    "actual_price": -164.80809,
+    "model_edge": 91.34542008074048,
+    "signal": "MODEL HIGHER"
+  },
+  {
+    "target_time": "2025-12-27T13:00:00",
+    "issue_time": "2025-12-27T12:32:12",
+    "forecast_price": -178.0,
+    "model_fair_value": -87.6606244515082,
+    "actual_price": -105.45,
+    "model_edge": 90.3393755484918,
+    "signal": "MODEL HIGHER"
+  },
+  {
+    "target_time": "2025-12-27T13:10:00",
+    "issue_time": "2025-12-27T12:42:17",
+    "forecast_price": -195.08114,
+    "model_fair_value": -92.80251487605405,
+    "actual_price": -105.45,
+    "model_edge": 102.27862512394596,
+    "signal": "MODEL HIGHER"
+  },
+  {
+    "target_time": "2025-12-27T14:05:00",
+    "issue_time": "2025-12-27T13:36:54",
+    "forecast_price": -199.12,
+    "model_fair_value": -94.11209316459009,
+    "actual_price": -84.85,
+    "model_edge": 105.00790683540991,
+    "signal": "MODEL HIGHER"
+  }
+]

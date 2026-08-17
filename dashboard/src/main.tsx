@@ -2,6 +2,7 @@ import React, { useEffect, useMemo, useState } from "react";
 import { createRoot } from "react-dom/client";
 import "./styles.css";
 import "./extras.css";
+import "./decision.css";
 
 type Horizon = { horizon_minutes: string; observations: number; mae: number; rmse: number; median_absolute_error: number; bias: number; p95_absolute_error: number };
 type Scorecard = { coverage: { start: string; end: string; forecast_vintages: number; target_intervals: number }; overall: Horizon; by_horizon: Horizon[] };
@@ -9,6 +10,8 @@ type Vintage = { issue_time: string; horizon_minutes: number; forecast_price: nu
 type Event = { issue_time: string; target_time: string; horizon_minutes: number; forecast_price: number; actual_price: number; forecast_error: number; absolute_error: number; vintages: Vintage[] };
 type Events = { lead_minutes: number; events: Event[] };
 type Findings = { far_to_near_error_ratio: number; top_one_percent_error_share: number; actual_intervals_above_1000: number; max_actual_price: number; thirty_minute_demand_mae_mw: number; absolute_demand_price_error_correlation: number; thirty_minute_net_interchange_mae_mw: number; absolute_interchange_price_error_correlation: number };
+type ModelSummary = { model: string; training_start: string; training_end: string; test_start: string; test_end: string; training_intervals: number; test_intervals: number; aemo_mae: number; model_mae: number; mae_improvement_percent: number; warning: string };
+type ModelSignal = { target_time: string; issue_time: string; forecast_price: number; model_fair_value: number; actual_price: number; model_edge: number; signal: string };
 
 const money = new Intl.NumberFormat("en-AU", { style: "currency", currency: "AUD", maximumFractionDigits: 2 });
 const number = new Intl.NumberFormat("en-AU");
@@ -37,16 +40,27 @@ function App() {
   const [events, setEvents] = useState<Events | null>(null);
   const [findings, setFindings] = useState<Findings | null>(null);
   const [selected, setSelected] = useState<Event | null>(null);
+  const [modelSummary, setModelSummary] = useState<ModelSummary | null>(null);
+  const [modelSignals, setModelSignals] = useState<ModelSignal[]>([]);
+  const [selectedSignal, setSelectedSignal] = useState<ModelSignal | null>(null);
   useEffect(() => {
-    Promise.all(["scorecard", "events", "findings"].map(name => fetch(`${import.meta.env.BASE_URL}data/${name}.json`).then(r => r.json())))
-      .then(([scoreData, eventData, findingData]) => { setScores(scoreData); setEvents(eventData); setFindings(findingData); setSelected(eventData.events[0]); });
+    Promise.all(["scorecard", "events", "findings", "model_summary", "model_signals"].map(name => fetch(`${import.meta.env.BASE_URL}data/${name}.json`).then(r => r.json())))
+      .then(([scoreData, eventData, findingData, modelData, signalData]) => { setScores(scoreData); setEvents(eventData); setFindings(findingData); setModelSummary(modelData); setModelSignals(signalData); setSelectedSignal(signalData.at(-1)); setSelected(eventData.events[0]); });
   }, []);
   const dates = useMemo(() => scores ? `${new Date(scores.coverage.start).toLocaleDateString("en-AU")} - ${new Date(scores.coverage.end).toLocaleDateString("en-AU")}` : "Loading", [scores]);
-  if (!scores || !events || !findings) return <main className="loading">Loading VIC forecast data...</main>;
+  if (!scores || !events || !findings || !modelSummary || !selectedSignal) return <main className="loading">Loading VIC forecast data...</main>;
   const near = scores.by_horizon[0], far = scores.by_horizon.at(-1)!;
   return <>
     <header><div className="eyebrow">AEMO PUBLIC DATA / HISTORICAL ANALYSIS</div><h1>VIC Forecast Monitor</h1><p>When five-minute electricity price forecasts diverged from market reality.</p><div className="meta"><span>VIC1</span><span>{dates}</span><span>Not a live trading signal</span></div></header>
     <main>
+      <section className="decision">
+        <div className="decisionIntro"><span className="kicker">THE TRADING QUESTION</span><h2>Thirty minutes before dispatch, does our estimate disagree with AEMO?</h2><p>The model estimates the eventual VIC1 spot price using only information available at the forecast time. A large difference is a research signal to investigate—not an executable market price.</p></div>
+        <div className="signalPicker"><label htmlFor="signal">Historical test example</label><select id="signal" value={selectedSignal.target_time} onChange={e => setSelectedSignal(modelSignals.find(row => row.target_time === e.target.value) ?? selectedSignal)}>{modelSignals.map(row => <option value={row.target_time} key={row.target_time}>{new Date(row.target_time).toLocaleString("en-AU", {dateStyle:"medium",timeStyle:"short"})} / {row.signal}</option>)}</select></div>
+        <div className="priceComparison"><article><span>AEMO 30-min forecast</span><strong>{money.format(selectedSignal.forecast_price)}</strong><small>Public market forecast</small></article><article className="modelValue"><span>Model fair value</span><strong>{money.format(selectedSignal.model_fair_value)}</strong><small>Estimated realised RRP</small></article><article><span>What actually happened</span><strong>{money.format(selectedSignal.actual_price)}</strong><small>Held out from training</small></article></div>
+        <div className={`signalCall ${selectedSignal.model_edge >= 0 ? "higher" : "lower"}`}><span>FORECAST-DISAGREEMENT SIGNAL</span><strong>{selectedSignal.signal}</strong><p>Model is {money.format(Math.abs(selectedSignal.model_edge))} {selectedSignal.model_edge >= 0 ? "above" : "below"} AEMO.</p></div>
+      </section>
+      <section className="explain"><span className="kicker">HOW TO READ THIS</span><div><p><b>1</b><strong>AEMO forecast</strong><span>What the public five-minute pre-dispatch run expected.</span></p><p><b>2</b><strong>Model fair value</strong><span>Our independent estimate using demand, renewables, interchange, revisions and known prior prices.</span></p><p><b>3</b><strong>Actual outcome</strong><span>Used afterward to score both forecasts on untouched test data.</span></p></div></section>
+      <section className="modelScore"><div><span className="kicker">OUT-OF-SAMPLE SCORECARD</span><h2>The model improved normal price estimation, but this is not yet trading P&amp;L.</h2><p>Trained Jan-Sep 2025. Tested Oct-Dec 2025. No test outcomes were used to fit the model.</p></div><div className="scoreCompare"><p><span>AEMO MAE</span><strong>{money.format(modelSummary.aemo_mae)}</strong></p><p><span>Model MAE</span><strong>{money.format(modelSummary.model_mae)}</strong></p><p className="improve"><span>Improvement</span><strong>{modelSummary.mae_improvement_percent.toFixed(1)}%</strong></p></div></section>
       <section className="metrics">
         <Metric label="Forecast vintages" value={number.format(scores.coverage.forecast_vintages)} note={`${number.format(scores.coverage.target_intervals)} actual intervals`} />
         <Metric label="Overall MAE" value={money.format(scores.overall.mae)} note={`Median ${money.format(scores.overall.median_absolute_error)}`} />
