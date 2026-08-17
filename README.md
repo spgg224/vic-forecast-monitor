@@ -16,6 +16,8 @@ Planned outputs include:
 
 The dashboard compares AEMO's approximately 30-minute P5MIN forecast with an independent estimate of the eventual VIC1 RRP. The model uses the AEMO forecast, demand, solar and wind UIGF, net interchange, forecast revisions, calendar terms, and prices already known at issue time.
 
+The top chart is a rolling feed from AEMO's Current P5MIN and DispatchIS reports. GitHub Actions refreshes it every 15 minutes. It plots AEMO's forecast, model fair value, and the realised VIC1 RRP on the same timeline; actuals remain blank for intervals that have not dispatched yet.
+
 The split is chronological: January–September 2025 is used for training and October–December 2025 is untouched test data. On that test period, AEMO's MAE was **$15.23/MWh** and the model's MAE was **$13.89/MWh**, an **8.8% improvement**. This is encouraging forecasting evidence, not a backtest of executable trading P&L. The displayed `MODEL HIGHER` and `MODEL LOWER` labels mean the model differs from AEMO by at least $25/MWh; a real trade still depends on asset exposure, bids, constraints, liquidity, and transaction costs.
 
 ## 2025 headline results

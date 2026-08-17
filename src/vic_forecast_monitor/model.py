@@ -6,6 +6,7 @@ from pathlib import Path
 
 import numpy as np
 import pandas as pd
+import joblib
 from sklearn.ensemble import HistGradientBoostingRegressor
 from sklearn.metrics import mean_absolute_error, root_mean_squared_error
 
@@ -44,7 +45,7 @@ def feature_frame(panel: pd.DataFrame, lead_minutes: float = 30) -> pd.DataFrame
     return selected.dropna(subset=FEATURES).reset_index(drop=True)
 
 
-def train_and_evaluate(panel: pd.DataFrame, cutoff: str = "2025-10-01") -> tuple[pd.DataFrame, dict[str, object]]:
+def train_and_evaluate(panel: pd.DataFrame, cutoff: str = "2025-10-01") -> tuple[pd.DataFrame, dict[str, object], HistGradientBoostingRegressor]:
     frame = feature_frame(panel)
     cutoff_time = pd.Timestamp(cutoff)
     train = frame.loc[frame["target_time"] < cutoff_time].copy()
@@ -89,10 +90,10 @@ def train_and_evaluate(panel: pd.DataFrame, cutoff: str = "2025-10-01") -> tuple
         "signals": {key: int(value) for key, value in test["signal"].value_counts().items()},
         "warning": "A forecast-disagreement research signal, not an executable market price or backtested trading P&L.",
     }
-    return test, summary
+    return test, summary, model
 
 
-def export_model(test: pd.DataFrame, summary: dict[str, object], root: Path) -> None:
+def export_model(test: pd.DataFrame, summary: dict[str, object], model: HistGradientBoostingRegressor, root: Path) -> None:
     destination = root / "output" / "dashboard_data"
     destination.mkdir(parents=True, exist_ok=True)
     (destination / "model_summary.json").write_text(json.dumps(summary, indent=2) + "\n", encoding="utf-8")
@@ -103,6 +104,9 @@ def export_model(test: pd.DataFrame, summary: dict[str, object], root: Path) -> 
     for column in ("target_time", "issue_time"):
         display[column] = display[column].map(pd.Timestamp.isoformat)
     (destination / "model_signals.json").write_text(json.dumps(display[columns].to_dict(orient="records"), indent=2) + "\n", encoding="utf-8")
+    artifact = root / "model"
+    artifact.mkdir(parents=True, exist_ok=True)
+    joblib.dump(model, artifact / "forecast_model.joblib")
 
 
 def main() -> None:
@@ -110,8 +114,8 @@ def main() -> None:
     parser.add_argument("--panel", type=Path, required=True)
     parser.add_argument("--root", type=Path, default=Path.cwd())
     args = parser.parse_args()
-    test, summary = train_and_evaluate(pd.read_parquet(args.panel))
-    export_model(test, summary, args.root)
+    test, summary, model = train_and_evaluate(pd.read_parquet(args.panel))
+    export_model(test, summary, model, args.root)
     print(json.dumps(summary, indent=2))
 
 

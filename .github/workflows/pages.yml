@@ -5,8 +5,13 @@ on:
     branches: [main]
     paths:
       - "dashboard/**"
+      - "src/**"
+      - "model/**"
+      - "pyproject.toml"
       - ".github/workflows/pages.yml"
   workflow_dispatch:
+  schedule:
+    - cron: "*/15 * * * *"
 
 permissions:
   contents: read
@@ -27,6 +32,12 @@ jobs:
           node-version: 22
           cache: npm
           cache-dependency-path: dashboard/package-lock.json
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install .
+      - run: python -m vic_forecast_monitor.live --limit 96
       - run: npm ci
         working-directory: dashboard
       - run: npm run build

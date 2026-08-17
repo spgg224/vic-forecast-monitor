@@ -1,0 +1,655 @@
+{
+  "generated_at": "2026-08-17T15:26:45.506984+10:00",
+  "source": "AEMO NEMWeb Current P5MIN and DispatchIS reports",
+  "refresh_note": "Rolling feed; actual price is blank until dispatch has occurred.",
+  "rows": [
+    {
+      "target_time": "2026-08-17T10:05:00",
+      "issue_time": "2026-08-17T09:35:31",
+      "forecast_price": 51.37346,
+      "model_fair_value": 51.39478462275315,
+      "actual_price": 46.33353,
+      "model_edge": 0.021324622753148503,
+      "signal": "NEUTRAL"
+    },
+    {
+      "target_time": "2026-08-17T10:10:00",
+      "issue_time": "2026-08-17T09:40:32",
+      "forecast_price": 39.48,
+      "model_fair_value": 32.00287548303397,
+      "actual_price": 46.68672,
+      "model_edge": -7.477124516966029,
+      "signal": "NEUTRAL"
+    },
+    {
+      "target_time": "2026-08-17T10:15:00",
+      "issue_time": "2026-08-17T09:45:31",
+      "forecast_price": 43.14717,
+      "model_fair_value": 40.52572531466568,
+      "actual_price": 45.91,
+      "model_edge": -2.6214446853343247,
+      "signal": "NEUTRAL"
+    },
+    {
+      "target_time": "2026-08-17T10:20:00",
+      "issue_time": "2026-08-17T09:50:31",
+      "forecast_price": 42.45518,
+      "model_fair_value": 38.17510476074895,
+      "actual_price": 30.16,
+      "model_edge": -4.2800752392510475,
+      "signal": "NEUTRAL"
+    },
+    {
+      "target_time": "2026-08-17T10:25:00",
+      "issue_time": "2026-08-17T09:55:32",
+      "forecast_price": 28.33489,
+      "model_fair_value": 26.702749952427414,
+      "actual_price": 34.01,
+      "model_edge": -1.6321400475725873,
+      "signal": "NEUTRAL"
+    },
+    {
+      "target_time": "2026-08-17T10:30:00",
+      "issue_time": "2026-08-17T10:00:32",
+      "forecast_price": 10.65,
+      "model_fair_value": 20.98473575239213,
+      "actual_price": 30.16,
+      "model_edge": 10.33473575239213,
+      "signal": "NEUTRAL"
+    },
+    {
+      "target_time": "2026-08-17T10:35:00",
+      "issue_time": "2026-08-17T10:05:32",
+      "forecast_price": 27.65526,
+      "model_fair_value": 25.934846853602824,
+      "actual_price": 20.63,
+      "model_edge": -1.7204131463971741,
+      "signal": "NEUTRAL"
+    },
+    {
+      "target_time": "2026-08-17T10:40:00",
+      "issue_time": "2026-08-17T10:10:32",
+      "forecast_price": 13.92483,
+      "model_fair_value": 24.193559073035704,
+      "actual_price": 30.16,
+      "model_edge": 10.268729073035704,
+      "signal": "NEUTRAL"
+    },
+    {
+      "target_time": "2026-08-17T10:45:00",
+      "issue_time": "2026-08-17T10:15:32",
+      "forecast_price": 12.97,
+      "model_fair_value": 21.07999129116833,
+      "actual_price": 10.65,
+      "model_edge": 8.10999129116833,
+      "signal": "NEUTRAL"
+    },
+    {
+      "target_time": "2026-08-17T10:50:00",
+      "issue_time": "2026-08-17T10:20:32",
+      "forecast_price": 12.97,
+      "model_fair_value": 21.07722344917642,
+      "actual_price": 10.65006,
+      "model_edge": 8.107223449176418,
+      "signal": "NEUTRAL"
+    },
+    {
+      "target_time": "2026-08-17T10:55:00",
+      "issue_time": "2026-08-17T10:25:31",
+      "forecast_price": 29.58457,
+      "model_fair_value": 23.04902633804073,
+      "actual_price": 10.65,
+      "model_edge": -6.53554366195927,
+      "signal": "NEUTRAL"
+    },
+    {
+      "target_time": "2026-08-17T11:00:00",
+      "issue_time": "2026-08-17T10:30:32",
+      "forecast_price": 10.66,
+      "model_fair_value": 20.76000675983361,
+      "actual_price": 4.80718,
+      "model_edge": 10.100006759833612,
+      "signal": "NEUTRAL"
+    },
+    {
+      "target_time": "2026-08-17T11:05:00",
+      "issue_time": "2026-08-17T10:35:32",
+      "forecast_price": 12.5,
+      "model_fair_value": 21.070914184469995,
+      "actual_price": 10.50024,
+      "model_edge": 8.570914184469995,
+      "signal": "NEUTRAL"
+    },
+    {
+      "target_time": "2026-08-17T11:10:00",
+      "issue_time": "2026-08-17T10:40:33",
+      "forecast_price": 10.5,
+      "model_fair_value": 18.482416592876792,
+      "actual_price": 20.68,
+      "model_edge": 7.982416592876792,
+      "signal": "NEUTRAL"
+    },
+    {
+      "target_time": "2026-08-17T11:15:00",
+      "issue_time": "2026-08-17T10:45:32",
+      "forecast_price": 10.5,
+      "model_fair_value": 19.85117904846332,
+      "actual_price": 20.68,
+      "model_edge": 9.351179048463319,
+      "signal": "NEUTRAL"
+    },
+    {
+      "target_time": "2026-08-17T11:20:00",
+      "issue_time": "2026-08-17T10:50:31",
+      "forecast_price": 10.65,
+      "model_fair_value": 12.283737217345804,
+      "actual_price": 27.97008,
+      "model_edge": 1.6337372173458036,
+      "signal": "NEUTRAL"
+    },
+    {
+      "target_time": "2026-08-17T11:25:00",
+      "issue_time": "2026-08-17T10:55:31",
+      "forecast_price": 9.59952,
+      "model_fair_value": 14.396307632528526,
+      "actual_price": 12.96,
+      "model_edge": 4.796787632528526,
+      "signal": "NEUTRAL"
+    },
+    {
+      "target_time": "2026-08-17T11:30:00",
+      "issue_time": "2026-08-17T11:00:32",
+      "forecast_price": 10.5,
+      "model_fair_value": 13.706391945512962,
+      "actual_price": 13.38186,
+      "model_edge": 3.206391945512962,
+      "signal": "NEUTRAL"
+    },
+    {
+      "target_time": "2026-08-17T11:35:00",
+      "issue_time": "2026-08-17T11:05:32",
+      "forecast_price": 9.14002,
+      "model_fair_value": 15.12436164235984,
+      "actual_price": 28.12172,
+      "model_edge": 5.984341642359841,
+      "signal": "NEUTRAL"
+    },
+    {
+      "target_time": "2026-08-17T11:40:00",
+      "issue_time": "2026-08-17T11:10:31",
+      "forecast_price": 10.65,
+      "model_fair_value": 13.783815336507528,
+      "actual_price": 19.18003,
+      "model_edge": 3.133815336507528,
+      "signal": "NEUTRAL"
+    },
+    {
+      "target_time": "2026-08-17T11:45:00",
+      "issue_time": "2026-08-17T11:15:32",
+      "forecast_price": 10.65,
+      "model_fair_value": 17.060309946928083,
+      "actual_price": 10.46497,
+      "model_edge": 6.410309946928082,
+      "signal": "NEUTRAL"
+    },
+    {
+      "target_time": "2026-08-17T11:50:00",
+      "issue_time": "2026-08-17T11:20:32",
+      "forecast_price": 8.94,
+      "model_fair_value": 9.57523031449882,
+      "actual_price": 10.65008,
+      "model_edge": 0.6352303144988198,
+      "signal": "NEUTRAL"
+    },
+    {
+      "target_time": "2026-08-17T11:55:00",
+      "issue_time": "2026-08-17T11:25:32",
+      "forecast_price": 2.81564,
+      "model_fair_value": 11.710899967838479,
+      "actual_price": 30.16,
+      "model_edge": 8.895259967838479,
+      "signal": "NEUTRAL"
+    },
+    {
+      "target_time": "2026-08-17T12:00:00",
+      "issue_time": "2026-08-17T11:30:32",
+      "forecast_price": 4.18166,
+      "model_fair_value": 5.936375874552462,
+      "actual_price": 26.87454,
+      "model_edge": 1.7547158745524625,
+      "signal": "NEUTRAL"
+    },
+    {
+      "target_time": "2026-08-17T12:05:00",
+      "issue_time": "2026-08-17T11:35:32",
+      "forecast_price": 10.66,
+      "model_fair_value": 12.518026139484586,
+      "actual_price": 12.70397,
+      "model_edge": 1.8580261394845863,
+      "signal": "NEUTRAL"
+    },
+    {
+      "target_time": "2026-08-17T12:10:00",
+      "issue_time": "2026-08-17T11:40:32",
+      "forecast_price": 1.42,
+      "model_fair_value": 13.044714415494255,
+      "actual_price": 30.16,
+      "model_edge": 11.624714415494255,
+      "signal": "NEUTRAL"
+    },
+    {
+      "target_time": "2026-08-17T12:15:00",
+      "issue_time": "2026-08-17T11:45:32",
+      "forecast_price": 8.85968,
+      "model_fair_value": 7.099875686723976,
+      "actual_price": 20.68,
+      "model_edge": -1.7598043132760246,
+      "signal": "NEUTRAL"
+    },
+    {
+      "target_time": "2026-08-17T12:20:00",
+      "issue_time": "2026-08-17T11:50:31",
+      "forecast_price": 8.7909,
+      "model_fair_value": 7.654276751046008,
+      "actual_price": 24.42,
+      "model_edge": -1.1366232489539927,
+      "signal": "NEUTRAL"
+    },
+    {
+      "target_time": "2026-08-17T12:25:00",
+      "issue_time": "2026-08-17T11:55:31",
+      "forecast_price": 10.50005,
+      "model_fair_value": 9.766147087651023,
+      "actual_price": 14.19008,
+      "model_edge": -0.7339029123489773,
+      "signal": "NEUTRAL"
+    },
+    {
+      "target_time": "2026-08-17T12:30:00",
+      "issue_time": "2026-08-17T12:00:31",
+      "forecast_price": 10.50005,
+      "model_fair_value": 14.690223894574961,
+      "actual_price": 30.16,
+      "model_edge": 4.190173894574961,
+      "signal": "NEUTRAL"
+    },
+    {
+      "target_time": "2026-08-17T12:35:00",
+      "issue_time": "2026-08-17T12:05:32",
+      "forecast_price": 10.66,
+      "model_fair_value": 18.113160797389302,
+      "actual_price": 30.14,
+      "model_edge": 7.453160797389302,
+      "signal": "NEUTRAL"
+    },
+    {
+      "target_time": "2026-08-17T12:40:00",
+      "issue_time": "2026-08-17T12:10:32",
+      "forecast_price": 23.84746,
+      "model_fair_value": 20.14355302726924,
+      "actual_price": 19.18003,
+      "model_edge": -3.7039069727307634,
+      "signal": "NEUTRAL"
+    },
+    {
+      "target_time": "2026-08-17T12:45:00",
+      "issue_time": "2026-08-17T12:15:31",
+      "forecast_price": 23.72947,
+      "model_fair_value": 23.259366923710584,
+      "actual_price": 29.17,
+      "model_edge": -0.4701030762894156,
+      "signal": "NEUTRAL"
+    },
+    {
+      "target_time": "2026-08-17T12:50:00",
+      "issue_time": "2026-08-17T12:20:31",
+      "forecast_price": 26.03225,
+      "model_fair_value": 20.7162705357922,
+      "actual_price": 12.60862,
+      "model_edge": -5.3159794642078,
+      "signal": "NEUTRAL"
+    },
+    {
+      "target_time": "2026-08-17T12:55:00",
+      "issue_time": "2026-08-17T12:25:32",
+      "forecast_price": 30.16,
+      "model_fair_value": 22.987128919721766,
+      "actual_price": 20.68,
+      "model_edge": -7.1728710802782345,
+      "signal": "NEUTRAL"
+    },
+    {
+      "target_time": "2026-08-17T13:00:00",
+      "issue_time": "2026-08-17T12:30:32",
+      "forecast_price": 10.65008,
+      "model_fair_value": 12.58535516418526,
+      "actual_price": 12.58201,
+      "model_edge": 1.93527516418526,
+      "signal": "NEUTRAL"
+    },
+    {
+      "target_time": "2026-08-17T13:05:00",
+      "issue_time": "2026-08-17T12:35:32",
+      "forecast_price": 13.44529,
+      "model_fair_value": 21.182950888906216,
+      "actual_price": 30.16,
+      "model_edge": 7.737660888906216,
+      "signal": "NEUTRAL"
+    },
+    {
+      "target_time": "2026-08-17T13:10:00",
+      "issue_time": "2026-08-17T12:40:31",
+      "forecast_price": 7.24306,
+      "model_fair_value": 13.79996695758806,
+      "actual_price": 10.65,
+      "model_edge": 6.55690695758806,
+      "signal": "NEUTRAL"
+    },
+    {
+      "target_time": "2026-08-17T13:15:00",
+      "issue_time": "2026-08-17T12:45:32",
+      "forecast_price": 1.16,
+      "model_fair_value": 8.65779745063661,
+      "actual_price": 1.23,
+      "model_edge": 7.497797450636609,
+      "signal": "NEUTRAL"
+    },
+    {
+      "target_time": "2026-08-17T13:20:00",
+      "issue_time": "2026-08-17T12:50:37",
+      "forecast_price": 2.60564,
+      "model_fair_value": 14.434028663418909,
+      "actual_price": -6.5,
+      "model_edge": 11.82838866341891,
+      "signal": "NEUTRAL"
+    },
+    {
+      "target_time": "2026-08-17T13:25:00",
+      "issue_time": "2026-08-17T12:55:32",
+      "forecast_price": 2.30129,
+      "model_fair_value": 8.365619268393944,
+      "actual_price": -8.5,
+      "model_edge": 6.064329268393944,
+      "signal": "NEUTRAL"
+    },
+    {
+      "target_time": "2026-08-17T13:30:00",
+      "issue_time": "2026-08-17T13:00:32",
+      "forecast_price": -8.5,
+      "model_fair_value": 7.796842766428073,
+      "actual_price": -8.5,
+      "model_edge": 16.29684276642807,
+      "signal": "NEUTRAL"
+    },
+    {
+      "target_time": "2026-08-17T13:35:00",
+      "issue_time": "2026-08-17T13:05:35",
+      "forecast_price": -0.63993,
+      "model_fair_value": 9.340374053691065,
+      "actual_price": -0.1,
+      "model_edge": 9.980304053691064,
+      "signal": "NEUTRAL"
+    },
+    {
+      "target_time": "2026-08-17T13:40:00",
+      "issue_time": "2026-08-17T13:10:40",
+      "forecast_price": 10.50025,
+      "model_fair_value": 17.135271584161544,
+      "actual_price": 1.05,
+      "model_edge": 6.635021584161544,
+      "signal": "NEUTRAL"
+    },
+    {
+      "target_time": "2026-08-17T13:45:00",
+      "issue_time": "2026-08-17T13:15:36",
+      "forecast_price": 0.69,
+      "model_fair_value": 9.2218916208403,
+      "actual_price": 1.23,
+      "model_edge": 8.5318916208403,
+      "signal": "NEUTRAL"
+    },
+    {
+      "target_time": "2026-08-17T13:50:00",
+      "issue_time": "2026-08-17T13:20:43",
+      "forecast_price": -2.99,
+      "model_fair_value": 0.84513179218458,
+      "actual_price": 1.15,
+      "model_edge": 3.8351317921845802,
+      "signal": "NEUTRAL"
+    },
+    {
+      "target_time": "2026-08-17T13:55:00",
+      "issue_time": "2026-08-17T13:25:42",
+      "forecast_price": 1.04,
+      "model_fair_value": 2.9289151387865875,
+      "actual_price": 10.65,
+      "model_edge": 1.8889151387865875,
+      "signal": "NEUTRAL"
+    },
+    {
+      "target_time": "2026-08-17T14:00:00",
+      "issue_time": "2026-08-17T13:30:37",
+      "forecast_price": 10.50025,
+      "model_fair_value": 8.469555390037693,
+      "actual_price": 10.49991,
+      "model_edge": -2.030694609962307,
+      "signal": "NEUTRAL"
+    },
+    {
+      "target_time": "2026-08-17T14:05:00",
+      "issue_time": "2026-08-17T13:35:36",
+      "forecast_price": 9.46308,
+      "model_fair_value": 10.697053365368205,
+      "actual_price": 28.25316,
+      "model_edge": 1.2339733653682057,
+      "signal": "NEUTRAL"
+    },
+    {
+      "target_time": "2026-08-17T14:10:00",
+      "issue_time": "2026-08-17T13:40:32",
+      "forecast_price": 1.36,
+      "model_fair_value": 8.061826396670305,
+      "actual_price": 27.54561,
+      "model_edge": 6.701826396670305,
+      "signal": "NEUTRAL"
+    },
+    {
+      "target_time": "2026-08-17T14:15:00",
+      "issue_time": "2026-08-17T13:45:41",
+      "forecast_price": 1.42,
+      "model_fair_value": 8.723099999051438,
+      "actual_price": 26.32963,
+      "model_edge": 7.3030999990514385,
+      "signal": "NEUTRAL"
+    },
+    {
+      "target_time": "2026-08-17T14:20:00",
+      "issue_time": "2026-08-17T13:50:32",
+      "forecast_price": 1.42,
+      "model_fair_value": 8.279845180138281,
+      "actual_price": 10.49991,
+      "model_edge": 6.859845180138281,
+      "signal": "NEUTRAL"
+    },
+    {
+      "target_time": "2026-08-17T14:25:00",
+      "issue_time": "2026-08-17T13:55:52",
+      "forecast_price": 10.65,
+      "model_fair_value": 12.388274829555106,
+      "actual_price": 0.11902,
+      "model_edge": 1.738274829555106,
+      "signal": "NEUTRAL"
+    },
+    {
+      "target_time": "2026-08-17T14:30:00",
+      "issue_time": "2026-08-17T14:00:32",
+      "forecast_price": 1.42,
+      "model_fair_value": 9.73257417406936,
+      "actual_price": 12.38023,
+      "model_edge": 8.31257417406936,
+      "signal": "NEUTRAL"
+    },
+    {
+      "target_time": "2026-08-17T14:35:00",
+      "issue_time": "2026-08-17T14:05:32",
+      "forecast_price": 0.73731,
+      "model_fair_value": 9.890903411482554,
+      "actual_price": 7.92451,
+      "model_edge": 9.153593411482554,
+      "signal": "NEUTRAL"
+    },
+    {
+      "target_time": "2026-08-17T14:40:00",
+      "issue_time": "2026-08-17T14:10:33",
+      "forecast_price": 1.25,
+      "model_fair_value": 17.284496387945133,
+      "actual_price": 1.42,
+      "model_edge": 16.034496387945133,
+      "signal": "NEUTRAL"
+    },
+    {
+      "target_time": "2026-08-17T14:45:00",
+      "issue_time": "2026-08-17T14:15:33",
+      "forecast_price": 1.38,
+      "model_fair_value": 19.692494391223846,
+      "actual_price": 10.4999,
+      "model_edge": 18.312494391223847,
+      "signal": "NEUTRAL"
+    },
+    {
+      "target_time": "2026-08-17T14:50:00",
+      "issue_time": "2026-08-17T14:20:38",
+      "forecast_price": 10.50008,
+      "model_fair_value": 22.034174259990404,
+      "actual_price": 10.50026,
+      "model_edge": 11.534094259990404,
+      "signal": "NEUTRAL"
+    },
+    {
+      "target_time": "2026-08-17T14:55:00",
+      "issue_time": "2026-08-17T14:25:33",
+      "forecast_price": 30.14,
+      "model_fair_value": 25.46704459588106,
+      "actual_price": 30.16,
+      "model_edge": -4.672955404118941,
+      "signal": "NEUTRAL"
+    },
+    {
+      "target_time": "2026-08-17T15:00:00",
+      "issue_time": "2026-08-17T14:30:32",
+      "forecast_price": 10.50008,
+      "model_fair_value": 14.94721062084015,
+      "actual_price": 31.27162,
+      "model_edge": 4.447130620840149,
+      "signal": "NEUTRAL"
+    },
+    {
+      "target_time": "2026-08-17T15:05:00",
+      "issue_time": "2026-08-17T14:35:40",
+      "forecast_price": 33.87978,
+      "model_fair_value": 31.509246092643043,
+      "actual_price": 42.48631,
+      "model_edge": -2.370533907356954,
+      "signal": "NEUTRAL"
+    },
+    {
+      "target_time": "2026-08-17T15:10:00",
+      "issue_time": "2026-08-17T14:40:40",
+      "forecast_price": 39.8216,
+      "model_fair_value": 35.45656929749457,
+      "actual_price": 19.18006,
+      "model_edge": -4.365030702505429,
+      "signal": "NEUTRAL"
+    },
+    {
+      "target_time": "2026-08-17T15:15:00",
+      "issue_time": "2026-08-17T14:45:37",
+      "forecast_price": 27.72231,
+      "model_fair_value": 24.175729268293125,
+      "actual_price": 8.16799,
+      "model_edge": -3.546580731706875,
+      "signal": "NEUTRAL"
+    },
+    {
+      "target_time": "2026-08-17T15:20:00",
+      "issue_time": "2026-08-17T14:50:36",
+      "forecast_price": 45.91,
+      "model_fair_value": 36.88085725131907,
+      "actual_price": 10.01485,
+      "model_edge": -9.029142748680925,
+      "signal": "NEUTRAL"
+    },
+    {
+      "target_time": "2026-08-17T15:25:00",
+      "issue_time": "2026-08-17T14:55:32",
+      "forecast_price": 13.44529,
+      "model_fair_value": 26.45359064679141,
+      "actual_price": 0.00015,
+      "model_edge": 13.008300646791412,
+      "signal": "NEUTRAL"
+    },
+    {
+      "target_time": "2026-08-17T15:30:00",
+      "issue_time": "2026-08-17T15:00:33",
+      "forecast_price": 2.94541,
+      "model_fair_value": 24.048789371895694,
+      "actual_price": null,
+      "model_edge": 21.103379371895695,
+      "signal": "NEUTRAL"
+    },
+    {
+      "target_time": "2026-08-17T15:35:00",
+      "issue_time": "2026-08-17T15:05:32",
+      "forecast_price": -0.05,
+      "model_fair_value": 23.374937470571314,
+      "actual_price": null,
+      "model_edge": 23.424937470571315,
+      "signal": "NEUTRAL"
+    },
+    {
+      "target_time": "2026-08-17T15:40:00",
+      "issue_time": "2026-08-17T15:10:32",
+      "forecast_price": 10.49976,
+      "model_fair_value": 40.54521875638371,
+      "actual_price": null,
+      "model_edge": 30.04545875638371,
+      "signal": "MODEL HIGHER"
+    },
+    {
+      "target_time": "2026-08-17T15:45:00",
+      "issue_time": "2026-08-17T15:15:39",
+      "forecast_price": 5.32866,
+      "model_fair_value": 13.774314304227087,
+      "actual_price": null,
+      "model_edge": 8.445654304227087,
+      "signal": "NEUTRAL"
+    },
+    {
+      "target_time": "2026-08-17T15:50:00",
+      "issue_time": "2026-08-17T15:20:34",
+      "forecast_price": 1.54636,
+      "model_fair_value": 9.04115438904998,
+      "actual_price": null,
+      "model_edge": 7.49479438904998,
+      "signal": "NEUTRAL"
+    },
+    {
+      "target_time": "2026-08-17T15:55:00",
+      "issue_time": "2026-08-17T15:20:34",
+      "forecast_price": 40.47959,
+      "model_fair_value": 60.00431013102299,
+      "actual_price": null,
+      "model_edge": 19.52472013102299,
+      "signal": "NEUTRAL"
+    },
+    {
+      "target_time": "2026-08-17T16:00:00",
+      "issue_time": "2026-08-17T15:20:34",
+      "forecast_price": 49.03652,
+      "model_fair_value": 64.89018797251774,
+      "actual_price": null,
+      "model_edge": 15.853667972517734,
+      "signal": "NEUTRAL"
+    }
+  ]
+}

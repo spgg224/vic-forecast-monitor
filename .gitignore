@@ -24,6 +24,7 @@ dist/
 # Raw and intermediate data
 data/raw/
 data/interim/
+data/live/
 data/processed/monthly/
 data/processed/forecast_actual_panel_2025.parquet
 data/processed/forecast_actual_panel_2025_enriched.parquet
@@ -48,6 +49,10 @@ output/dashboard_data/*
 !output/dashboard_data/demand.json
 !output/dashboard_data/model_summary.json
 !output/dashboard_data/model_signals.json
+
+# Trained model used by the rolling public feed
+!model/
+!model/forecast_model.joblib
 
 # Editors and operating systems
 .vscode/
