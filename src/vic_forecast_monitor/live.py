@@ -30,16 +30,17 @@ def current_urls(index_url: str, pattern: str, limit: int = 96) -> list[str]:
 
 def cache_files(urls: list[str], directory: Path) -> list[Path]:
     directory.mkdir(parents=True, exist_ok=True)
-    def fetch(url: str) -> Path:
+    def fetch(url: str) -> Path | None:
         path = directory / url.rsplit("/", 1)[-1]
         if not path.exists():
-            response = requests.get(url, timeout=60)
-            response.raise_for_status()
+            response = requests.get(url, timeout=60, headers={"User-Agent": "vic-forecast-monitor/1.0"})
+            if not response.ok:
+                return None  # Current indexes can retain a link briefly after its file rolls off.
             path.write_bytes(response.content)
         return path
 
-    with ThreadPoolExecutor(max_workers=12) as pool:
-        return list(pool.map(fetch, urls))
+    with ThreadPoolExecutor(max_workers=6) as pool:
+        return [path for path in pool.map(fetch, urls) if path is not None]
 
 
 def parse_current_p5(archives: list[Path], region: str = "VIC1") -> pd.DataFrame:
