@@ -18,6 +18,8 @@ The dashboard compares AEMO's approximately 30-minute P5MIN forecast with an ind
 
 The top chart is a rolling feed from AEMO's Current P5MIN and DispatchIS reports. GitHub Actions refreshes it every 15 minutes. It plots AEMO's forecast, model fair value, and the realised VIC1 RRP on the same timeline; actuals remain blank for intervals that have not dispatched yet.
 
+The interactive chart includes 6-hour, 24-hour, 7-day, 30-day and 2026 year-to-date views plus custom start/end dates. The 2026 history is sampled to 15-minute display points from the underlying five-minute series and is downsampled again only for browser rendering. Lines break across unavailable source periods instead of interpolating invented values.
+
 The split is chronological: January–September 2025 is used for training and October–December 2025 is untouched test data. On that test period, AEMO's MAE was **$15.23/MWh** and the model's MAE was **$13.89/MWh**, an **8.8% improvement**. This is encouraging forecasting evidence, not a backtest of executable trading P&L. The displayed `MODEL HIGHER` and `MODEL LOWER` labels mean the model differs from AEMO by at least $25/MWh; a real trade still depends on asset exposure, bids, constraints, liquidity, and transaction costs.
 
 ## 2025 headline results

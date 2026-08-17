@@ -26,6 +26,7 @@ data/raw/
 data/interim/
 data/live/
 data/processed/monthly/
+data/processed/history/
 data/processed/forecast_actual_panel_2025.parquet
 data/processed/forecast_actual_panel_2025_enriched.parquet
 data/processed/forecast_actual_panel_2025_conditions.parquet

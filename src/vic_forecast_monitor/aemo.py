@@ -186,6 +186,29 @@ def parse_p5min(archive: Path, region: str = "VIC1") -> pd.DataFrame:
     return _parse_p5min_rows(_table_rows(archive, "P5MIN", "REGIONSOLUTION"), region)
 
 
+def parse_p5min_conditions(archive: Path, region: str = "VIC1") -> pd.DataFrame:
+    """Parse model condition fields from a nested daily P5MIN archive."""
+    return _parse_p5min_condition_rows(_table_rows(archive, "P5MIN", "REGIONSOLUTION"), region)
+
+
+def _parse_p5min_condition_rows(rows: Iterator[tuple[str, dict[str, str]]], region: str) -> pd.DataFrame:
+    records: list[dict[str, object]] = []
+    for source_file, row in rows:
+        if row.get("REGIONID") != region or row.get("INTERVENTION") != "0":
+            continue
+        records.append({
+            "run_time": pd.to_datetime(row["RUN_DATETIME"], format=TIME_FORMAT),
+            "issue_time": pd.to_datetime(row["LASTCHANGED"], format=TIME_FORMAT),
+            "target_time": pd.to_datetime(row["INTERVAL_DATETIME"], format=TIME_FORMAT),
+            "region": region,
+            "forecast_solar_uigf_mw": _optional_float(row.get("SS_SOLAR_UIGF")),
+            "forecast_wind_uigf_mw": _optional_float(row.get("SS_WIND_UIGF")),
+            "forecast_net_interchange_mw": _optional_float(row.get("NETINTERCHANGE")),
+            "source_file_conditions": source_file,
+        })
+    return pd.DataFrame(records).drop_duplicates(["issue_time", "target_time", "region"], keep="last")
+
+
 def _parse_p5min_rows(rows: Iterator[tuple[str, dict[str, str]]], region: str) -> pd.DataFrame:
     records: list[dict[str, object]] = []
     for source_file, row in rows:
